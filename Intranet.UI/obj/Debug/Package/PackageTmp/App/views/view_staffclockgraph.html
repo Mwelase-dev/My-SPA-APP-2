@@ -1,0 +1,86 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Staff Clocking Graphs</a></h2>
+    </div>
+    <hr />
+    <div id="sectionContainer" style="width: 100%;">
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Start Date:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <input type="text" id="clockStartDate">
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>End Date:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <input type="text" id="clockEndDate">
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Staff Member:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <select style="width: 103%" id="cbxStaff" data-bind="options: staff, optionsText: 'fullName', optionsValue: 'staffId', value: selectedStaff, optionsCaption: '[Select Staff]', event: { change: cmbStaffMemberChange }, enable: authorised() == true "></select>
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Group by:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <select style="width: 103%" id="cbxScale" data-bind="options: graphScales, value: selectedScale"></select>
+            </div>
+        </div>
+        <div class="pull-right" style="padding-right: 15px; padding-bottom: 15px">
+            <div class="loader" style="float: left; padding: 3px 5px">
+                <i class="icon-spinner icon-2x icon-spin" data-bind="visible: isloading"></i>
+            </div>
+            <button class="btn" data-bind="click: getGraphData, enable: enableFiltering()">Apply Filter</button>
+            <button class="btn" data-bind="click: cancel">Cancel</button>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <section>
+        <!--ko if: graphCounter().length > 0-->
+        <div style="position: fixed; z-index: 1; left: 10px;">
+            <img src="../../Content/images/New colors/out.png" />&nbsp;&nbsp;&nbsp;<label style="display: inline">Out - Office Hours</label><br />
+            <img src="../../Content/images/New colors/in.png" />&nbsp;&nbsp;&nbsp;<label style="display: inline">Lunch</label><br />
+            <img src="../../Content/images/New colors/publicHoliday.png" />&nbsp;&nbsp;&nbsp;<label style="display: inline">Public Holiday</label><br />
+            <img src="../../Content/images/New colors/annual.png"/>&nbsp;&nbsp;&nbsp; <label style="display: inline">On Annual leave</label><br/>
+            <img src="../../Content/images/New colors/sickleave.png"/>&nbsp;&nbsp;&nbsp; <label style="display: inline">On Sick leave</label><br/>
+            <img src="../../Content/images/New colors/studyleave.png"/>&nbsp;&nbsp;&nbsp; <label style="display: inline">On Study leave</label><br/>
+            <img src="../../Content/images/New colors/fr.png"/>&nbsp;&nbsp;&nbsp; <label style="display: inline">On FR leave</label><br/>
+            <img src="../../Content/images/New colors/unpaidleave.png"/>&nbsp;&nbsp;&nbsp; <label style="display: inline">On Unpaid leave</label><br/>
+            <img src="../../Content/images/New colors/offsite.png"/>&nbsp;&nbsp;&nbsp; <label style="display: inline">Offsite</label><br/>
+            <img src="../../Content/images/New colors/specialLeave.png"/>&nbsp;&nbsp;&nbsp; <label style="display: inline">Special</label><br/>
+             <img src="../../Content/images/New colors/working.png"/>&nbsp;&nbsp;&nbsp; <label style="display: inline">In - Office Hours</label><br/>
+            <br />
+            <br />
+   
+
+        </div>
+        <br />
+        <!--/ko-->
+        <!-- <div data-bind=" attr: { 'class': leaveType }">-->
+        <!--        <div data-bind="foreach: graphCounter" style="padding-bottom: 30px;">
+            <span data-bind="text: $data"></span>
+            <div style="width: 610px; height: 300px;" data-bind="attr: { id: 'graph' + $index() }, attr: { 'class': leaveType }"></div>
+            <br />
+            <br />
+        </div>-->
+        
+        <div data-bind="foreach: graphCounter" style="padding-bottom: 30px;">
+            <span data-bind="text: $data"></span>
+            <div style="width: 610px; height: 300px;" data-bind="attr: { id: 'graph' + $index() }"></div>
+            <br />
+        </div>
+
+        <!--</div>-->
+    </section>
+</section>

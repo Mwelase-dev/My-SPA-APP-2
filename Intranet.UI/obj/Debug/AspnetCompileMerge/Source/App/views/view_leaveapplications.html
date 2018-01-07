@@ -1,0 +1,91 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Manage Leave Applications</a></h2>
+    </div>
+    <hr />
+    <div id="filtercontainer">
+        <div id="searchContainer">
+            <div style="width: 100%;">
+                <div style="float: right">
+                    <label style="display: inline">Leave Status:</label>
+                    <select id="leaveStatus" data-bind="options: leaveStatuses, optionsText: 'description', optionsValue: 'leaveType', optionsCaption: '[Select Status]', value: selectedLeaveStat"></select>
+                </div>
+                <div>
+                    <label style="display: inline">Select Staff:</label>
+                    <select id="cbxStaff" data-bind="options: allStaff, optionsText: 'fullName', optionsValue: 'staffId', value: selectedStaff, optionsCaption: '[Select Staff]', event: { change: cmbStaffMemberChange }, enable: canFilterStaff() == true "></select>
+                </div>
+            </div>
+
+            <div style="text-align: right; float: left; width: 100%; padding-bottom: 10px">
+                <button class="btn" data-bind="click: getLeaveApplications">Apply Filter</button>
+             <!--   <button class="btn" data-bind="click: staffLeaveSummary, enable: enableFiltering">Leave Summary</button>-->
+                <button class="btn" data-bind="click: cancel">Cancel</button>
+                <button class="btn" data-bind="click: $root.specialLeaveAdd">Add Special Leave</button>
+               <!-- <a data-bind="attr: { href: '#/view_specialLeave' }">Add Special Leave</a>-->
+      
+                <button class="btn" data-bind="click: staffLeaveSummary1, enable: enableFiltering">Leave summary</button>
+            </div>
+            <div class="clear"></div>
+       </div>
+    </div>
+    <div id="contactsDiv">
+        <table class="contactsTable">
+            <thead>
+                <tr>
+                    <td>Staff</td>
+                    <td>Leave Start</td>
+                    <td>Leave End</td>
+                    <td>Type</td>
+                    <td>Days</td>
+                    <td>Hours</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: leaveApplications">
+                <!--<tr data-bind="visible: leaveStatus() == '2', visible: leaveStatus() == '1'">-->
+                <tr>
+                    <td data-bind="text: staffMember().fullName"></td>
+                    <td data-bind="text: displayLeaveStart"></td>
+                    <td data-bind="text: displayLeaveEnd"></td>
+                    <td data-bind="text: displayLeaveType()"></td>
+                    <!-- ko if:$root.showWarning -->
+                    <td data-bind="text: displayLeaveDays"></td>
+                    <!-- /ko -->
+                    <!-- ko ifnot:$root.showWarning -->
+                    <td style="color: lightsalmon;" data-bind="text: displayLeaveDays"></td>
+                    <!-- /ko -->
+                    <!--<td data-bind="visible: $root.canEdit">-->
+                       <td data-bind="text: displayLeaveHours"></td>
+                    <td >
+                        <div>
+                            <a data-bind="click: $root.gotoLeaveDetails" href="#" title="Leave Details">
+                                <i class="icon-edit"></i>
+                            </a>
+                            &nbsp;&nbsp;
+                            <a data-bind="click: $root.cancelLeave" href="#" title="Cancel">
+                                <i class="icon-remove"></i>
+                            </a>
+                            &nbsp;&nbsp;
+                            <a data-bind="click: $root.updateLeaveApplication, visible: $root.staff().staffId() == staffId() " href="#" title="Update">
+                                <i class="icon-upload"></i>
+                            </a>
+                            &nbsp;&nbsp;
+                            <input type="checkbox" style="vertical-align: text-bottom;" data-bind="checked: approve" />
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <span class="pull-right">
+            <button class="btn"
+                    data-bind="click: approveMultiple">
+                Approve
+            </button>
+        </span>
+    </div>
+    
+    <div id="speacialLeav">
+        
+    </div>
+</section>

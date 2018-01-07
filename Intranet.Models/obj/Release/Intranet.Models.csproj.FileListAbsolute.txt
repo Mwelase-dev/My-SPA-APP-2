@@ -1,0 +1,13 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\obj\Release\Intranet.Models.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Release\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\obj\Release\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\obj\Release\Intranet.Models.pdb

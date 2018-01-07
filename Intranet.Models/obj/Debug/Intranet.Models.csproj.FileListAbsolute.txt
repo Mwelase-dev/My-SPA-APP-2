@@ -1,0 +1,90 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.CodeAnalysisLog.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.lastcodeanalysissucceeded
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.CodeAnalysisLog.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.lastcodeanalysissucceeded
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.CodeAnalysisLog.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.lastcodeanalysissucceeded
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.CodeAnalysisLog.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.lastcodeanalysissucceeded
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.CodeAnalysisLog.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.lastcodeanalysissucceeded
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.pdb
+D:\Projects\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.csprojResolveAssemblyReference.cache
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.pdb
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.CodeAnalysisLog.xml
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Models.dll.lastcodeanalysissucceeded
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.dll
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.dll
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\log4net.dll
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\Utilities.pdb
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\PostSharp.xml
+D:\Projects\Intranet v2.0\Intranet.Models\bin\Debug\log4net.xml
+D:\Projects\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.dll
+D:\Projects\Intranet v2.0\Intranet.Models\obj\Debug\Intranet.Models.pdb

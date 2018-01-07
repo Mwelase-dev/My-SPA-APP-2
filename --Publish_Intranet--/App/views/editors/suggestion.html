@@ -1,0 +1,31 @@
+﻿<div class="messageBox thought">
+    <div class="modal-header">
+        <h3>Suggestion maintenance</h3>
+    </div>
+
+    <div class="modal-body" >
+        <div class="control-wrapper">
+            <label>Subject:</label>
+            <span>
+                <input data-bind="value: $root.suggestionSubject" />
+            </span>
+        </div>
+        <div class="control-wrapper">
+            <label>Suggestion:</label>
+            <span>
+                <textarea data-bind="value: $root.suggestionText" rows="10"></textarea>
+            </span>
+        </div>
+        <div class="control-wrapper">
+            <label>Add Followers:</label>
+            <span>
+                <select multiple="true" data-bind="options: $root.staffList, optionsText: 'fullName', optionsValue: 'staffId', selectedOptions: $root.suggestionFollowers"></select>
+            </span>
+        </div>
+    </div>
+    
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: $root.click_Save">Save</button>
+        <button class="btn" data-bind="click: clickCancel">Cancel</button>
+    </div>
+</div>

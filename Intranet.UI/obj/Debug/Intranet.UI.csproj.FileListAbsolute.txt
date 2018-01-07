@@ -1,0 +1,525 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.UI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Antlr3.Runtime.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.NH.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Iesi.Collections.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Business.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Data.NH.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.Edm.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\NHibernate.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Extensions.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Primitives.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Spatial.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Abstractions.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Razor.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Routing.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\WebActivator.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\WebGrease.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\FluentNHibernate.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Business.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Data.NH.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Iesi.Collections.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.Edm.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\NHibernate.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Extensions.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Primitives.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Spatial.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.Razor.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\FluentNHibernate.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\de\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\es\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\it\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\de\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\es\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\fr\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\it\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ja\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ko\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ru\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\zh-Hans\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\zh-Hant\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\DocumentFormat.OpenXml.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ExporterObjects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\iTextSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Westwind.RazorHosting.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\ExporterObjects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Westwind.RazorHosting.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\CsvHelper.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\CsvHelper.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\CsvHelper.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Security.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Owin.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Security.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.UI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\CsvHelper.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\dotless.Core.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Business.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\NHibernate.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Net.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Net.Http.WebRequest.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Abstractions.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Http.SelfHost.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Routing.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\WebActivator.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Business.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\CsvHelper.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\CsvHelper.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Microsoft.Web.Infrastructure.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\NHibernate.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Net.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Net.Http.WebRequest.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Http.SelfHost.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\WebGrease.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.UI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\CsvHelper.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\dotless.Core.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Business.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\NHibernate.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.WebRequest.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Abstractions.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.SelfHost.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Routing.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\WebActivator.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\WebGrease.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Business.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\CsvHelper.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\CsvHelper.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Web.Infrastructure.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\NHibernate.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.WebRequest.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.SelfHost.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.Edm.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Spatial.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.Edm.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Spatial.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\de\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\es\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\it\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\de\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\es\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\fr\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\it\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ja\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ko\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ru\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hans\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hant\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Owin.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Owin.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Owin.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.UI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\CsvHelper.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\dotless.Core.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Business.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Owin.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.Edm.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\NHibernate.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Owin.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.WebRequest.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Spatial.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Abstractions.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.SelfHost.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Routing.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\WebActivator.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\WebGrease.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Business.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\CsvHelper.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\CsvHelper.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Owin.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.Edm.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Microsoft.Web.Infrastructure.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\NHibernate.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Net.Http.WebRequest.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Spatial.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.SelfHost.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\de\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\es\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\it\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\de\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\es\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\fr\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\it\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ja\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ko\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\ru\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hans\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\bin\zh-Hant\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.csprojResolveAssemblyReference.cache
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll.config
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.UI.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.UI.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Breeze.WebApi.EF.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\CsvHelper.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\dotless.Core.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\EntityFramework.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Business.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Models.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Owin.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.Edm.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.OData.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\NHibernate.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Owin.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Net.Http.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Net.Http.WebRequest.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Spatial.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Abstractions.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Http.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Http.SelfHost.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Routing.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Utilities.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\WebActivator.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\PostSharp.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\log4net.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Data.FaceID.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Aspects.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Business.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Data.EF.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Messages.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.Models.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Intranet.PhoneUsage.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Utilities.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\CsvHelper.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\CsvHelper.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\EntityFramework.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.Owin.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.Edm.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.Data.OData.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Microsoft.Web.Infrastructure.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Newtonsoft.Json.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\NHibernate.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Net.Http.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Net.Http.Formatting.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Net.Http.WebRequest.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Spatial.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Http.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Http.SelfHost.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Http.WebHost.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Mvc.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Optimization.Less.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\PostSharp.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\log4net.xml
+D:\Projects\Intranet v2.0\Intranet.UI\bin\Data.FaceID.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\de\Microsoft.Data.OData.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\es\Microsoft.Data.OData.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\it\Microsoft.Data.OData.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\de\System.Spatial.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\es\System.Spatial.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\fr\System.Spatial.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\it\System.Spatial.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\ja\System.Spatial.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\ko\System.Spatial.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\ru\System.Spatial.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\zh-Hans\System.Spatial.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\zh-Hant\System.Spatial.resources.dll
+D:\Projects\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.dll
+D:\Projects\Intranet v2.0\Intranet.UI\obj\Debug\Intranet.UI.pdb
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\WebGrease.dll
+D:\Projects\Intranet v2.0\Intranet.UI\bin\System.Web.Http.OData.xml

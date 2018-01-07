@@ -1,0 +1,11 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Database\bin\Debug\Intranet.Database.dacpac
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Database\bin\Debug\Intranet.Database.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Database\bin\Debug\Intranet.Database.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Database\obj\Debug\Intranet.Database.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Database\obj\Debug\Intranet.Database.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Database\bin\Debug\Intranet.Database.dacpac
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Database\obj\Debug\Intranet.Database.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Database\obj\Debug\Intranet.Database.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Database\bin\Debug\Intranet.Database.dacpac
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Database\obj\Debug\Intranet.Database.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.Database\obj\Debug\Intranet.Database.pdb

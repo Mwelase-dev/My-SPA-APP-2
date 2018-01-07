@@ -1,0 +1,75 @@
+﻿<head>
+    <style type="text/css">
+        .auto-style1 {
+            width: 57px;
+        }
+    </style>
+</head>
+<div class="messageBox thought" style="width: 700px">
+   
+    <div class="modal-body">
+         <div class="modal-header">
+        <h3>Staff leave summary</h3>
+    </div>
+        <div id="contactsDiv">
+            <table class="contactsTable" data-bind="foreach: staffLeaveSummaryData">
+                <thead>
+                    <tr>
+                        <td data-bind="text: year"></td>
+                        <td>Type</td>
+                        <td class="auto-style1">Allocated</td>
+                        <td>Taken</td>
+                        <td>Carry Over</td>
+                      <!--  <td>Running Total</td>-->
+                    </tr>
+                </thead>
+
+                <tbody data-bind="foreach: myData">
+                    <tr class="">
+                        <td></td>
+                        <td data-bind="text: leaveType"></td>
+                        <td data-bind="text: leaveAllocation" class="auto-style1"></td>
+                        <td data-bind="text: leaveTaken"></td>
+                        <td data-bind="text: leaveCarriedOver"></td>
+                      <!--  <td data-bind="text: leaveRunningTotal"></td>-->
+                    </tr>
+                </tbody>
+            </table>
+            <div class="clear"></div>
+        </div>
+        <div class="modal-header">
+            <h3>Staff leave breakdown</h3>
+        </div>
+        <div id="contactsDiv" style="height: 300px;overflow-y: scroll;">
+            <table class="contactsTable">
+                <thead>
+                    <tr>
+                        <!-- <td>Staff Fullname</td>-->
+                        <td>Leave Start</td>
+                        <td>Leave End</td>
+                        <td>Type</td>
+                        <td>Comments</td>
+                        <td>Days</td>
+                        <td>Hours</td>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: $root.leaveApplications">
+                    <tr>
+                        <!--<td data-bind="text: staffMember().fullName"></td>-->
+                        <td data-bind="text: displayLeaveStart"></td>
+                        <td data-bind="text: displayLeaveEnd"></td>
+                        <td data-bind="text: displayLeaveType()"></td>
+                        <td data-bind="text: leaveComments"></td>
+                        <td data-bind="text: displayLeaveDays"></td>
+                        <td data-bind="text: displayLeaveHours"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: clickCancel">Close</button>
+    </div>
+</div>

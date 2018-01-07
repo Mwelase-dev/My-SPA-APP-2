@@ -1,0 +1,11 @@
+@inherits RazorTemplateFolderHost<IEnumerable<Intranet.UI.Models.Electronics>>
+<html><head><title>Export</title></head><body>
+<table><tr>
+ <td>Id</td> <td>Data</td> <td>Name</td></tr>
+@foreach(var item in Model){
+@RenderPartial("~/Electronics_HTML_item.cshtml",item);
+}
+</table>
+</body>
+Generated on @DateTime.Now.ToString()
+</html>

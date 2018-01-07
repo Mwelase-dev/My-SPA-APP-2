@@ -1,0 +1,133 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Company Phone Usage</a></h2>
+    </div>
+    <hr />
+    <div id="divError" data-bind="visible:authorised() != true">
+        <!-- ko compose:{view:'not_authorised'} -->
+        <!-- /ko -->
+    </div>
+    <div id="divMain" data-bind="visible:authorised() == true">
+
+        <div id="sectionContainer" style="width: 100%;">
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>Start Date:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <input id="startDate" type="text" />
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>End Date:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <input id="endDate" type="text" />
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>Company:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <select id="cbxComapny" style="width: 103%" data-bind="sortData: companies, sortfield: 'branchName', direction: 'asc', options: companies, optionsText:'branchName', optionsValue:'branchId',
+                             value: selectedCompany, optionsCaption: '-- select --' , event:{ change: cmbCompanyChange} "></select>
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>Division:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <select id="cbxDivision" style="width: 103%" data-bind="sortData: divisions, sortfield: 'divisionName', direction: 'asc', options:divisions, optionsText:'divisionName', optionsValue:'divisionId', enable:canSelectDivision, value: selectedDivision, optionsCaption: '-- select --', event:{ change: cmbDivisionChange}"></select>
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>Staffmember:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <select id="cbxStaffMember" style="width: 103%" data-bind="sortData: staff, sortfield: 'fullName', direction: 'asc', options:staff, optionsText:'fullName', optionsValue:'staffId', enable:canSelectStaff, value: selectedStaff, optionsCaption: '-- select --'"></select>
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>Supplier:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <select id="cbxCarrier" style="width: 103%" data-bind="options: carries, value: selectedCarrier, optionsCaption: '-- select --'"></select>
+                </div>
+            </div>
+            <div class="pull-right" style="padding-right: 15px">
+                <div class="loader" style="float: left; padding: 3px 5px">
+                    <i class="icon-spinner icon-2x icon-spin" data-bind="visible: searching "></i>
+                </div>
+
+                <button class="btn " data-bind="enable:canSearch, click:search" style="float: right">
+                    <i class="icon-search"></i>
+                    Search
+                </button>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <section id="result">
+            <div style="width: 98%; padding-top: 10px">
+                <div id="headers" class="cdrHistoryHeaderRow">
+                    <div id="header_details" class="cdrHistoryHeaderField cpuDetailsHeader">Details</div>
+                    <div id="header_company" class="cdrHistoryHeaderField">Company</div>
+                </div>
+
+                <div id="body" style="width: 100%;" data-bind="sortData: phonerecords, sortfield: 'totalCallCost', direction: 'desc', foreach : phonerecords()">
+                    <div class="cpuBodyContainer">
+                        <div id="details" class="cpuDetailsHeader">
+                            <div id="companyTotal" data-bind="text:displayTotalCallCost" class="cpuTotal cpuCompanyTotal"></div>
+                            <div data-bind="sortData: companyDivisions, sortfield: 'totalCallCost', direction: 'desc', foreach : companyDivisions">
+                                <div id="divisionContainer" class="cpuDivisionContainer">
+                                    <div id="divisionDetails" class="cpuBodyContainer" style="border-bottom: 0">
+                                        <div id="divisionAmount" class="cpuTotal cpuDivisionAmount" data-bind="text:displayTotalCallCost"></div>
+                                        <div id="divisionName" class="cpuHeader cpuDivisionName" data-bind="text:divisionName"></div>
+                                    </div>
+                                    <div data-bind="sortData: divisionStaff, sortfield: 'totalCallCost', direction: 'desc', foreach : divisionStaff">
+                                        <div id="staffDetails" class="cpuStaffDetails">
+                                            <div id="staffName" class="cpuTotal cpuStaffAmount" data-bind="text:displayTotalCallCost"></div>
+                                            <div id="staffTotals" class="cpuStaffName" data-bind="text:fullname"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="compName" class="cpuHeader cpuCompanyName" data-bind="text:companyName"></div>
+                    </div>
+                </div>
+
+                <hr />
+                <div style="width: 100%; padding: 0px;">
+                    <div style="width: 100%;">
+                        <div id="summaryHeader" style="background-color: rgb(213, 228, 251); width: 100%; display: inline-block;">
+                            <div id="percentage" style="float: right; width: 20%; border: 1px solid #fefefe">Percentage</div>
+                            <div id="amount" style="float: right; width: 20%; border: 1px solid #fefefe">Amount</div>
+                            <div id="companyName" style="width: 59%; float: right; border: 1px solid #fefefe">Company</div>
+                        </div>
+                        <div id="summaryData" style="width: 100%; display: inline-block;">
+                            <!-- ko foreach:companyList -->
+                            <div style="width: 20%; border: 1px solid #fefefe; float: right; text-align: right; background-color: rgb(166, 205, 100);" data-bind="text:percentage"></div>
+                            <div style="width: 20%; border: 1px solid #fefefe; float: right; text-align: right; background-color: rgb(166, 205, 100);" data-bind="text:totalCost">amount</div>
+                            <div style="width: 59%; border: 1px solid #fefefe; float: right; text-align: left;" data-bind="text:companyName">company name</div>
+                            <!-- /ko -->
+                        </div>
+                        <div id="totals" style="display: inline-block; width: 100%;" data-bind="visible: sumFooter">
+                            <div style="width: 20%; border: 1px solid #fefefe; float: right; background-color: rgb(166, 205, 100); text-align: right;" data-bind="text:totalPercentage"></div>
+                            <div style="width: 20%; border: 1px solid #fefefe; float: right; background-color: rgb(166, 205, 100); text-align: right;" data-bind="text:totalAmount"></div>
+                            <div style="width: 59%; border: 1px solid #fefefe; float: right; background-color: rgb(213, 228, 251)">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cpuSummaryContainer">
+                    <h3 data-bind="text:summary"></h3>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>

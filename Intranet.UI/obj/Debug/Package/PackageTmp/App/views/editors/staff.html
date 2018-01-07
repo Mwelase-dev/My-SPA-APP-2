@@ -1,0 +1,417 @@
+﻿<div class="messageBox staff">
+    <div class="modal-header">
+        <h3>Staff maintenance</h3>
+    </div>
+    <div class="modal-body">
+        <div data-bind="bind_Tabs: {}">
+            <ul>
+                <li><a href="#tabs-1">Personal</a></li>
+                <li><a href="#tabs-2">Contact</a></li>
+                <li><a href="#tabs-3">HR</a></li>
+                <li><a href="#tabs-4">Technical</a></li>
+                <li><a href="#tabs-5">Phone</a></li>
+                <!-- <li><a href="#tabs-6">Leave Increment</a></li>-->
+                <li><a href="#tabs-6">Work Hours</a></li>
+                <li><a href="#tabs-7">Leave Summary</a></li>
+                <!--Must be deleted  -->
+            </ul>
+
+            <div id="tabs-1">
+                <div class="control-wrapper">
+
+                    <label>Select Division:</label>
+                    <span>
+
+                        <select id="divisionsDropd" data-bind="foreach: $root.branches, value: $root.selectedStaffDivisionId, event: { change: $root.cmbDivisionOfStaffMemberChange }, optionsCaption: '[Select division]'">
+                            <option value=''></option>
+                            <optgroup data-bind="attr: { label: branchName }">
+                                <!-- ko foreach: branchDivisions -->
+                                <option data-bind="value: divisionId, text: divisionName, optionsCaption: '[Select division]' "></option>
+                                <!-- /ko -->
+                            </optgroup>
+                        </select>
+
+                        <!--<select data-bind="options: $root.branches(), optionsText: 'SectionName', optionsValue: 'SectionId', value: $root.selectedItem().SectionId, event: { change: $root.loadAllChildrenOfSection }"name="inline"></select>-->
+
+                    </span>
+                </div>
+                <!--  <div class="control-wrapper" data-bind="visible: $root.selectedStaffDivision ">
+                    <label>Division:</label><span><input type="text" data-bind="value: $root.selectedStaffDivision" readonly="readonly" /></span>
+                </div>-->
+                <div class="control-wrapper">
+                    <label>Name:</label><span><input type="text" data-bind="value: staff.staffName" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Surname:</label><span><input type="text" data-bind="value: staff.staffSurname" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>ID Number:</label><span><input type="text" data-bind="value: staff.staffIdNumber" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Start off days</label><span><input type="text" data-bind="value: staff.leaveScheduleCarriedOver" /></span>
+                </div>
+            </div>
+
+            <div id="tabs-2">
+                <div class="control-wrapper">
+                    <label>Email address:</label><span><input type="text" data-bind="value: staff.staffEmail" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Extension</label><span><input type="text" data-bind="value: staff.staffTellExt" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Tel Direct:</label><span><input type="text" data-bind="value: staff.staffTelDirect" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Mobile:</label><span><input type="text" data-bind="value: staff.staffTCellPhone" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Fax:</label><span><input type="text" data-bind="value: staff.staffFaxNumber" /></span>
+                </div>
+            </div>
+
+            <div id="tabs-3">
+                <div class="control-wrapper">
+                    <label>Join date:</label><span><input type="text" id="staffJoinDate" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Manager 1:</label>
+                    <span>
+                        <select id="cbxMan1" data-bind="options: staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staff.staffManager1Id"></select>
+                    </span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Manager 2:</label>
+                    <span>
+                        <select id="cbxMan2" data-bind="options: staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staff.staffManager2Id"></select>
+                    </span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Designation:</label><span><input type="text" data-bind="value: staff.staffDesignation" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Clock Device:</label><span>
+                        <select id="cbxClockDevices" data-bind="sortData: $root.clockDevices, sortfield: 'clockDeviceLocation', direction: 'asc', options: $root.clockDevices, optionsText: 'clockDeviceLocation', optionsValue: 'clockDeviceId', value: staff.clockDevice, optionsCaption: '[Select Device]'"></select>
+                    </span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Card number:</label><span><input type="text" data-bind="value: staff.staffClockCardNumber" /></span><!--readonly="readonly"-->
+                </div>
+                <div class="control-wrapper">
+                    <label>Clock code:</label><span><input type="text" data-bind="value: staff.staffClockId" readonly="readonly" /></span><!--readonly="readonly"-->
+                </div>
+                <div class="control-wrapper">
+                    <label>Clock's in?:</label><span><input class="mybox" type="checkbox" data-bind="checked: staff.staffIsClockingMember" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Is Director?:</label><span><input class="mybox" type="checkbox" data-bind="checked: staff.isDirector" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Birthday note?:</label><span><input class="mybox" type="checkbox" data-bind="checked: staff.broadcastBirthday" /></span>
+                </div>
+                 <div class="control-wrapper">
+                    <label>Get system mail?:</label><span><input class="mybox" type="checkbox" data-bind="checked: staff.recieveSystemMail" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Leave increment:</label>
+                    <div data-bind="foreach: staff.leaveCounters">
+                        <label data-bind="text: accumulator"></label>
+                        <table>
+                             <tr>
+                                <td>  <a href="#" data-bind="click: $root.deleteLeaveCounter"><i class="icon-remove"></i></a></td>
+                                 <td> <a href="#" data-bind="click: $root.editLeaveAccum"><i class="icon-edit"></i></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!--<table style="width: 100%">
+                                 <tbody data-bind="foreach: staff.leaveCounters">
+                                     <tr style="width: 100%" data-bind="visible: canRemove">
+                                         <td style="width: 25%; padding: 1px;">
+                                             <label data-bind="text: accumulator"></label>
+                                         </td>
+                                         <td style="width: 25%; padding: 1px;">
+                                             <span>
+                                                 <a href="#" data-bind="click: $root.deleteLeaveCounter"><i class="icon-remove"></i></a>
+                                                 <a href="#" data-bind="click: $root.editLeaveAccum"><i class="icon-edit"></i></a>
+                                             </span>
+                                         </td>
+                                     </tr>
+                                 </tbody>
+                             </table>-->
+                    <span><i class="icon-plus-sign" data-bind="click: addLeaveAccum, visible: $root.staff.leaveCounters() == 0" title="Add leave increment"></i></span>
+                </div>
+                <!-- 
+                       <div class="control-wrapper">
+              <label>Leave increment:</label>
+                             <table style="width: 100%">
+                                 <tbody data-bind="foreach: staff.leaveCounters">
+                                     <tr style="width: 100%" data-bind="visible: canRemove">
+                                         <td style="width: 25%; padding: 1px;">
+                                             <label data-bind="text: accumulator"></label>
+                                         </td>
+                                         <td style="width: 25%; padding: 1px;">
+                                             <span>
+                                                 <a href="#" data-bind="click: $root.deleteLeaveCounter"><i class="icon-remove"></i></a>
+                                                 <a href="#" data-bind="click: $root.editLeaveAccum"><i class="icon-edit"></i></a>
+                                             </span>
+                                         </td>
+                                     </tr>
+                                 </tbody>
+                             </table>
+                       <
+                   
+        <span><i class="icon-plus-sign" data-bind="click: addLeaveAccum, visible: staff.leaveCounter < '0'" title="Add leave increment"></i></span>
+                </div>
+                    -->
+                <!-- <div class="control-wrapper">
+                         <label>Add increment:</label><span><i class="icon-edit" data-bind="click: addLeaveAccum"></i></span>
+                     </div>-->
+            </div>
+
+            <div id="tabs-4">
+                <div class="control-wrapper">
+                    <label>NT Name:</label><span><input type="text" data-bind="value: staff.staffNtName" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Printer:</label><span>
+                        <select id="cbxStaff" data-bind="sortData: printers, sortfield: 'printerDescription', direction: 'asc', options: printers, optionsText: 'printerDescription', optionsValue: 'printerId', value: staff.staffDefaultPrinter"></select>
+                    </span>
+                </div>
+            </div>
+
+            <div id="tabs-5" data-bind="with: phoneDetails()">
+                <div class="control-wrapper">
+                    <label>Phone Ringer</label>
+                    <span>
+                        <select id="cbxRingers" data-bind="options: $root.ringers, value: staffPhoneRinger"></select>
+                    </span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Domain</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneDomain" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Net Mask</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneNetMask" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Gateway</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneGateway" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>DNS 1</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneDNS1" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>DNS 2</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneDNS2" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Host</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneHost" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Out Bound</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneOutBound" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Ip</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneIp" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Password</label>
+                    <span>
+                        <input type="password" data-bind="value: staffPhonePass" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Mac</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneMac" /></span>
+                </div>
+            </div>
+
+            <!-- <div id="tabs-6">
+                     <div class="control-wrapper">
+                         <div style="width: 100%;">
+                             <table style="width: 100%">
+                                 <thead>
+                                     <tr>
+                                         <td>Start</td>
+                                         <td>End</td> 
+                                         <td>Increment</td>
+                                         <td>Action</td>
+                                     </tr>
+                                 </thead>
+                                 <tbody data-bind="foreach: staff.leaveCounters">
+                                     <tr style="width: 100%" data-bind="visible: canRemove">
+                                         <td style="width: 25%; padding: 1px;">
+                                             <label data-bind="text: displayStart"></label>
+                                         </td>
+                                         <td style="width: 25%; padding: 1px;">
+                                             <label data-bind="text: displayEnd"></label>
+                                         </td> 
+                                         <td style="width: 25%; padding: 1px;">
+                                             <label data-bind="text: accumulator"></label>
+                                         </td>
+                                         <td style="width: 25%; padding: 1px;">
+                                             <span>
+                                                 <a href="#" data-bind="click: $root.deleteLeaveCounter"><i class="icon-remove"></i></a>
+                                                 <a href="#" data-bind="click: $root.editLeaveAccum"><i class="icon-edit"></i></a>
+                                             </span>
+                                         </td>
+                                     </tr>
+                                 </tbody>
+                             </table>
+                         </div>
+                         <br />
+                         <div style="width: 100%; float: right">
+                             <span class="pull-right">
+                                 <button class="btn" data-bind="click: addLeaveAccum"><i class="addbutton"></i>Add</button>
+                             </span>
+                         </div>
+                         <br />
+                     </div>
+                 </div>-->
+
+            <div id="tabs-6">
+                <div style="width: 100%">
+                    <table style="width: 100%" class="contactsTable">
+                        <thead>
+                            <tr>
+                                <td>Day</td>
+                                <td>Start Time</td>
+                                <td>End Time</td>
+                                <td>Lunch(min)</td>
+                                <td>Action</td>
+                            </tr>
+                        </thead>
+
+                        <tbody data-bind="foreach: staff.staffHoursData">
+                            <tr style="width: 100%" data-bind="visible: canEdit">
+                                <td data-bind="text: displayDay"></td>
+                                <td data-bind="text: displayStartTime"></td>
+                                <td data-bind="text: displayEndTime"></td>
+                                <td data-bind="text: dayLunchLength"></td>
+                                <td>
+                                    <a href="#" data-bind="click: $root.deleteDayWorkHours"><i class="icon-remove"></i></a>
+                                    <a href="#" data-bind="click: $root.updateDayWorkHours"><i class="icon-edit"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+                <br />
+                <div style="width: 100%; float: right">
+                    <span class="pull-right">
+                        <button class="btn" data-bind="click: addStaffWorkHours"><i class="addbutton"></i>Add</button>
+                    </span>
+                </div>
+                <br />
+            </div>
+
+            <!--Must be deleted  -->
+
+            <div id="tabs-7">
+                <div data-bind="bind_Tabs: {}">
+                    <ul>
+                        <li><a href="#tabs-9">Annual Leave</a></li>
+                        <li><a href="#tabs-10">Sick Leave</a></li>
+                        <li><a href="#tabs-11">Family Responsibility</a></li>
+                        <li><a href="#tabs-12">Study Leave</a></li>
+
+                    </ul>
+
+                    <div id="tabs-9">
+                        <div class="control-wrapper">
+                            <label>Start off days</label><span><input type="text" data-bind="value: staff.leaveScheduleCarriedOver" readonly="readonly" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Leave increment</label><span><input type="text" data-bind="value: staff.staffLeaveIncrement" readonly="readonly" id="CycleDays" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Staff Join Date</label><span><input type="text" data-bind="value: staff.staffJoinDate" readonly="readonly" id="StaffJoinDate" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Cycle Number</label><span><input type="text" data-bind="value: staff.currentCycleNumber" readonly="readonly" id="CurrentCycleNumber" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Cycle Start</label><span><input type="text" data-bind="value: staff.cycleStart" readonly="readonly" id="CycleStart" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Cycle End</label><span><input type="text" data-bind="value: staff.cycleEnd" readonly="readonly" id="CycleEnd" /></span>
+                        </div>
+
+                        <div class="control-wrapper">
+                            <label>Accumulated</label><span><input type="text" data-bind="value: staff.leaveDaysAccumulated" readonly="readonly" id="LeaveDaysAccumulated" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Days Taken</label><span><input type="text" data-bind="value: staff.annualDaysTaken" readonly="readonly" id="AnnualDaysTaken" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Days Due</label><span><input type="text" data-bind="value: staff.daysDue" readonly="readonly" id="DaysDue" /></span>
+                        </div>
+
+
+                    </div>
+
+                    <div id="tabs-10">
+                        <div class="control-wrapper">
+                            <label>Cycle Number</label><span><input type="text" data-bind="value: staff.sickCycleNumber" readonly="readonly" id="SickCurrentCycleNumber" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Cycle Start</label><span><input type="text" data-bind="value: staff.sickCycleStart" readonly="readonly" id="SickCycleStart" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Cycle End</label><span><input type="text" data-bind="value: staff.sickCycleEnd" readonly="readonly" id="SickCycleEnd" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Days Taken</label><span><input type="text" data-bind="value: staff.sickDaysTaken" readonly="readonly" id="SickDaysTaken" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Days Due</label><span><input type="text" data-bind="value: staff.sickCycleDays" readonly="readonly" id="SickDaysDue" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Days Available</label><span><input type="text" data-bind="value: staff.sickDaysAvilable" readonly="readonly" id="DaysDue" /></span>
+                        </div>
+                    </div>
+
+                    <div id="tabs-11">
+                        <div class="control-wrapper">
+                            <label>Days Taken</label><span><input type="text" data-bind="value: staff.familyResponsibilityLeaveTaken" readonly="readonly" id="FamilyResponsibilityLeaveTaken" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Days Due</label><span><input type="text" data-bind="value: staff.familyResponsibilityLeaveDays" readonly="readonly" id="FamilyResponsibilityLeaveDays" /></span>
+                        </div>
+                        <div class="control-wrapper">
+                            <label>Days Available</label><span><input type="text" data-bind="value: staff.familyResponsibilityAvilable" readonly="readonly" id="DaysDue" /></span>
+                        </div>
+                    </div>
+
+                    <div id="tabs-12">
+                        <div class="control-wrapper">
+                            <label>Days Taken</label><span><input type="text" data-bind="value: staff.studyLeaveTaken" readonly="readonly" id="StudyLeaveTaken" /></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!--Must be deleted  -->
+
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-bind="click: $root.save">Save</button>
+            <button class="btn" data-bind="click: $root.clickCancel">Cancel</button>
+        </div>
+    </div>
+</div>

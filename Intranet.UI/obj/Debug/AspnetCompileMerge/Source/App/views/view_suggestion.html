@@ -1,0 +1,35 @@
+﻿<section>
+    <div class="post" data-bind="with: suggestion">
+        <h2 class="title"><a href="#" data-bind="text: suggestionSubject"></a></h2>
+        <p class="meta">
+            <span class="posted" data-bind="text: suggestionSubject"></span>
+            <span class="date" data-bind="text: displayDate"></span>
+        </p>
+        <div style="clear: both;">&nbsp;</div>
+        <div class="entry">
+            <p data-bind="html: suggestionText"></p>
+        </div>
+        <p>
+            <span>Up votes:</span>
+            <span data-bind="text:$root.upVotes"></span>
+        </p>
+        
+         <p>
+            <span>Down votes:</span>
+            <span data-bind="text:$root.downVotes"></span>
+        </p>
+
+        <p class="links">
+            <a data-bind="click: $root.voteUp, visible: $root.canVoteUp" href="#">vote up</a>
+            <span data-bind="visible: $root.canVoteDown == $root.canVoteUp "></span>
+
+            <a data-bind="click: $root.voteDown, visible: $root.canVoteDown" href="#">&nbsp;&nbsp;|&nbsp;&nbsp;vote down</a>
+            <span data-bind="visible: $root.isAdmin">
+                <a data-bind="click: $root.suggestionEdit, visible: $root.isAdmin" href="#">&nbsp;&nbsp;|&nbsp;&nbsp;edit</a>
+            </span>
+            <span data-bind="visible: $root.isAdmin">
+                <a data-bind="click: $root.suggestionDelete" href="#">&nbsp;&nbsp;|&nbsp;&nbsp;delete</a>
+            </span>
+        </p>
+    </div>
+</section>

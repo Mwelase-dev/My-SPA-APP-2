@@ -1,0 +1,81 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Staff Phone Usage</a></h2>
+    </div>
+    <hr />
+    <div id="sectionContainer" style="width: 100%;">
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Start Date:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <input id="startDate" type="text" />
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>End Date:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <input id="endDate" type="text" />
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Staff member:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <select style="width: 103%" id="cmbStaff" data-bind="options:staff, optionsText:'fullName', optionsValue: 'staffTellExt',
+                    value:extension, optionsCaption: '[Select Staff]', event:{change:cmbStaffChanged}, enable:authorised"></select>
+            </div>
+        </div>
+        <div class="pull-right" style="padding-right: 15px">
+            <div class="loader" style="float: left; padding: 3px 5px">
+                <i class="icon-spinner icon-2x icon-spin" data-bind="visible: searching "></i>
+            </div>
+
+            <button class="btn " data-bind="enable:canSearch, click:search" style="float: left">
+                <i class="icon-search"></i>
+                Search
+            </button>
+            <button type="button" class="btn" data-bind="click: cancel">Cancel</button>
+
+        </div>
+            <div class="pull-right" style="margin-top: 10px">
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div id="contactsDiv" style="padding-top: 10px">
+        <table class="contactsTable">
+            <thead>
+                <tr class="headerText">
+                    <th>Destination</th>
+                    <th>Times Called</th>
+                    <th>Length</th>
+                    <th>Cost</th>
+               
+                </tr>
+            </thead>
+            <tbody data-bind="foreach:phonerecords">
+                <tr>
+                    <td class="usageData">
+                        <a href="#" data-bind="click:$root.expandCDR, text: displayDestination"></a>
+                    </td>
+                    <td data-bind="text:callCount" style="text-align: right"></td>
+                    <td data-bind="text: callDurationString" style="text-align: right"></td>
+                    <td data-bind="text: displayTotalCallCost" class="usageData currencyField"></td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="currencyField">
+                        <h5 data-bind="text:summary"></h5>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</section>

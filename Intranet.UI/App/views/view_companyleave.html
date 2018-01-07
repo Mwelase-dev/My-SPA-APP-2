@@ -1,0 +1,168 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Company Leave</a></h2>
+    </div>
+    <hr />
+    <div id="divError" data-bind="visible: authorised() != true">
+        <!-- ko compose:{view:'not_authorised'} -->
+        <!-- /ko -->
+    </div>
+    <div id="divMain" data-bind="visible: authorised() == true">
+
+        <div id="sectionContainer" style="width: 100%;">
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>Start Date:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <input id="startDate" type="text" />
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>End Date:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <input id="endDate" type="text" />
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>Company:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <select id="cbxComapny" style="width: 103%" data-bind="sortData: companies, sortfield: 'branchName', direction: 'asc', options: companies, optionsText: 'branchName', optionsValue: 'branchId',
+    value: selectedCompany, optionsCaption: '-- select --', event: { change: cmbCompanyChange } ">
+                    </select>
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>Division:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <select id="cbxDivision" style="width: 103%" data-bind="sortData: divisions, sortfield: 'divisionName', direction: 'asc', options: divisions, optionsText: 'divisionName', optionsValue: 'divisionId', enable: canSelectDivision, value: selectedDivision, optionsCaption: '-- select --', event: { change: cmbDivisionChange }"></select>
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    <label>Staffmember:</label>
+                </div>
+                <div class="tonerResultDataCell">
+                    <select id="cbxStaffMember" style="width: 103%" data-bind="sortData: staff, sortfield: 'fullName', direction: 'asc', options: staff, optionsText: 'fullName', optionsValue: 'staffId', enable: canSelectStaff, value: selectedStaff, optionsCaption: '-- select --'"></select>
+                </div>
+            </div>
+            <div class="tonerRowContainer">
+                <!-- <div class="tonerResultLabelCell">
+                         <label>Leave Types:</label>
+                     </div>-->
+                <div class="tonerResultDataCell">
+                    <!--<select id="cbxCarrier" style="width: 103%" data-bind="options: leaveTypes, optionsText: 'description', optionsValue: 'leaveType', optionsCaption: '-- select --', value: selectedLeave"></select>-->
+                    <!--<select id="cbxStaff" data-bind="options: $root.leaveTypes, optionsText: 'description', optionsValue: 'leaveType',value: $root.leaveApplication().leaveType">
+                        </select>-->
+                </div>
+            </div>
+
+            <div class="pull-right" style="padding-right: 15px">
+                <div class="loader" style="float: left; padding: 3px 5px">
+                    <i class="icon-spinner icon-2x icon-spin" data-bind="visible: searching "></i>
+                </div>
+                <button type="button" class="btn" data-bind="click: cancel" style="float: right">Cancel</button>
+
+                <button class="btn " data-bind="enable: canSearch, click: search" style="float: right">
+                    <i class="icon-search"></i>
+                    Search
+                </button>
+            </div>
+
+
+            <div class="clear"></div>
+        </div>
+
+        <section id="result">
+            <div style="width: 113%; padding-top: 10px; margin-left: -10%;">
+
+                <div id="headers" class="cdrHistoryHeaderRow">
+                    <div id="header_details" class="cdrHistoryHeaderField cpuDetailsHeader">Leave Details</div>
+                    <div id="header_company" class="cdrHistoryHeaderField">Company</div>
+                </div>
+
+                <div id="body" style="width: 100%;" data-bind="foreach: leaverecords()">
+                    <div class="cpuBodyContainer">
+                        <div id="details" class="cpuDetailsHeader">
+                            <div data-bind="sortData: companyDivisions, sortfield: 'divisionName', direction: 'asc', foreach: companyDivisions">
+                                <div id="divisionContainer" class="cpuDivisionContainer">
+                                    <div id="divisionDetails" class="cpuBodyContainer" style="border-bottom: 0">
+                                        <div id="divisionName" class="cpuHeader cpuDivisionName" data-bind="text: divisionName"></div>
+                                    </div>
+                                    <table class="table">
+                                        <thead >
+                                            <tr>
+                                                <th style="width: 30%;">Name</th>
+                                                <th style="width: 10%;">Start</th>
+                                                <th style="width: 10%;">End</th>
+                                                <th style="width: 10%;">Type</th>
+                                                <th style="width: 5%;">Days</th>
+                                                <th style="width: 5%;">Hours</th>
+                                                <th style="width: 5%;">Balance</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody data-bind="sortData: divisionStaff, sortfield: 'fullname', direction: 'asc', foreach: divisionStaff">
+                                            <!-- ko foreach: staffLeaveRecords -->
+                                            <tr>
+                                                <td data-bind="text: staffMember().fullName"></td>
+                                                <td data-bind="text: displayLeaveStart"></td>
+                                                <td data-bind="text: displayLeaveEnd"></td>
+                                                <td data-bind="text: displayLeaveType()"></td>
+                                                <td data-bind="text: displayLeaveDays"></td>
+                                                <td data-bind="text: displayLeaveHours"></td>
+                                                <td data-bind="text: $parent.runningTotal"></td>
+                                                <td><a href="#" data-bind="click: $root.getDetails" title="Leave Details"><i class="icon-edit"></i></a></td>
+                                            </tr>
+                                            <!--/ko -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="compName" class="cpuHeader cpuCompanyName" data-bind="text: companyName"></div>
+                    </div>
+                </div>
+                <div class="cpuSummaryContainer">
+                    <h3 data-bind="text: summary"></h3>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</section>
+<!--
+    <table data-bind="foreach: divisionStaff" class="table table-condensed table-hover gradienttable">
+                                                <thead data-bind="visible: staffLeaveRecords">
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <th>Start</th>
+                                                        <th>End</th>
+                                                        <th>Type</th>
+                                                        <th>Days</th>
+                                                        <th>Hours</th>
+                                                        <th>Balance</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody data-bind="foreach: staffLeaveRecords">
+
+                                                    <tr>
+                                                        <td data-bind="text: staffMember().fullName"></td>
+                                                        <td data-bind="text: displayLeaveStart"></td>
+                                                        <td data-bind="text: displayLeaveEnd"></td>
+                                                        <td data-bind="text: displayLeaveType()"></td>
+                                                        <td data-bind="text: displayLeaveDays"></td>
+                                                        <td data-bind="text: displayLeaveHours"></td>
+                                                        <td data-bind="text: $parent.runningTotal"></td>
+                                                        <td><a href="#" data-bind="click: $root.getDetails"><i class="icon-edit"></i></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+-->

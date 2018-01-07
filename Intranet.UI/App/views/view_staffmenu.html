@@ -1,0 +1,40 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Staff Menu</a></h2>
+    </div>
+    <hr />
+    <div>
+        <ul style="padding-left: 30px">
+
+            <li><a href="#" data-bind="click: $root.staffEdit">Your information</a></li>
+            <li><a data-bind="attr: { href: '#/view_timekeeping_sheet' }">Manage timekeeping records</a></li>
+            <li><a data-bind="attr: { href: '#/view_staffclockgraph' }">Staff clocking graphs</a></li>
+            <li><a data-bind="attr: { href: '#/view_leaveapplication' }">Apply for leave or add off-site details</a></li>
+            <li><a data-bind="attr: { href: '#/view_ordertoner' }">Order toner or place service call for your printer</a></li>
+            <li><a data-bind="attr: { href: '#/view_requestwebaccess' }">Request access to a specific website</a></li>
+            <li><a data-bind="attr: { href: '#/view_phonecontacts' }">Manage your phone contacts</a></li>
+            <li><a data-bind="attr: { href: '#/view_staffcdrsummary' }">View your phone usage</a></li>
+
+            <!-- ko if:intranetAdmin -->
+            <li><a data-bind="attr: { href: '#/view_tonerorders' }">Manage toner orders</a></li>
+            <li><a data-bind="attr: { href: '#/view_printers' }">Manage printers</a></li>
+            <li><a data-bind="attr: { href: '#/view_clockDevices' }">Manage clock devices</a></li>
+            <!-- /ko -->
+
+            <!-- ko if:manager || hr -->
+            <li><a data-bind="attr: { href: '#/view_approveclockrecord' }">Approve time keeping record changes</a></li>
+            <li><a data-bind="attr: { href: '#/view_leaveapplications' }">Manage leave applications</a></li>
+            <!-- /ko -->
+
+            <!-- ko if:hr -->
+            <li><a data-bind="attr: { href: '#/view_companytimekeeping_sheet' }">View company time-keeping summaries</a></li>
+            <li><a data-bind="attr: { href: '#/view_companyleave' }">View company leave</a></li>
+            <li><a data-bind="attr: { href: '#/view_directorsleave' }">View directors’ leave</a></li>
+            <li><a data-bind="attr: { href: '#/view_payrollleave' }">Payroll Leave Balances</a></li>
+            <li><a data-bind="attr: { href: '#/view_unclockingstaff' }">Clocking Exceptions</a></li>
+            <li><a data-bind="attr: { href: '#/view_companyphoneusage' }">View company phone usage</a></li>
+            <!-- /ko -->
+
+        </ul>
+    </div>
+</section>

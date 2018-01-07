@@ -1,0 +1,129 @@
+﻿<div class="messageBox thought">
+    <div class="modal-header">
+        <h3>Staff leave summary</h3>
+    </div>
+    <div class="modal-body">
+        <div id="summary" class="leaveSumContainer" data-bind="with: staff">
+            <div id="annualLeave" class="leaveAppSumSpanLeft">
+                <fieldset>
+                    <h3 style="text-decoration: underline">Annual Leave</h3>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: CurrentCycleNumber"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Cycle Number</label>
+                        </div>
+                    </div>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: moment(CycleStart()).format('L')"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Cycle Start</label>
+                        </div>
+                    </div>    
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: moment(CycleEnd()).format('L')"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Cycle End</label>
+                        </div>
+                    </div>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: CycleDays"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Cycle Days</label>
+                        </div>
+                    </div>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: LeaveDaysAccumulated"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Days Accumulated</label>
+                        </div>
+                    </div>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: AnnualDaysTaken"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Days Taken</label>
+                        </div>
+                    </div>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: DaysDue"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Days Due</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div id="sickLeave" class="leaveAppSumSpanRight">
+                <fieldset>
+                    <h3 style="text-decoration: underline">Sick Leave</h3>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: CurrentCycleNumber"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Cycle Number</label>
+                        </div>
+                    </div>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: moment(CycleStart()).format('L')"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Cycle Start</label>
+                        </div>
+                    </div>    
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: moment(SickCycleEnd()).format('L')"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Cycle End</label>
+                        </div>
+                    </div>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: SickCycleDays"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Cycle Days</label>
+                        </div>
+                    </div>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: SickDaysTaken"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Days Taken</label>
+                        </div>
+                    </div>
+                    <div class="leaveSumContainer">
+                        <div class="leaveAppSumSpanRight">
+                            <label data-bind="text: SickDaysAvilable"></label>
+                        </div>
+                        <div class="leaveAppSumSpanLeft">
+                            <label>Days Due</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: clickCancel">Close</button>
+    </div>
+</div>

@@ -1,0 +1,179 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Company Time Keeping Summaries</a></h2>
+    </div>
+    <hr />
+    <div id="divError" data-bind="visible: authorised() != true">
+        <!-- ko compose:{view:'not_authorised'} -->
+        <!-- /ko -->
+    </div>
+
+    <div id="sectionContainer" style="width: 100%;">
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Start Date:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <input id="startDate" type="text" />
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>End Date:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <input id="endDate" type="text" />
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Company:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <select id="cbxComapny" style="width: 103%" data-bind="sortData: companies, sortfield: 'branchName', direction: 'asc', options: companies, optionsText: 'branchName', optionsValue: 'branchId',
+    value: selectedCompany, optionsCaption: '-- select --', event: { change: cmbCompanyChange } ">
+                </select>
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Division:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <select id="cbxDivision" style="width: 103%" data-bind="sortData: divisions, sortfield: 'divisionName', direction: 'asc', options: divisions, optionsText: 'divisionName', optionsValue: 'divisionId', enable: canSelectDivision, value: selectedDivision, optionsCaption: '-- select --', event: { change: cmbDivisionChange }"></select>
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Staffmember:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <select id="cbxStaffMember" style="width: 103%" data-bind="sortData: staff, sortfield: 'fullName', direction: 'asc', options: staff, optionsText: 'fullName', optionsValue: 'staffId', enable: canSelectStaff, value: selectedStaff, optionsCaption: '-- select --'"></select>
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+
+            <div class="tonerResultDataCell">
+            </div>
+        </div>
+        <div class="pull-right" style="padding-right: 15px">
+            <div class="loader" style="float: left; padding: 3px 5px">
+                <i class="icon-spinner icon-2x icon-spin" data-bind="visible: searching "></i>
+            </div>
+            <button type="button" class="btn" data-bind="click: cancel">Cancel</button>
+            <button class="btn " data-bind="enable: canSearch, click: search" style="float: left">
+                <i class="icon-search"></i>
+                Search
+            </button>
+
+        </div>
+
+
+        <div class="clear"></div>
+    </div>
+
+    <div id="divMain" data-bind="visible: authorised() == true">
+        <section id="result">
+            <div style="width: 98%; padding-top: 10px">
+                <div id="headers" class="cdrHistoryHeaderRow">
+                    <div id="header_details" class="cdrHistoryHeaderField cpuDetailsHeader">Time Keeping Details</div>
+                    <div id="header_company" class="cdrHistoryHeaderField">Company</div>
+                </div>
+                <div id="body" style="width: 100%;" data-bind="foreach: leaverecords()">
+                    <div class="cpuBodyContainer">
+                        <div id="details" class="cpuDetailsHeader">
+                            <div data-bind="sortData: companyDivisions, sortfield: 'divisionName', direction: 'asc', foreach: companyDivisions">
+                                <div id="divisionContainer" class="cpuDivisionContainer">
+                                    <div id="divisionDetails" class="cpuBodyContainer" style="border-bottom: 0" >
+                                        <div id="divisionName" class="cpuHeader cpuDivisionName" data-bind="text: divisionName"></div>
+                                    </div>
+                                    <table class="table table-condensed table-hover gradienttable">
+                                        <thead data-bind="visible: divisionStaff.length > '0'">
+                                            <tr>
+                                                <th style="width:40%;">Staff</th>
+                                                <th>Required</th>
+                                                <th>Hours</th>
+                                                <th>Overtime</th>
+                                                <th>Leave</th>
+                                                <th>Debt</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody data-bind="sortData: divisionStaff, sortfield: 'fullname', direction: 'asc', foreach: divisionStaff">
+                                            <tr>
+                                                <td data-bind="text: $data.fullname"></td>
+                                                <td data-bind="text: requiredHours"></td>
+                                                <td data-bind="text: timeWorked"></td>
+                                                <td data-bind="text: overtime"></td>
+                                                <td data-bind="text: onleaveHours"></td>
+                                                <td data-bind="text: timeDebt"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="compName" class="cpuHeader cpuCompanyName" data-bind="text: companyName"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</section>
+
+<!--
+    <div id="divMain" data-bind="visible: authorised() == true">
+        <section id="result">
+            <div style="width: 98%; padding-top: 10px">
+                <div id="headers" class="cdrHistoryHeaderRow">
+                    <div id="header_details" class="cdrHistoryHeaderField cpuDetailsHeader">Time Keeping Details</div>
+                    <div id="header_company" class="cdrHistoryHeaderField">Company</div>
+                </div>
+                <div id="body" style="width: 100%;" data-bind="foreach: leaverecords()">
+                    <div class="cpuBodyContainer">
+                        <div id="details" class="cpuDetailsHeader">
+                            <div data-bind="sortData: companyDivisions, foreach: companyDivisions">
+                                <div id="divisionContainer" class="cpuDivisionContainer">
+                                    <div id="divisionDetails" class="cpuBodyContainer" style="border-bottom: 0">
+                                        <div id="divisionName" class="cpuHeader cpuDivisionName" data-bind="text: divisionName"></div>
+                                        <div id="staffNameName" class="cpuHeader cpuDivisionName" title="Full Name"></div>
+                                    </div>
+                                    <div data-bind="sortData: divisionStaff, foreach: divisionStaff">
+                                        <div id="staffDetails" class="cpuStaffDetails">
+                                            <div id="staffTotals" class="cpuStaffName" data-bind="text: fullname"></div>
+
+                                            <table class="table table-condensed table-hover gradienttable">
+                                                <thead>
+                                                    <tr>
+                                                        <td>Required Hours</td>
+                                                        <td>Hours Worked</td>
+                                                        <td>Overtime Hours</td>
+                                                        <td>On leave Hours</td>
+                                                        <td>Time Debt Hours</td>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="text-align: center" data-bind="text: requiredHours"></td>
+                                                        <td style="text-align: center" data-bind="text: timeWorked"></td>
+                                                        <td style="text-align: center" data-bind="text: overtime"></td>
+                                                        <td style="text-align: center" data-bind="text: onleaveHours"></td>
+                                                        <td style="text-align: center" data-bind="text: timeDebt"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="compName" class="cpuHeader cpuCompanyName" data-bind="text: companyName"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>    
+    -->

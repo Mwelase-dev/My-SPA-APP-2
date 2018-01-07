@@ -1,0 +1,30 @@
+﻿<div class="messageBox link">
+    <div class="modal-header">
+        <h3 data-bind="text:title"></h3>
+    </div>
+    <div class="modal-body">
+        <div style="width: 100%; height: 420px;">
+            <div id="headers" class="cdrHistoryHeaderRow">
+                <div class="cdrHistoryResult cdrHistoryHeaderField">Cost</div>
+                <div class="cdrHistoryResult cdrHistoryHeaderField">Length</div>
+                <div class="cdrHistoryResult cdrHistoryHeaderField">Date</div>
+            </div>
+            <div id="body" style="width: 100%; height: 300px; display: inline-block;overflow : auto; ">
+                <!-- ko foreach : phoneRecords-->
+                <div class="cdrHistoryRow">
+                    <div class="cdrHistoryResult currencyField" data-bind="text:displayCallCost" style="padding-right: 5px"></div>
+                    <div class="cdrHistoryResult" data-bind="text: callDurationString" style="text-align: center;"></div>
+                    <div class="cdrHistoryResult" data-bind="text:displayCallDate"></div>
+                </div>
+                <!-- /ko -->
+            </div>
+            <hr />
+            <div id="summary" style="width: 100%;" class="currencyField">
+                <h5 data-bind="text:summary"></h5>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: clickCancel">Close</button>
+    </div>
+</div>

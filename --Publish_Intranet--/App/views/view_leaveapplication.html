@@ -1,0 +1,105 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Leave Application</a></h2>
+    </div>
+    <hr />
+    <div class="modal-body" style="padding-top: 0" data-bind="with: staff">
+        <div class="control-wrapper">
+            <label>Employee Name:</label>
+            <span>
+                <input data-bind="value: fullName" type="text" readonly="readonly" />
+            </span>
+        </div>
+
+        <div class="control-wrapper" style="margin-top: 0">
+
+            <label>Leave Type: </label>
+            <span>
+                <select id="cbxStaff" data-bind="options: $root.leaveTypes, optionsText: 'description', optionsValue: 'leaveType',
+    value: $root.leaveApplication().leaveType, event: { change: $root.onLeaveTypeChange }">
+                </select>
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <label>Days available:</label>
+            <span>
+                <input id="daysAllowed" data-bind="value: DaysDue" type="text" readonly="readonly" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <label>Hours available:</label>
+            <span>
+                <input id="hoursAvil" data-bind="value: AnnualLeaveHoursAccumulated" type="text" readonly="readonly" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <label>Start: </label>
+            <span>
+                <input id="leaveStart" type="text" class="form-control" name="leaveStart" placeholder="h:mm PM" data-default-time="false" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <label>End: </label>
+            <span>
+                <input id="leaveEnd" type="text" class="form-control" name="leaveEnd" placeholder="h:mm PM" data-default-time="false" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <!-- ko if:$root.showWarning -->
+            <label>Day(s): </label>
+            <span>
+                <input id="daysExceeded" type="text" data-bind="value: $root.leaveDays" readonly="readonly" />
+            </span>
+            <!-- /ko -->
+        </div>
+
+        <div class="control-wrapper">
+            <!-- ko ifnot:$root.showWarning -->
+            <label>Day(s): </label>
+            <span>
+                <input type="text" data-bind="value: $root.leaveDays" readonly="readonly" />
+            </span>
+            <!-- /ko -->
+        </div>
+        
+          <div class="control-wrapper">
+            <label>Hour(s): </label>
+            <span>
+                <input type="text" data-bind="value: $root.displayLeaveHours" readonly="readonly" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <!-- ko if:$root.showWarning -->
+            <span>
+                <label id="alertMsg">The number of days applied for exceed the number of days accumulated.</label>
+            </span>
+            <!-- /ko -->
+        </div>
+
+        <div class="control-wrapper">
+            <label>Comments: </label>
+            <span>
+                <textarea id="txtComment" data-bind="value: $root.leaveApplication().leaveComments"></textarea>
+                <!-- ko if:$root.complusoryComment -->
+                    <label id="alertMsg2" style="color: red; ">The comment is compulsory for special leave.</label>
+                <!-- /ko -->
+            </span>
+        </div>
+
+        <div>
+        </div>
+
+    </div>
+    <div class="pull-right">
+        <button class="btn" data-bind="click: $root.save, enable: canSave">Apply</button>
+        <button class="btn" data-bind="click: $root.cancel">Cancel</button>
+    </div>
+
+
+</section>

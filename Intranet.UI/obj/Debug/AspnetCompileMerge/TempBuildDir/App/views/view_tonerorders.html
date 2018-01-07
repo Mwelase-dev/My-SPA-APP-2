@@ -1,0 +1,36 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Toner Orders</a></h2>
+    </div>
+    <hr />
+    <div style="width: 100%" id="contactsDiv">
+        <!-- ko if:authorised -->
+        <table class="contactsTable">
+            <thead>
+                <tr>
+                    <td>Ordered By</td>
+                    <td>Toner(s)/Service</td>
+                    <td>Date</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: orders">
+                <tr>
+                    <td data-bind="text: staffName"></td>
+                    <td data-bind="text: tonerServiceName"></td>
+                    <td data-bind="text: displayOrderDate"></td>
+                    <td><a href="#" data-bind="click: $root.closeOrder">Close</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- /ko -->
+
+        <div data-bind="visible:authorised ==false">
+            <!-- ko compose:{view:'not_authorised'} -->
+            <!-- /ko -->
+        </div>
+    </div>
+    <div class="pull-right" style="margin-top: 10px">
+        <button type="button" class="btn" data-bind="click:cancel">Return</button>
+    </div>
+</section>

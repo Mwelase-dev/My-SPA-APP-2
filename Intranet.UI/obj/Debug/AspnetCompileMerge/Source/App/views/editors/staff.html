@@ -1,0 +1,244 @@
+﻿<div class="messageBox staff">
+    <div class="modal-header">
+        <h3>Staff maintenance</h3>
+    </div>
+    <div class="modal-body">
+        <div data-bind="bind_Tabs: {}">
+            <ul>
+                <li><a href="#tabs-1">Personal</a></li>
+                <li><a href="#tabs-2">Contact</a></li>
+                <li><a href="#tabs-3">HR</a></li>
+                <li><a href="#tabs-4">Technical</a></li>
+                <li><a href="#tabs-5">Phone</a></li>
+                <li><a href="#tabs-6">Leave Increment</a></li>
+                <li><a href="#tabs-7">Work Hours</a></li>
+            </ul>
+
+            <div id="tabs-1">
+                <div class="control-wrapper">
+                    <label>Division:</label>
+                    <span>
+                        <select data-bind="foreach: $root.branches">
+                            <optgroup data-bind="attr: { label: branchName }">
+                                <!-- ko foreach: branchDivisions -->
+                                <option data-bind="value: divisionId, text: divisionName"></option>
+                                <!-- /ko -->
+                            </optgroup>
+                        </select>
+
+                    </span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Name:</label><span><input type="text" data-bind="value: staff.staffName" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Surname:</label><span><input type="text" data-bind="value: staff.staffSurname" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>ID Number:</label><span><input type="text" data-bind="value: staff.staffIdNumber" /></span>
+                </div>
+            </div>
+
+            <div id="tabs-2">
+                <div class="control-wrapper">
+                    <label>Email address:</label><span><input type="text" data-bind="value: staff.staffEmail" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Extension</label><span><input type="text" data-bind="value: staff.staffTellExt" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Tel Direct:</label><span><input type="text" data-bind="value: staff.staffTelDirect" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Mobile:</label><span><input type="text" data-bind="value: staff.staffTCellPhone" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Fax:</label><span><input type="text" data-bind="value: staff.staffFaxNumber" /></span>
+                </div>
+            </div>
+
+            <div id="tabs-3">
+                <div class="control-wrapper">
+                    <label>Join date:</label><span><input type="text" id="staffJoinDate" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Manager 1:</label>
+                    <span>
+                        <select id="cbxMan1" data-bind="options: staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staff.staffManager1Id"></select>
+                    </span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Manager 2:</label>
+                    <span>
+                        <select id="cbxMan2" data-bind="options: staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staff.staffManager2Id"></select>
+                    </span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Designation:</label><span><input type="text" data-bind="value: staff.staffDesignation" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Clock code:</label><span><input type="text" data-bind="value: staff.staffClockId" readonly="readonly" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Clock's in?:</label><span><input class="mybox" type="checkbox" data-bind="checked: staff.staffIsClockingMember" /></span>
+                </div>
+            </div>
+
+            <div id="tabs-4">
+                <div class="control-wrapper">
+                    <label>NT Name:</label><span><input type="text" data-bind="value: staff.staffNtName" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Printer:</label><span>
+                        <select id="cbxStaff" data-bind="sortData: printers, sortfield: 'printerDescription', direction: 'asc', options: printers, optionsText: 'printerDescription', optionsValue: 'printerId', value: staff.staffDefaultPrinter"></select>
+                    </span>
+                </div>
+            </div>
+
+            <div id="tabs-5" data-bind="with: phoneDetails()">
+                <div class="control-wrapper">
+                    <label>Phone Ringer</label>
+                    <span>
+                        <select id="cbxRingers" data-bind="options: $root.ringers, value: staffPhoneRinger"></select>
+                    </span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Domain</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneDomain" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Net Mask</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneNetMask" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Gateway</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneGateway" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>DNS 1</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneDNS1" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>DNS 2</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneDNS2" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Host</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneHost" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Out Bound</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneOutBound" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Ip</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneIp" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Password</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhonePass" /></span>
+                </div>
+                <div class="control-wrapper">
+                    <label>Mac</label>
+                    <span>
+                        <input type="text" data-bind="value: staffPhoneMac" /></span>
+                </div>
+            </div>
+
+            <div id="tabs-6">
+                <div style="width: 100%;">
+                    <table style="width: 100%">
+                        <thead>
+                            <tr>
+                                <td>Start</td>
+                                <td>End</td>
+                                <td>Increment</td>
+                                <td>Action</td>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach: staff.leaveCounters">
+                            <tr style="width: 100%" data-bind="visible: canRemove">
+                                <td style="width: 25%; padding: 1px;">
+                                    <label data-bind="text: displayStart"></label>
+                                </td>
+                                <td style="width: 25%; padding: 1px;">
+                                    <label data-bind="text: displayEnd"></label>
+                                </td>
+                                <td style="width: 25%; padding: 1px;">
+                                    <label data-bind="text: accumulator"></label>
+                                </td>
+                                <td style="width: 25%; padding: 1px;">
+                                    <span>
+                                        <a href="#" data-bind="click: $root.deleteLeaveCounter"><i class="icon-remove"></i></a>
+                                        <a href="#" data-bind="click: $root.editLeaveAccum"><i class="icon-edit"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <br />
+                <div style="width: 100%; float: right">
+                    <span class="pull-right">
+                        <button class="btn" data-bind="click: addLeaveAccum"><i class="addbutton"></i>Add</button>
+                    </span>
+                </div>
+                <br />
+
+            </div>
+
+            <div id="tabs-7">
+                <div style="width: 100%">
+                    <table style="width: 100%">
+                        <thead>
+                            <tr>
+                                <td>Day</td>
+                                <td>Start Time</td>
+                                <td>End Time</td>
+                                <td>Lunch(min)</td>
+                                <td>Action</td>
+                            </tr>
+                        </thead>
+
+                        <tbody data-bind="foreach: staff.staffHoursData">
+                            <tr style="width: 100%" data-bind="visible: canEdit">
+                                <td data-bind="text: displayDay"></td>
+                                <td data-bind="text: displayStartTime"></td>
+                                <td data-bind="text: displayEndTime"></td>
+                                <td data-bind="text: dayLunchLength"></td>
+                                <td>
+                                    <a href="#" data-bind="click: $root.deleteDayWorkHours"><i class="icon-remove"></i></a>
+                                    <a href="#" data-bind="click: $root.updateDayWorkHours"><i class="icon-edit"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+                <br />
+                <div style="width: 100%; float: right">
+                    <span class="pull-right">
+                        <button class="btn" data-bind="click: addStaffWorkHours"><i class="addbutton"></i>Add</button>
+                    </span>
+                </div>
+                <br />
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-bind="click: $root.save">Save</button>
+            <button class="btn" data-bind="click: $root.clickCancel">Cancel</button>
+        </div>
+    </div>
+</div>

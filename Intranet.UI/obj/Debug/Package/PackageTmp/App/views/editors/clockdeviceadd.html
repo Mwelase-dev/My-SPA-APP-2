@@ -1,0 +1,31 @@
+﻿<div class="messageBox link">
+    <div class="modal-header">
+        <h3>Add Clock Device
+        </h3>
+    </div>
+    <div class="modal-body" data-bind="with: clockDevice">
+        <div class="control-wrapper">
+            <label>Device location:</label>
+            <span>
+                <input data-bind="value: clockDeviceLocation" type="text" />
+            </span>
+        </div>
+        <div class="control-wrapper">
+            <label>Device Ip:</label>
+            <span>
+                <input data-bind="value: clockDeviceIp" type="text" />
+            </span>
+        </div>
+        <div class="control-wrapper">
+            <label>Device number:</label>
+            <span>
+                <input data-bind="value: deviceNumber" type="text" />
+            </span>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: addClockingDevice">Save</button>
+        <button class="btn" data-bind="click: clickCancel">Cancel</button>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Approve Time Keeping Records</a></h2>
+        <hr />
+
+        <span class="button-bar" style="display: inline">
+            <span>
+                <label style="display: inline">Select Staff :</label>
+                <select style="width: 300px" id="cmbStaff" data-bind="options: $root.staffToSelect, optionsText: 'fullName', optionsValue: 'staffId', value: selectedStaff, optionsCaption: '[Select Staff]', event: { change: cmbStaffMemberChanged }"></select>
+                <button type="button" class="btn" data-bind="click: cancel" style="float: right">Cancel</button>
+                <button class="btn" data-bind="click: getunapprovedclockrecords, enable: enableFiltering" style="float: right">
+                    <i class="icon-search"></i>Apply Filter
+                </button>
+            </span>
+            <span class="fliterButtonContainer"></span>
+        </span>
+        <div class="loader" style="float: left; padding: 3px 5px">
+            <i class="icon-spinner icon-2x icon-spin" data-bind="visible: isloading"></i>
+        </div>
+
+        <div id="contactsDiv">
+            <table class="contactsTable">
+                <thead>
+                    <tr>
+                        <!-- <td>Staff Name</td>-->
+                        <td style="width: 30%">Date</td>
+                        <td style="width: 30%">Comments</td>
+                        <td style="width: 30%">Actions</td>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: getallunapprovedclockrecordsonload">
+                    <!-- ko foreach: staffClockData -->
+                    <tr data-bind="visible: dataStatus() == '2'">
+                        <!--<td data-bind="text: $parent.fullName" style="vertical-align: top; border: 1px solid #E1EEF4; background: white; font-weight: bold"></td>-->
+                        <td data-bind="text: $data.displayDate"></td>
+                        <td data-bind="text: $data.comments"></td>
+                        <td>
+                            <a href="#" data-bind="click: $root.aprroveclockrecord" title="Approve">Approve</a>
+                            |
+                            <a href="#" data-bind="click: $root.denyclockrecord" title="Deny">Deny</a>
+                            |
+                            <a href="#" data-bind="click: $root.deleteRecord" title="Delete">Delete</a>
+                            |
+                            <input type="checkbox" style="vertical-align: text-bottom;" data-bind="checked: approve" />
+
+
+                        </td>
+                    </tr>
+
+                    <!-- /ko -->
+                </tbody>
+
+            </table>
+          <!--  <div>
+                <label><input type="checkbox" name="sample" class="selectall"/> Select all</label>
+
+            </div>-->
+        </div>
+        <br />
+        <span class="pull-right" data-bind="visible: $root.getallunapprovedclockrecordsonload().length > 0">
+            <button class="btn"
+                data-bind="click: approveMultiple">
+                Approve all selected
+            </button>
+        </span>
+       <!-- <span class="pull-right">
+            <button  type="button" class="check" value="Check all"  data-bind="click: $root.selectAll, visible: $root.getallunapprovedclockrecordsonload().length > 0"></button>
+        </span>-->
+    </div>
+</section>

@@ -1,0 +1,13 @@
+﻿<h2>How about this...</h2>
+<div data-bind="with: aRandomThought">
+    <P data-bind="text: thought() + ' - ' + thoughtAuthor()"></P>
+    <div class="links" style="margin-left:30px" data-bind="if: $root.isAdmin()">
+        <a data-bind="click: $root.thoughtAdd" href="#">Add</a>
+        &nbsp;|&nbsp;
+        <a data-bind="click: $root.thoughtEdit" href="#">Edit</a>
+        &nbsp;|&nbsp;
+        <a data-bind="click: $root.thoughtDelete" href="#">Delete</a>
+        &nbsp;|&nbsp;
+        <a href="#/view_thoughts">List</a>
+    </div>
+</div>

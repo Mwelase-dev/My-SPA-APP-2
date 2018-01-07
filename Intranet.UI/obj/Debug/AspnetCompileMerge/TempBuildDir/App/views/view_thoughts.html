@@ -1,0 +1,16 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Thoughts that inspire</a></h2>
+        <ul data-bind="foreach: thoughts" style="margin: 0">
+            <li style="display: block">
+                <label data-bind="text: thought"></label>
+                <p class="links" data-bind="if: $root.isAdmin()">
+                    <a href="#" data-bind="click: $root.edit">Edit</a>
+                    &nbsp;|&nbsp;
+                    <a href="#" data-bind="click: $root.del">Delete</a>
+                </p>
+                <hr/>
+            </li>
+        </ul>
+    </div>
+</section>

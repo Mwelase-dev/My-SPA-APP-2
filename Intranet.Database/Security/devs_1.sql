@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [devs]
+    WITH PASSWORD = N'qo|1gawbK|jwo7Qmwc#d uohmsFT7_&#$!~<ahbrghuEkqps', SID = 0x94BFCDAAD1D9B44F8CDD69B1B6ABA48B, DEFAULT_DATABASE = [Intranet], DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

@@ -1,0 +1,30 @@
+﻿<div class="messageBox link">
+    
+    <div class="modal-header">
+        <h3>Link maintenance</h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="control-wrapper">
+            <label>Category:</label>
+            <span>
+                <select data-bind="options: $root.categories, optionsText: 'categoryDesc', value: link.linkCategory"></select>
+            </span>
+        </div>
+        <div class="control-wrapper">
+            <label>Description:</label>
+            <span>
+                <input data-bind="value: link.linkDesc" /></span>
+        </div>
+        <div class="control-wrapper">
+            <label>Url:</label>
+            <span>
+                <input data-bind="value: link.linkUrl" /></span>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: clickSave">Save</button>
+        <button class="btn" data-bind="click: clickCancel">Cancel</button>
+    </div>
+</div>

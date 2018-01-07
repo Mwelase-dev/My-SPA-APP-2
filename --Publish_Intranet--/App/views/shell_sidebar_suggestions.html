@@ -1,0 +1,7 @@
+﻿<h2>Suggestion Box</h2>
+<ul data-bind="foreach: suggestions">
+    <li><a data-bind="attr: { href: '#/view_suggestion/'+suggestionId() }, text: suggestionSubject"></a></li>
+</ul>
+<div class="links" style="margin-left: 30px">
+    <a data-bind="click: $root.suggestionAdd" href="#">make a new suggestion</a>
+</div>

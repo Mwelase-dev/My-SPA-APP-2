@@ -1,0 +1,101 @@
+﻿<div class="messageBox thought">
+    <div class="modal-header">
+        <div style="float: right; padding-top: 7px">
+            <label><a data-bind="click: close" href="#">Close</a></label>
+        </div>
+        <div style="float: left">
+            <h3>Leave Application Details</h3>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="modal-body" data-bind="with: leave">
+        <div class="control-wrapper" data-bind="enable:$root.isEditing">
+            <label>Leave Start:</label>
+            <span>
+                <input type="text" id="leaveStart" data-bind="value: displayLeaveStart,enable:$root.isEditing" />
+            </span>
+        </div>
+        <div class="control-wrapper" data-bind="enabled:$root.isEditing">
+            <label>Leave End:</label>
+            <span>
+                <input type="text" id="leaveEnd" data-bind="value: displayLeaveEnd,enable:$root.isEditing" />
+            </span>
+        </div>
+        <!-- ko if:$root.showWarning -->
+        <div class="control-wrapper" data-bind="enabled: $root.isEditing">
+            <label>Day (s):</label>
+            <span>
+                <input id="daysExceeded" type="text" data-bind="value: $root.leaveDays" readonly="readonly" />
+            </span>
+        </div>
+        <!-- /ko -->
+        <div class="control-wrapper">
+            <!-- ko if:$root.showWarning -->
+            <div id="alertMsg">The number of days applied for exceed the number of days accumulated.</div>
+            <!-- /ko -->
+        </div>
+
+        <!-- ko ifnot:$root.showWarning -->
+        <div class="control-wrapper" data-bind="enabled: $root.isEditing">
+            <label>Day (s):</label>
+            <span><input type="text" data-bind="value: $root.leaveDays()" readonly="readonly" /></span>
+        </div>
+        <!-- /ko -->
+        
+          <div class="control-wrapper">
+            <label>Hour(s): </label>
+            <span>
+                <input type="text" data-bind="value: $root.displayLeaveHours()" readonly="readonly" />
+            </span>
+        </div>
+        <div class="control-wrapper">
+            <label>Leave type</label>
+            <span><input type="text" data-bind="value:displayLeaveType" readonly="readonly" /></span>
+        </div>
+        <div class="control-wrapper" data-bind="enabled:$root.isEditing">
+            <label>Status:</label>
+            <span><input type="text" data-bind="value: displayLeaveStatus" readonly="readonly" /></span>
+        </div>
+
+        <div class="control-wrapper" data-bind="enabled:$root.isEditing">
+            <label>Comments:</label>
+            <span><textarea data-bind="value: leaveComments" readonly="readonly"></textarea></span>
+        </div>
+        <div class="control-wrapper">
+            <label>Reason For Action:</label>
+            <span><textarea id="actionReason" data-bind="value: reasonForAction" ></textarea></span>
+        </div>
+
+        <div id="simultaniousLeave" style="height: 250px;overflow-y: scroll;">
+            <h3>Other staff on leave at the same time:</h3>
+            <table class="contactsTable">
+                <thead>
+                    <tr>
+                        <td>Applicant</td>
+                        <td>Leave Start</td>
+                        <td>Leave End</td>
+                        <td>Status</td>
+                        <td>Days</td>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach:$root.simltApps">
+                    <tr class="dataRow">
+                        <td data-bind="text:staffMember().fullName"></td>
+                        <td data-bind="text:displayLeaveStart"></td>
+                        <td data-bind="text:displayLeaveEnd"></td>
+                        <td data-bind="text:displayLeaveStatus"></td>
+                        <td data-bind="text:displayLeaveDays"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: approveLeave, visible:canApprove">Approve</button>
+        <button class="btn" data-bind="click: declineLeave, visible:canApprove">Decline</button>
+        <button class="btn" data-bind="click: updateLeaveApplication, visible:isEditing">Update</button>
+        <button class="btn" data-bind="click: close, visible: isEditing">Cancel</button>
+    </div>
+</div>

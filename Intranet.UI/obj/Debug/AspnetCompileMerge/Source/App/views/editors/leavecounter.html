@@ -1,0 +1,23 @@
+﻿<div class="messageBox division">
+    <div class="modal-header">
+        <h3>Add Leave Increment</h3>
+    </div>
+    <div class="modal-body" data-bind="with: model">
+        <div class="control-wrapper">
+            <label>Start:</label>
+            <span><input id="startDate" type="text"/></span>
+        </div>
+        <div class="control-wrapper">
+            <label>End:</label>
+            <span><input id="endDate" type="text"/></span>
+        </div>
+        <div class="control-wrapper">
+            <label>Increment:</label>
+            <span><input data-bind="value: accumulator" type="number" step="any" /></span>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: $root.save">Save</button>
+        <button class="btn" data-bind="click: $root.cancelEdit">Cancel</button>
+    </div>
+</div>

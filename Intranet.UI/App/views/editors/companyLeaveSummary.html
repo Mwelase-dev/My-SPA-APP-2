@@ -1,0 +1,37 @@
+﻿<div class="messageBox thought" style="width: 700px;height: 100%" >
+    <div class="modal-header">
+        <h3>Comapny leave summary</h3>
+    </div>
+    <div class="modal-body">
+        <div id="contactsDiv">
+            <table class="contactsTable" data-bind="foreach: staffLeaveSummaryData">
+                <thead>
+                    <tr>
+                        <td data-bind="text: year"></td>
+                        <td>Type</td>
+                        <td>Allocated</td>
+                        <td>Taken</td>
+                        <td>Carry Over</td>
+                        <td>Running Total</td>
+                    </tr>
+                </thead>
+
+                <tbody data-bind="foreach: myData">
+                    <tr class="">
+                        <td></td>
+                        <td data-bind="text: leaveType"></td>
+                        <td data-bind="text: leaveAllocation"></td>
+                        <td data-bind="text: leaveTaken"></td>
+                        <td data-bind="text: leaveCarriedOver"></td>
+                        <td data-bind="text: leaveRunningTotal"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: clickCancel">Close</button>
+    </div>
+</div>

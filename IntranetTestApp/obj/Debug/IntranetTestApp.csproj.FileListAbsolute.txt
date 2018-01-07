@@ -1,0 +1,18 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\IntranetTestApp\bin\Debug\IntranetTestApp.exe.config
+D:\Projects\Nvest Holdings\Intranet v2.0\IntranetTestApp\bin\Debug\IntranetTestApp.exe
+D:\Projects\Nvest Holdings\Intranet v2.0\IntranetTestApp\bin\Debug\IntranetTestApp.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.Form1.resources
+D:\Projects\Nvest Holdings\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.Properties.Resources.resources
+D:\Projects\Nvest Holdings\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.csproj.GenerateResource.Cache
+D:\Projects\Nvest Holdings\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.exe
+D:\Projects\Nvest Holdings\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\IntranetTestApp\bin\Debug\IntranetTestApp.exe.config
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\IntranetTestApp\bin\Debug\IntranetTestApp.exe
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\IntranetTestApp\bin\Debug\IntranetTestApp.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.Form1.resources
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.Properties.Resources.resources
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.csproj.GenerateResource.Cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.exe
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\IntranetTestApp\obj\Debug\IntranetTestApp.pdb

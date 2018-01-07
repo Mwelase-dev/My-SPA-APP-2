@@ -1,0 +1,35 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Staff Menu</a></h2>
+    </div>
+    <hr />
+    <div>
+        <ul style="padding-left: 30px">
+ 
+            <li><a data-bind="attr: { href: '#/view_ordertoner'         }">Order toner or place service call for your printer</a></li>
+            <!-- ko if:intranetAdmin -->
+            <li><a data-bind="attr: { href: '#/view_tonerorders'        }">Manage toner orders</a></li>
+            <!-- /ko -->
+            <li><a data-bind="attr: { href: '#/view_requestwebaccess'   }">Request access to a specific website</a></li>
+            <li><a href="#" data-bind="click: $root.staffEdit">Staff information</a></li>
+            <li><a data-bind="attr: { href: '#/view_staffclockgraph'    }">Staff clocking graphs</a></li>
+            <li><a data-bind="attr: { href: '#/view_timekeeping_sheet'  }">Manage timekeeping records</a></li>
+            <li><a data-bind="attr: { href: '#/view_companyphoneusage' }">View company phone usage</a></li>
+            
+            <!-- ko if:manager || hr -->
+            <li><a data-bind="attr: { href: '#/view_approveclockrecord' }">Approve time keeping record changes</a></li>
+            <!-- /ko -->
+            <li><a data-bind="attr: { href: '#/view_leaveapplication'   }">Apply for leave or add off-site details</a></li>
+            <li><a data-bind="attr: { href: '#/view_leaveapplications'  }">Manage leave applications</a></li>
+            <li><a data-bind="attr: { href: '#/view_phonecontacts'      }">Manage your phone contacts</a></li>
+            <li><a data-bind="attr: { href: '#/view_staffcdrsummary'    }">View your phone usage</a></li>
+            <!-- ko if:hr -->
+            <li><a data-bind="attr: { href: '#/view_companyphoneusage'  }">View company phone usage</a></li>
+            <!-- /ko -->
+
+            <!--<li><a data-bind="click: $root.SendUnApprovedClockRecords" href="#">Test SendUnApprovedClockRecords</a></li>
+                <li><a data-bind="click: $root.SendReminderAboutMissedClockIn" href="#">Test SendReminderAboutMissedClockIn</a></li>-->
+
+        </ul>
+    </div>
+</section>

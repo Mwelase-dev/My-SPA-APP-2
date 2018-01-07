@@ -1,0 +1,243 @@
+<div class="messageBox staff">
+    <div class="modal-header">
+        <h3>Staff Information</h3>
+    </div>
+    <div class="modal-body">
+        <div data-bind="bind_Tabs: {}">
+            <ul>
+                <li><a href="#tabs-1">Personal</a></li>
+                <li><a href="#tabs-2">Contact</a></li>
+                <li><a href="#tabs-3">HR</a></li>
+                <li><a href="#tabs-4">Leave Increments</a></li>
+                <li><a href="#tabs-5">Working Hours</a></li>
+                <li><a href="#tabs-6">Leave Summary</a></li>
+            </ul>
+            <div data-bind="with:staff">
+                <div id="tabs-1">
+                    <div class="control-wrapper">
+                        <label>Division:</label>
+                        <span><select id="Select1" data-bind="options: $root.branches, optionsText: 'divisionName', optionsValue: 'divisionId', value: divisionId" disabled="disabled"></select></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Name:</label><span><input type="text" data-bind="value: staffName" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Surname:</label><span><input type="text" data-bind="value: staffSurname" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>ID Number:</label><span><input type="text" data-bind="value: staffIdNumber" readonly="readonly" /></span>
+                    </div>
+                </div>
+                <div id="tabs-2">
+                    <div class="control-wrapper">
+                        <label>Email address:</label><span><input type="text" data-bind="value: staffEmail" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Extension</label><span><input type="text" data-bind="value: staffTellExt" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Tel Direct:</label><span><input type="text" data-bind="value: staffTelDirect" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Mobile:</label><span><input type="text" data-bind="value: staffCellPhone" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Fax:</label><span><input type="text" data-bind="value: staffFaxNumber" readonly="readonly" /></span>
+                    </div>
+                </div>
+                <div id="tabs-3">
+                    <div class="control-wrapper">
+                        <label>Join date:</label><span><input type="text" data-bind="value: moment(new Date(displayStaffJoinDate())).format('DD-MM-YYYY')" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Manager 1:</label>
+                        <span><select id="cbxMan1" data-bind="options: $root.staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staffManager1Id" disabled="disabled"></select></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Manager 2:</label>
+                        <span><select id="cbxMan2" data-bind="options: $root.staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staffManager2Id" disabled="disabled"></select></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Clock code:</label><span><input type="text" data-bind="value: staffClockId" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Clock's in?:</label><span><input class="mybox" type="checkbox" data-bind="checked: staffIsClockingMember" disabled="disabled" /></span>
+                    </div>
+                </div>
+                <div id="tabs-4">
+                    <div style="width: 100%;">
+                        <table style="width: 100%">
+                            <thead>
+                                <tr>
+                                    <td>Start</td>
+                                    <td>End</td>
+                                    <td>Increment</td>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: leaveCounters">
+                                <tr style="width: 100%" data-bind="visible: canRemove">
+                                    <td style="width: 25%; padding: 1px;">
+                                        <label data-bind="text: displayStart"></label>
+                                    </td>
+                                    <td style="width: 25%; padding: 1px;">
+                                        <label data-bind="text: displayEnd"></label>
+                                    </td>
+                                    <td style="width: 25%; padding: 1px;">
+                                        <label data-bind="text: accumulator"></label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <br />
+                    <br />
+
+                </div>
+                <div id="tabs-5">
+                    <div style="width: 100%">
+                        <table style="width: 100%">
+                            <thead>
+                                <tr>
+                                    <td>Day</td>
+                                    <td>Start Time</td>
+                                    <td>End Time</td>
+                                    <td>Lunch(min)</td>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: $root.staff().staffHoursData">
+                                <tr style="width: 100%" data-bind="visible: canEdit">
+                                    <td data-bind="text: displayDay"></td>
+                                    <td data-bind="text: displayStartTime"></td>
+                                    <td data-bind="text: displayEndTime"></td>
+                                    <td data-bind="text: dayLunchLength"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="tabs-6">
+                    <div style="width: 100%">
+                        <div id="annualLeave" class="leaveAppSumSpanLeft">
+                            <h4 style="font-weight: normal">Annual Leave</h4>
+                            <hr style="margin: 5px" />
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: CurrentCycleNumber"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Number</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(CycleStart()).format('L')"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Start</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(CycleEnd()).format('L')"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle End</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: CycleDays"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Days</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: LeaveDaysAccumulated"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Accumulated</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: AnnualDaysTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: DaysDue"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Due</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sickLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Sick Leave</h4>
+                            <hr style="margin: 5px"/>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: CurrentCycleNumber"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Number</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(CycleStart()).format('L')"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Start</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(SickCycleEnd()).format('L')"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle End</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: SickCycleDays"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Days</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: SickDaysTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: SickDaysAvilable"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Due</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-bind="click: $root.clickCancel">Close</button>
+        </div>
+    </div>
+</div>

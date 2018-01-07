@@ -1,0 +1,46 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Approve Time Keeping Records</a></h2>
+        <hr />
+
+        <span class="button-bar" style="display: inline">
+            <span>
+                <label style="display: inline">Select Staff :</label>
+                <select style="width: 404px" id="cmbStaff" data-bind="options: staff, optionsText: 'fullName', optionsValue: 'staffId', value: selectedStaff, optionsCaption: '[Select Staff]', event: { change: cmbStaffMemberChanged }"></select>
+            </span>
+            <span class="fliterButtonContainer">
+                <button class="btn" data-bind="click: getunapprovedclockrecords, enable: enableFiltering">
+                    <i class="icon-search"></i>Apply Filter
+                </button>
+            </span>
+        </span>
+
+        <div id="contactsDiv" data-bind="">
+            <table class="contactsTable">
+                <thead>
+                    <tr>
+                        <td style="width: 20%">Staff Name</td>
+                        <td style="width: 25%">Date</td>
+                        <td style="width: 35%">Comments</td>
+                        <td style="width: 20%">Actions</td>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: getallunapprovedclockrecordsonload">
+                    <!-- ko foreach: staffClockData -->
+                    <tr>
+                    <tr style="vertical-align: top; border: 1px solid #E1EEF4;font-weight: bold">
+                        <td data-bind="text: $parent.fullName"></td>
+                        <td data-bind="text: $data.displayDate"></td>
+                        <td data-bind="text: $data.comments"></td>
+                        <td>
+                            <a href="#" data-bind="click: $root.aprroveclockrecord">Approve</a>
+                            |
+                            <a href="#" data-bind="click: $root.denyclockrecord">Deny</a>
+                        </td>
+                    </tr>
+                    <!-- /ko -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

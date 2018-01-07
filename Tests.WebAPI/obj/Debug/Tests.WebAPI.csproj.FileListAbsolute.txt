@@ -1,0 +1,189 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\obj\Debug\Tests.WebAPI.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Tests.WebAPI.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Tests.WebAPI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Tests.WebAPI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Breeze.WebApi.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Breeze.WebApi.NH.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Optimization.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Messages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\WebActivator.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.WebHost.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Business.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Data.NH.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\NHibernate.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\CsvHelper.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\WebGrease.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\MySql.Data.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\FluentNHibernate.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Iesi.Collections.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Data.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Data.Edm.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Spatial.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Antlr3.Runtime.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.UI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Messages.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.WebHost.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Business.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Data.NH.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\NHibernate.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\CsvHelper.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\CsvHelper.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\FluentNHibernate.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Iesi.Collections.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Data.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Data.Edm.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Spatial.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\de\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\es\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\fr\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\it\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\ja\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\ko\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\ru\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\obj\Debug\Tests.WebAPI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\obj\Debug\Tests.WebAPI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Owin.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Owin.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Owin.Security.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Owin.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Owin.Security.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Tests.WebAPI.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Tests.WebAPI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Tests.WebAPI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.UI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Breeze.WebApi.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Optimization.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Breeze.WebApi.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Net.Http.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Messages.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\WebActivator.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.WebHost.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Business.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\CsvHelper.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\NHibernate.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\WebGrease.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\MySql.Data.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Iesi.Collections.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Antlr3.Runtime.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Data.OData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Data.Edm.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Spatial.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.UI.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Net.Http.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Messages.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.WebHost.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Business.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\CsvHelper.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\CsvHelper.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\NHibernate.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Web.Http.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Iesi.Collections.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Data.OData.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\Microsoft.Data.Edm.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\System.Spatial.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\de\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\es\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\fr\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\it\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\ja\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\ko\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\ru\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\obj\Debug\Tests.WebAPI.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\obj\Debug\Tests.WebAPI.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.WebAPI\obj\Debug\Tests.WebAPI.pdb

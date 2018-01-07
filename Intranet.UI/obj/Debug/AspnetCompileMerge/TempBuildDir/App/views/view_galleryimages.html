@@ -1,0 +1,10 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#" data-bind="text: galleryDesc"></a></h2>
+        <ul data-bind="foreach: galleryImages, makeGalleryUI: {}">
+            
+            <li><img data-bind="attr: { src: 'Content/Gallery/' + galleryDesc() + '/' + fileName }" alt="" /></li>
+
+        </ul>
+    </div>
+</section>

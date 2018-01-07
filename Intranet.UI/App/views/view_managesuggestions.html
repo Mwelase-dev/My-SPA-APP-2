@@ -1,0 +1,51 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Manage Suggestions</a></h2>
+    </div>
+    <hr />
+     
+    <div id="contactsDiv">
+        <table class="contactsTable">
+            <thead>
+                <tr>
+                    <td style="width:201px;">Subject</td>
+                    <!--<td style="width:237px;">Suggestion</td>-->
+                    <td style="width:120px;">Date</td>
+                    <td style="width:109px;">Status</td>
+                  
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody data-bind="sortData: suggestions, foreach: suggestions">
+       
+                <tr >
+                    <td data-bind="text: suggestionSubject"></td>
+                 <!--   <td data-bind="text: suggestionText"></td>-->
+                    <td data-bind="text: moment(new Date(suggestionDate())).format('YYYY-MM-DD')"></td>
+                    <td data-bind="text: suggestionStatus"></td>
+                    <td >
+                        <div>
+                            <!---->  <a data-bind="click: $root.gotoSuggestionDetails" href="#" title="Suggestion Details">
+                                      <i class="icon-edit"></i>
+                                  </a>
+                                
+                                 &nbsp;&nbsp;
+                            <a data-bind="click: $root.cancelSuggestion" href="#" title="Reject">
+                                <i class="icon-remove"></i>
+                            </a>
+                            &nbsp;&nbsp;
+                            <input type="checkbox" style="vertical-align: text-bottom;" data-bind="checked: approve" />
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <span class="pull-right">
+            <button class="btn"
+                    data-bind="click: approveMultiple">
+                Accept
+            </button>
+        </span>
+    </div>
+</section>

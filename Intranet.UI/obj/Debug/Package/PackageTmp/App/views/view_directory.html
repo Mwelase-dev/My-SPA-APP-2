@@ -1,0 +1,63 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Company Directory</a></h2>
+        <p class="links" data-bind="if: $root.isAdmin()">
+            <a href="#" data-bind="click: $root.branchAdd">Manage Directory</a>
+        </p>
+
+        <script src="/Scripts/jquery.signalR-1.1.4.js"></script>
+        <script type="text/javascript" src="http://Intranet/signalr/hubs"></script>
+
+
+
+        <div id="accordion" class="quicklinks" data-bind="sortData: branches, sortfield: 'branchName', direction: 'asc', foreach: branches, bind_Accordion: {}">
+            <h3>
+                <a href="#" data-bind="text: branchName" />
+                <div style="float: right" data-bind="if: $root.isAdmin()">
+                    <a href="#" data-bind="click: $root.branchEdit"><i class="icon-edit"></i></a>
+                    &nbsp;|&nbsp;
+                    <a href="#" data-bind="click: $root.branchDelete"><i class="icon-remove"></i></a>
+                </div>
+            </h3>
+            <div>
+                <div class="ui-accordion-heading" data-bind="sortData: branchDivisions, direction: 'asc', foreach: branchDivisions()">
+                    <div data-bind="visible: divisionName() != '--Unknown--'">
+                        <a data-bind="text: divisionName"></a>
+                        <div style="float: right" data-bind="if: $root.isAdmin()">
+                            <a href="#" data-bind="click: $root.divisionEdit"><i class="icon-edit"></i></a>
+                            &nbsp;|&nbsp;
+                            <a href="#" data-bind="click: $root.divisionDelete"><i class="icon-remove"></i></a>
+                        </div>
+                    </div>
+                    <ul class="ui-accordion-content" data-bind="sortable: divisionStaff, sortfield: 'fullName', direction: 'asc', foreach: divisionStaff().sort(function (l, r) { return l.fullName() > r.fullName() ? 1 : -1 })">
+                        <li>
+                            <a data-bind="text: fullName"></a>
+                            <div style="float: right">
+                                &nbsp;|&nbsp;
+                               <!-- ko if: staffTellExt === 000 -->
+                              <span >N/A</span>
+                                <!-- /ko -->
+                                <!-- ko if: staffTellExt !== 000 -->
+                                <a href="#" data-bind="text: staffTellExt, click: $root.staffTellExt"></a>
+                                <!-- /ko -->
+                                <a id="phonestatus">
+                                    <img id="phonestatusimage" data-bind="attr: { 'class': phoneDataStatusClass }" alt="" src="" />
+                                </a>
+                                <!--<a id="phonestatus" data-bind="text: staffPhoneStatus"></a>-->
+
+                                <div style="float: right" data-bind="if: $root.isAdmin()">
+                                    &nbsp;|&nbsp;
+                                    <a href="#" data-bind="click: $root.staffEdit"><i class="icon-edit"></i></a>
+                                    &nbsp;|&nbsp;
+                                    <a href="#" data-bind="click: $root.staffDelete"><i class="icon-remove"></i></a>
+                                </div>
+                            </div>
+
+                            <a style="float: right" data-bind="text: staffDesignation"></a>
+                        </li>
+                    </ul>  <!--  <span>N/A</span>        -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

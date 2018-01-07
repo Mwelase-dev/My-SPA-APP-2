@@ -1,0 +1,43 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\obj\Debug\Tests.CDRData.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Tests.CDRData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Tests.CDRData.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\MySql.Data.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\obj\Debug\Tests.CDRData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\obj\Debug\Tests.CDRData.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Tests.CDRData\bin\Debug\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Tests.CDRData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Tests.CDRData.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\MySql.Data.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\obj\Debug\Tests.CDRData.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\obj\Debug\Tests.CDRData.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Tests.CDRData\obj\Debug\Tests.CDRData.pdb

@@ -1,0 +1,67 @@
+﻿<div class="messageBox thought">
+    <div class="modal-header">
+        <h3>Staff leave summary</h3>
+    </div>
+    <div class="modal-body">
+        <div id="summary" class="leaveSumContainer" style="height: 550px;">
+            <table  class="contactsTable" data-bind="foreach: staffLeaveSummaryData">
+                <thead>
+                    <tr>
+                        <td data-bind="text: year"></td>
+                        <td>Type</td>
+                        <td>Allocated</td>
+                        <td>Taken</td>
+                        <td>Carry Over</td>
+                        <td>Running Total</td>
+                    </tr>
+                </thead>
+
+                <tbody data-bind="foreach: myData">
+                    <tr class="">
+                        <td></td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td data-bind="text: leaveType"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td data-bind="text: leaveAllocation"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td data-bind="text: leaveTaken"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td data-bind="text: leaveCarriedOver"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td data-bind="text: leaveRunningTotal"> </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="clear"></div>            
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: clickCancel">Close</button>
+    </div>
+</div>

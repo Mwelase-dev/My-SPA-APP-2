@@ -1,0 +1,122 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Staff Time Keeping</a></h2>
+    </div>
+    <hr />
+    <div id="sectionContainer" style="width: 100%;">
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Start Date:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <input type="text" id="clockStartDate">
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>End Date:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <input type="text" id="clockEndDate">
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Staff Member:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <select style="width: 103%" id="cbxStaff" data-bind="options: staff, optionsText: 'fullName', value: selectedStaff, optionsCaption: '[Select Staff]', event: { change: cmbStaffMemberChange }, enable: authorised() == true "></select>
+            </div>
+        </div>
+        <div class="pull-right" style="padding-right: 15px; padding-bottom: 15px">
+            <div class="loader" style="float: left; padding: 3px 5px">
+                <i class="icon-spinner icon-2x icon-spin" data-bind="visible: isloading"></i>
+            </div>
+                <!--   <button class="btn" data-bind="click: test, enable: enableFiltering()">Clock in online [DELETE]</button>-->
+            <button class="btn" data-bind="click: clockme, enable: enableFiltering()">Clock in online</button>
+            <button class="btn" data-bind="click: getTimeKeepingData, enable: enableFiltering()">Apply Filter</button>
+            <button class="btn" data-bind="click: cancel">Cancel</button>
+            <button class="btn" data-bind="click: exportToFile, enable: clockingData().length > 0">Export</button>
+
+        </div>
+        <div class="clear"></div>
+        <!--ko if: clockingData().length > 0-->
+        <div style="position: fixed; z-index: 1; left: 10px;">
+            <img src="../../Content/images/denied.png" />&nbsp;&nbsp;&nbsp;
+            <label style="display: inline">Denied</label><br />
+            <img src="../../Content/images/approved.png" />&nbsp;&nbsp;&nbsp;
+            <label style="display: inline">Approved</label><br />
+            <img src="../../Content/images/pending.png" />&nbsp;&nbsp;&nbsp;
+            <label style="display: inline">Pending</label><br />
+            <img src="../../Content/images/missingrecord.png" />&nbsp;&nbsp;&nbsp;
+            <label style="display: inline">Record Missing</label><br />
+            <img src="../../Content/images/onleave.png" />&nbsp;&nbsp;&nbsp;
+            <label style="display: inline">On Leave</label><br />
+            <img src="../../Content/images/publicholiday.png" />&nbsp;&nbsp;&nbsp;
+            <label style="display: inline">Public Holiday</label><br />
+            <img src="../../Content/images/offsite.jpeg" />&nbsp;&nbsp;&nbsp;
+            <label style="display: inline">Off-site</label><br />
+            <img src="../../Content/images/special.png" />&nbsp;&nbsp;&nbsp;
+            <label style="display: inline">Special</label><br />
+        </div>
+        <!--/ko-->
+    </div>
+
+    <div id="contactsDiv">
+        <table class="contactsTable" style="width: 100%">
+            <thead>
+                <tr>
+                    <td>Date</td>
+                    <td>Time Worked</td>
+                    <td>Over Time</td>
+                    <td>Time Debt</td>
+                    <td colspan="2">Actions</td>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: clockingData()">
+                <!-- ko foreach: timeKeepingItems -->
+                <tr >
+                    <!-- ko if: $index() == 0 -->
+                    <td data-bind="attr: { rowspan: $parent.timeKeepingItems.length }, text: $parent.displayClockDate"
+                        style="vertical-align: top; border: 1px solid #E1EEF4; background: white; font-weight: bold"></td>
+                    <!--/ko-->
+                    <td style="text-align: center" data-bind="text: time, attr: { 'class': dataStatusClass }"></td>
+                    <td style="text-align: center" data-bind="text: dispalyOvertimeWorked, attr: { 'class': dataStatusClass }"></td>
+                    <td style="text-align: center" data-bind="text: displayTimeDebt, attr: { 'class': dataStatusClass }"></td>
+                    <td style="text-align: center" data-bind="attr: { 'class': dataStatusClassHighlightClass }" >
+                        <a href="#" data-bind="click: $root.addClockRecord, visible: dataStatus < '3'" title="Add a clock record for this specific date.">Add</a>
+                        <a href="#" data-bind="click: $root.editClockRecord, visible: dataStatus < '3'" title="Edit this clock record.">&nbsp;|&nbsp;Edit</a>
+                        <a href="#" data-bind="click: $root.deleteClockRecord, visible: dataStatus < '3'" title="Delete this clock record.">&nbsp;|&nbsp;Delete</a>
+                        <!--<a href="#" data-bind="click: $root.addClockRecord, visible: dataStatus == '0', attr: { 'class': dataStatusClass }">Add</a>-->
+                    </td>
+                </tr>
+                <!--/ko-->
+            </tbody>
+        </table>
+
+        <table class="contactsTable" style="width: 100%">
+            <thead>
+                <tr>
+                    <td colspan="2" style="color: #006699" rowspan="2">Summary</td>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- ko if: clockingData().length > 0 -->
+                <tr>
+                    <td style="color: #006699; font-size: 12px; font-weight: bold;">Time debt Total</td>
+                    <td data-bind="text: timeTakenTotal " style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td style="color: #006699; font-size: 12px; font-weight: bold;">Over time Total</td>
+                    <td data-bind="text: overTimeTotal" style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td style="color: #006699; font-size: 12px; font-weight: bold;">Net time</td>
+                    <td data-bind="text: $root.netBalance" style="text-align: center;"></td>
+                </tr>
+                <!-- /ko -->
+            </tbody>
+        </table>
+    </div>
+</section>
+<p>&nbsp;</p>

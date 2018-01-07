@@ -1,0 +1,11 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\obj\Release\Data.FaceID.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Release\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Release\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Release\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Release\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Release\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Release\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\obj\Release\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\obj\Release\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Release\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Release\Data.FaceID.pdb

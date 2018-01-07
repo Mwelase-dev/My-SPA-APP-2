@@ -1,0 +1,8 @@
+﻿<section>
+    <div class="post" style="height:100%">
+        <h2 class="title"><a href="#">Photo Gallery</a></h2>
+        <ul data-bind="sortData: galleries, sortfield: 'galleryDesc', foreach: galleries">
+            <li><a data-bind="attr: { href: '#/view_galleryimages/' + galleryDesc }, text: galleryDesc"></a></li>
+        </ul>
+    </div>
+</section>

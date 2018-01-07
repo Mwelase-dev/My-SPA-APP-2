@@ -1,0 +1,15 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Validation\bin\Debug\Intranet.Validation.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Validation\bin\Debug\Intranet.Validation.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Validation\obj\Debug\Intranet.Validation.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Validation\obj\Debug\Intranet.Validation.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Validation\obj\Debug\Intranet.Validation.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Validation\bin\Debug\Intranet.Validation.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Validation\bin\Debug\Intranet.Validation.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Validation\obj\Debug\Intranet.Validation.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Validation\obj\Debug\Intranet.Validation.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Validation\obj\Debug\Intranet.Validation.pdb
+D:\Projects\Intranet v2.0\Intranet.Validation\bin\Debug\Intranet.Validation.dll
+D:\Projects\Intranet v2.0\Intranet.Validation\bin\Debug\Intranet.Validation.pdb
+D:\Projects\Intranet v2.0\Intranet.Validation\obj\Debug\Intranet.Validation.csprojResolveAssemblyReference.cache
+D:\Projects\Intranet v2.0\Intranet.Validation\obj\Debug\Intranet.Validation.dll
+D:\Projects\Intranet v2.0\Intranet.Validation\obj\Debug\Intranet.Validation.pdb

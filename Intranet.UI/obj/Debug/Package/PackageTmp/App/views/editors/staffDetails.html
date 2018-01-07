@@ -1,0 +1,834 @@
+<div class="messageBox staff">
+    <div class="modal-header">
+        <h3>Staff Information</h3>
+    </div>
+    <div class="modal-body">
+        <div data-bind="bind_Tabs: {}">
+            <ul>
+                <li><a href="#tabs-1">Personal</a></li>
+                <li><a href="#tabs-2">Contact</a></li>
+                <li><a href="#tabs-3">HR</a></li>
+                <li><a href="#tabs-4">Leave Increments</a></li>
+                <li><a href="#tabs-5">Working Hours</a></li>
+                <li><a href="#tabs-6">Leave Summary</a></li>
+            </ul>
+            <div data-bind="with: staff">
+                <div id="tabs-1">
+                    <div class="control-wrapper">
+                        <label>Division:</label>
+                        <span><select id="Select1" data-bind="options: $root.branches, optionsText: 'divisionName', optionsValue: 'divisionId', value: divisionId" disabled="disabled"></select></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Name:</label><span><input type="text" data-bind="value: staffName" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Surname:</label><span><input type="text" data-bind="value: staffSurname" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>ID Number:</label><span><input type="text" data-bind="value: staffIdNumber" readonly="readonly" /></span>
+                    </div>
+                </div>
+                <div id="tabs-2">
+                    <div class="control-wrapper">
+                        <label>Email address:</label><span><input type="text" data-bind="value: staffEmail" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Extension</label><span><input type="text" data-bind="value: staffTellExt" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Tel Direct:</label><span><input type="text" data-bind="value: staffTelDirect" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Mobile:</label><span><input type="text" data-bind="value: staffCellPhone" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Fax:</label><span><input type="text" data-bind="value: staffFaxNumber" readonly="readonly" /></span>
+                    </div>
+                </div>
+                <div id="tabs-3">
+                    <div class="control-wrapper">
+                        <label>Join date:</label><span><input type="text" data-bind="value: moment(new Date(displayStaffJoinDate())).format('YYYY-MM-DD')" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Manager 1:</label>
+                        <span><select id="cbxMan1" data-bind="options: $root.staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staffManager1Id" disabled="disabled"></select></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Manager 2:</label>
+                        <span><select id="cbxMan2" data-bind="options: $root.staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staffManager2Id" disabled="disabled"></select></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Clock code:</label><span><input type="text" data-bind="value: staffClockId" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Clock's in?:</label><span><input class="mybox" type="checkbox" data-bind="checked: staffIsClockingMember" disabled="disabled" /></span>
+                    </div>
+                </div>
+                <div id="tabs-4">
+                    <div style="width: 100%;">
+                        <table style="width: 100%">
+                            <thead>
+                                <tr>
+                                    
+                                    <td>Increment</td>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: leaveCounters">
+                                <tr style="width: 100%" data-bind="visible: canRemove">
+                                  
+                                    <td style="width: 25%; padding: 1px;">
+                                        <label data-bind="text: accumulator"></label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <br />
+                    <br />
+
+                </div>
+                <div id="tabs-5">
+                    <div style="width: 100%">
+                        <table style="width: 100%">
+                            <thead>
+                                <tr>
+                                    <td>Day</td>
+                                    <td>Start Time</td>
+                                    <td>End Time</td>
+                                    <td>Lunch(min)</td>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: $root.staff().staffHoursData">
+                                <tr style="width: 100%" data-bind="visible: canEdit">
+                                    <td data-bind="text: displayDay"></td>
+                                    <td data-bind="text: displayStartTime"></td>
+                                    <td data-bind="text: displayEndTime"></td>
+                                    <td data-bind="text: dayLunchLength"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="tabs-6">
+                    <div style="width: 100%">
+                        <div id="annualLeave" class="leaveAppSumSpanLeft">
+                            <h4 style="font-weight: normal">Annual Leave</h4>
+                            <hr style="margin: 5px" />
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: currentCycleNumber"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Number</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(cycleStart())).format('YYYY-MM-DD')" id="CycleStart"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Start</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(cycleEnd())).format('YYYY-MM-DD')" id="CycleEnd"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle End</span>
+                                </div>
+                            </div>
+                          
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: leaveDaysAccumulated"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Accumulated</span>
+                                </div>
+                            </div>
+                         <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: annualDaysTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: daysDue"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Due</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sickLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Sick Leave</h4>
+                            <hr style="margin: 5px"/>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickCycleNumber"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Number</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(sickCycleStart())).format('YYYY-MM-DD')" ></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Start</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(sickCycleEnd())).format('YYYY-MM-DD')" ></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle End</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickCycleDays"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Days</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickDaysTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickDaysAvilable"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Due</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="FamilyResponsibilityLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Family Responsibility Leave</h4>
+                            <hr style="margin: 5px"/>
+                          
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: familyResponsibilityLeaveTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: familyResponsibilityLeaveDays"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Due</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="StudyLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Study Leave</h4>
+                            <hr style="margin: 5px"/>
+                          
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: studyLeaveTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                          <!--<div id="UnpaidLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Unpaid Leave</h4>
+                            <hr style="margin: 5px"/>
+                          
+                          <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: AnnualUnpaidTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>-->
+                           
+                        </div> 
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-bind="click: $root.clickCancel">Close</button>
+              <button class="btn" data-bind="click: $root.gotoLeaveDetails">Leave Details</button>
+        </div>
+    </div>
+ 
+
+
+
+<!--<div class="messageBox staff">
+    <div class="modal-header">
+        <h3>Staff Information</h3>
+    </div>
+    <div class="modal-body">
+        <div data-bind="bind_Tabs: {}">
+            <ul>
+                <li><a href="#tabs-1">Personal</a></li>
+                <li><a href="#tabs-2">Contact</a></li>
+                <li><a href="#tabs-3">Human Resources</a></li>
+                <li><a href="#tabs-4">Working Hours</a></li>
+                <li><a href="#tabs-5">Leave Summary</a></li>
+                <li><a href="#tabs-7">Leave Details</a></li>
+            </ul>
+            <button class="btn-link" data-bind="click: $root.details"></button>
+            <div data-bind="with: staff">
+                <div id="tabs-1">
+                    <div class="control-wrapper">
+                        <label>Division:</label>
+                        <span>
+                            <select id="Select1" data-bind="options: $root.branches, optionsText: 'divisionName', optionsValue: 'divisionId', value: divisionId" disabled="disabled"></select></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Name:</label><span><input type="text" data-bind="value: staffName" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Surname:</label><span><input type="text" data-bind="value: staffSurname" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>ID Number:</label><span><input type="text" data-bind="value: staffIdNumber" readonly="readonly" /></span>
+                    </div>
+                </div>
+                <div id="tabs-2">
+                    <div class="control-wrapper">
+                        <label>Email address:</label><span><input type="text" data-bind="value: staffEmail" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Extension</label><span><input type="text" data-bind="value: staffTellExt" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Tel Direct:</label><span><input type="text" data-bind="value: staffTelDirect" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Mobile:</label><span><input type="text" data-bind="value: staffCellPhone" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Fax:</label><span><input type="text" data-bind="value: staffFaxNumber" readonly="readonly" /></span>
+                    </div>
+                </div>
+                <div id="tabs-3">
+                    <div class="control-wrapper">
+                        <label>Join date:</label><span><input type="text" data-bind="value: moment(new Date(displayStaffJoinDate())).format('YYYY-MM-DD')" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Manager 1:</label>
+                        <span>
+                            <select id="cbxMan1" data-bind="options: $root.staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staffManager1Id" disabled="disabled"></select></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Manager 2:</label>
+                        <span>
+                            <select id="cbxMan2" data-bind="options: $root.staffMembers, optionsText: 'fullName', optionsValue: 'staffId', value: staffManager2Id" disabled="disabled"></select></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Clock code:</label><span><input type="text" data-bind="value: staffClockId" readonly="readonly" /></span>
+                    </div>
+                    <div class="control-wrapper">
+                        <label>Clock's in?:</label><span><input class="mybox" type="checkbox" data-bind="checked: staffIsClockingMember" disabled="disabled" /></span>
+                    </div>
+
+                    <table style="width: 100%">
+                       
+                        <tbody data-bind="foreach: leaveCounters">
+                            <tr>
+                                <td>
+                                    <div class="control-wrapper">
+                                        <label>Leave increment:</label><span><input type="text" data-bind="value: accumulator" disabled="disabled" /></span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tabs-4">
+                    <div style="width: 100%">
+                        <table style="width: 100%">
+                            <thead>
+                                <tr>
+                                    <td>Day</td>
+                                    <td>Start Time</td>
+                                    <td>End Time</td>
+                                    <td>Lunch(min)</td>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach: $root.staff().staffHoursData">
+                                <tr style="width: 100%" data-bind="visible: canEdit">
+                                    <td data-bind="text: displayDay"></td>
+                                    <td data-bind="text: displayStartTime"></td>
+                                    <td data-bind="text: displayEndTime"></td>
+                                    <td data-bind="text: dayLunchLength"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="tabs-5">
+                    <div style="width: 100%">
+                        <div id="annualLeave" class="leaveAppSumSpanLeft">
+                            <h4 style="font-weight: normal">Annual Leave</h4>
+                            <hr style="margin: 5px" />
+
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: currentCycleNumber"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Number</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(cycleStart())).format('YYYY-MM-DD')" id="CycleStart"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Start</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(cycleEnd())).format('YYYY-MM-DD')" id="CycleEnd"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle End</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: leaveDaysAccumulated"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Accumulated</span>
+                                </div>
+                            </div>
+                           <div>
+                                     <div class="leaveAppSumSpanRight">
+                                         <span data-bind="text: AnnualDaysTaken"></span>
+                                     </div>
+                                     <div class="leaveAppSumSpanLeft">
+                                         <span>Days Taken</span>
+                                     </div>
+                                 </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: daysDue"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Due</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sickLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Sick Leave</h4>
+                            <hr style="margin: 5px" />
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickCycleNumber"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Number</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(sickCycleStart())).format('YYYY-MM-DD')"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Start</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(sickCycleEnd())).format('YYYY-MM-DD')"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle End</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickCycleDays"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Days</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickDaysTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                           <div>
+                                    <div class="leaveAppSumSpanRight">
+                                        <span data-bind="text: sickDaysAvilable"></span>
+                                    </div>
+                                    <div class="leaveAppSumSpanLeft">
+                                        <span>Days Due</span>
+                                    </div>
+                                </div>
+                        </div>
+                        <div id="FamilyResponsibilityLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Family Responsibility Leave</h4>
+                            <hr style="margin: 5px" />
+
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: familyResponsibilityLeaveTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                           <div>
+                                    <div class="leaveAppSumSpanRight">
+                                        <span data-bind="text: familyResponsibilityLeaveDays"></span>
+                                    </div>
+                                    <div class="leaveAppSumSpanLeft">
+                                        <span>Days Due</span>
+                                    </div>
+                                </div>
+                        </div>
+                        <div id="StudyLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Study Leave</h4>
+                            <hr style="margin: 5px" />
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: studyLeaveTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+
+                        </div>
+                     <div id="UnpaidLeave" class="leaveAppSumSpanLeft" style="">
+                                   <h4 style="font-weight: normal">Unpaid Leave</h4>
+                                   <hr style="margin: 5px"/>
+                                   <div>
+                                       <div class="leaveAppSumSpanRight">
+                                           <span data-bind="text: annualUnpaidTaken"></span>
+                                       </div>
+                                       <div class="leaveAppSumSpanLeft">
+                                           <span>Days Taken</span>
+                                       </div>
+                                   </div>
+                               </div>
+div id="leavedetails" class="text-center" style="size: A3">
+                            <button class="btn btn-link" data-bind="click: $root.gotoLeaveDetails">Leave Details</button>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div data-bind="bind_Tabs: {}">
+                        <ul>
+                            <li><a href="#tabs-6">Annual Leave</a></li>
+                            <li><a href="#tabs-7">Sick Leave</a></li>
+                            <li><a href="#tabs-8">Family Responsibility</a></li>
+                            <li><a href="#tabs-9">Study Leave</a></li>
+
+                        </ul>
+
+                        <div id="tabs-6">
+                            <div class="control-wrapper">
+                                <label>Start off days</label><span><input type="text" data-bind="value: $data.leaveScheduleCarriedOver" readonly="readonly" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Leave increment</label><span><input type="text" data-bind="value: $data.accumulator" readonly="readonly" id="CycleDays" /></span>
+                            </div>
+                            <table style="width: 100%">
+                       
+                                <tbody data-bind="foreach: leaveCounters">
+                                    <tr>
+                                        <td>
+                                            <div class="control-wrapper">
+                                                <label>Leave increment:</label><span><input type="text" data-bind="value: accumulator" disabled="disabled" /></span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="control-wrapper">
+                                <label>Staff Join Date</label><span><input type="text" data-bind="value: moment(new Date($data.displayStaffJoinDate())).format('YYYY-MM-DD')" readonly="readonly" id="StaffJoinDate" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Cycle Number</label><span><input type="text" data-bind="value: $data.currentCycleNumber" readonly="readonly" id="CurrentCycleNumber" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Cycle Start</label><span><input type="text" data-bind="value: moment(new Date($data.cycleStart())).format('YYYY-MM-DD')" readonly="readonly" id="CycleStart" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Cycle End</label><span><input type="text" data-bind="value: moment(new Date($data.cycleEnd())).format('YYYY-MM-DD') " readonly="readonly" id="CycleEnd" /></span>
+                            </div>
+
+                            <div class="control-wrapper">
+                                <label>Accumulated</label><span><input type="text" data-bind="value: $data.leaveDaysAccumulated" readonly="readonly" id="LeaveDaysAccumulated" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Days Taken</label><span><input type="text" data-bind="value: $data.annualDaysTaken" readonly="readonly" id="AnnualDaysTaken" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Days Due</label><span><input type="text" data-bind="value: $data.daysDue" readonly="readonly" id="DaysDue" /></span>
+                            </div>
+                       
+
+                        </div>
+
+                        <div id="tabs-7">
+                            <div class="control-wrapper">
+                                <label>Cycle Number</label><span><input type="text" data-bind="value: $data.sickCycleNumber" readonly="readonly" id="SickCurrentCycleNumber" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Cycle Start</label><span><input type="text" data-bind="value: moment(new Date($data.sickCycleStart())).format('YYYY-MM-DD') " readonly="readonly" id="SickCycleStart" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Cycle End</label><span><input type="text" data-bind="value: moment(new Date($data.sickCycleEnd())).format('YYYY-MM-DD')" readonly="readonly" id="SickCycleEnd" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Days Taken</label><span><input type="text" data-bind="value: $data.sickDaysTaken" readonly="readonly" id="SickDaysTaken" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Days Due</label><span><input type="text" data-bind="value: $data.sickCycleDays" readonly="readonly" id="SickDaysDue" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Days Available</label><span><input type="text" data-bind="value: $data.sickDaysAvilable" readonly="readonly" id="DaysDue" /></span>
+                            </div>
+                        </div>
+
+                        <div id="tabs-8">
+                            <div class="control-wrapper">
+                                <label>Days Taken</label><span><input type="text" data-bind="value: $data.familyResponsibilityLeaveTaken" readonly="readonly" id="FamilyResponsibilityLeaveTaken" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Days Due</label><span><input type="text" data-bind="value: $data.familyResponsibilityLeaveDays" readonly="readonly" id="FamilyResponsibilityLeaveDays" /></span>
+                            </div>
+                            <div class="control-wrapper">
+                                <label>Days Available</label><span><input type="text" data-bind="value: $data.familyResponsibilityAvilable" readonly="readonly" id="DaysDue" /></span>
+                            </div>
+                        </div>
+
+                        <div id="tabs-9">
+                            <div class="control-wrapper">
+                                <label>Days Taken</label><span><input type="text" data-bind="value: $data.studyLeaveTaken" readonly="readonly" id="StudyLeaveTaken" /></span>
+                            </div>
+                        </div>
+                </div>
+                   <div style="width: 100%">
+                        <div id="annualLeave" class="leaveAppSumSpanLeft">
+                            <h4 style="font-weight: normal">Annual Leave</h4>
+                            <hr style="margin: 5px" />
+
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: currentCycleNumber"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Number</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(cycleStart())).format('YYYY-MM-DD')" id="CycleStart"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Start</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(cycleEnd())).format('YYYY-MM-DD')" id="CycleEnd"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle End</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: leaveDaysAccumulated"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Accumulated</span>
+                                </div>
+                            </div>
+                            <!-- <div>
+                                     <div class="leaveAppSumSpanRight">
+                                         <span data-bind="text: AnnualDaysTaken"></span>
+                                     </div>
+                                     <div class="leaveAppSumSpanLeft">
+                                         <span>Days Taken</span>
+                                     </div>
+                                 </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: daysDue"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Due</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sickLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Sick Leave</h4>
+                            <hr style="margin: 5px" />
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickCycleNumber"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Number</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(sickCycleStart())).format('YYYY-MM-DD')"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Start</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: moment(new Date(sickCycleEnd())).format('YYYY-MM-DD')"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle End</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickCycleDays"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Cycle Days</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: sickDaysTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                           <div>
+                                    <div class="leaveAppSumSpanRight">
+                                        <span data-bind="text: sickDaysAvilable"></span>
+                                    </div>
+                                    <div class="leaveAppSumSpanLeft">
+                                        <span>Days Due</span>
+                                    </div>
+                                </div>
+                        </div>
+                        <div id="FamilyResponsibilityLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Family Responsibility Leave</h4>
+                            <hr style="margin: 5px" />
+
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: familyResponsibilityLeaveTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+                           <div>
+                                    <div class="leaveAppSumSpanRight">
+                                        <span data-bind="text: familyResponsibilityLeaveDays"></span>
+                                    </div>
+                                    <div class="leaveAppSumSpanLeft">
+                                        <span>Days Due</span>
+                                    </div>
+                                </div>
+                        </div>
+                        <div id="StudyLeave" class="leaveAppSumSpanRight" style="">
+                            <h4 style="font-weight: normal">Study Leave</h4>
+                            <hr style="margin: 5px" />
+                            <div>
+                                <div class="leaveAppSumSpanRight">
+                                    <span data-bind="text: studyLeaveTaken"></span>
+                                </div>
+                                <div class="leaveAppSumSpanLeft">
+                                    <span>Days Taken</span>
+                                </div>
+                            </div>
+
+                        </div>
+                     <div id="UnpaidLeave" class="leaveAppSumSpanLeft" style="">
+                                   <h4 style="font-weight: normal">Unpaid Leave</h4>
+                                   <hr style="margin: 5px"/>
+                                   <div>
+                                       <div class="leaveAppSumSpanRight">
+                                           <span data-bind="text: annualUnpaidTaken"></span>
+                                       </div>
+                                       <div class="leaveAppSumSpanLeft">
+                                           <span>Days Taken</span>
+                                       </div>
+                                   </div>
+                               </div>
+                    <div id="leavedetails" class="text-center" style="size: A3">
+                            <button class="btn btn-link" data-bind="click: $root.gotoLeaveDetails">Leave Details</button>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div id="tabs-7">
+                            <table class="table table-condensed table-hover gradienttable">
+                                <thead>
+                                    <tr>
+                                        <td>Staff Fullname</td>
+                                        <td>Leave Start</td>
+                                        <td>Leave End</td>
+                                        <td>Type</td>
+                                        <td>Comments</td>
+                                        <td>Days</td>
+                                        <td>Hours</td>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach: $root.leaveApplications" >
+                                    <tr >
+                                        <td data-bind="text: staffMember().fullName"></td>
+                                        <td data-bind="text: displayLeaveStart"></td>
+                                        <td data-bind="text: displayLeaveEnd"></td>
+                                        <td data-bind="text: displayLeaveType()"></td>
+                                        <td data-bind="text: leaveComments"></td>
+                                        <td data-bind="text: displayLeaveDays"></td>
+                                        <td data-bind="text: displayLeaveHours"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-bind="click: $root.gotoLeaveDetails">Leave Details</button>
+            <button class="btn" data-bind="click: $root.clickCancel">Close</button>
+        </div>
+    </div>
+</div>-->

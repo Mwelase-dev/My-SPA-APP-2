@@ -1,0 +1,63 @@
+﻿<div class="messageBox link">
+    <div class="modal-header">
+        <h3>Add Printer
+        </h3>
+    </div>
+    <div class="modal-body" data-bind="with: printer">
+        <div class="control-wrapper">
+            <label>Printer Make:</label>
+            <span>
+                <input data-bind="value: printerMake" type="text" />
+            </span>
+        </div>
+        <div class="control-wrapper">
+            <label>Model:</label>
+            <span>
+                <input data-bind="value: model" type="text" />
+            </span>
+        </div>
+        <div class="control-wrapper">
+            <label>Serial Number:</label>
+            <span>
+                <input data-bind="value: serialNumber" type="text" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <label>Printer Description:</label>
+            <span>
+                <input data-bind="value: printerDescription" type="text" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <label>Location:</label>
+            <span>
+                <input data-bind="value: location" type="text" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <label>Provider:</label>
+            <span>
+                <select id="cbxPrinterProviders" data-bind="options: $root.serviceProviders, optionsText: 'providerName',
+    optionsValue: 'providerId', value: $root.selectedProvider, optionsCaption: '[Select Provider]'">
+                </select>
+                <!--<input data-bind="value: printerProvider" type="text"/>-->
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <!--<label class="btn btn-link">Add printer properties</label>-->
+            <span>
+             <button title="Add printer properties" class="btn btn-link" data-bind="click: $root.addPrinterProperties">Add printer properties</button>
+            </span>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+       <!-- <button class="btn" data-bind="click: clickSave">Save Childless Printer</button>-->
+        <button class="btn" data-bind="click: addPrinter">Save</button>
+        <button class="btn" data-bind="click: clickCancel">Cancel</button>
+    </div>
+</div>

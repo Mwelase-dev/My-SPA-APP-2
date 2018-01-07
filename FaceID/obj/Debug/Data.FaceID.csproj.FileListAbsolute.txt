@@ -1,0 +1,75 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.CodeAnalysisLog.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.lastcodeanalysissucceeded
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.CodeAnalysisLog.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.lastcodeanalysissucceeded
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.CodeAnalysisLog.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.lastcodeanalysissucceeded
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.CodeAnalysisLog.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.lastcodeanalysissucceeded
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.pdb
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.pdb
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.CodeAnalysisLog.xml
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Data.FaceID.dll.lastcodeanalysissucceeded
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\PostSharp.dll
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\log4net.dll
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\PostSharp.xml
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\log4net.xml
+D:\Projects\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.csprojResolveAssemblyReference.cache
+D:\Projects\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.dll
+D:\Projects\Intranet v2.0\FaceID\obj\Debug\Data.FaceID.pdb
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Intranet.Messages.dll
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Utilities.dll
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Intranet.Models.dll
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\EntityFramework.dll
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Intranet.Messages.pdb
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Utilities.pdb
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Intranet.Models.pdb
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Intranet v2.0\FaceID\bin\Debug\EntityFramework.xml

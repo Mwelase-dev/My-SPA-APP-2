@@ -1,0 +1,39 @@
+﻿<div class="messageBox thought">
+    <div class="modal-header">
+        <div style="float: right; padding-top: 7px">
+            <label><a data-bind="click: close" href="#">Close</a></label>
+        </div>
+        <div style="float: left">
+            <h3>Suggestion Details</h3>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="modal-body" data-bind="with: suggestion">
+        <div>
+            <label>Suggestion text:</label>
+            <span>
+                <textarea style="height:200px;" data-bind="value: suggestionText" readonly="readonly"  ></textarea>
+            </span>
+        </div>
+        
+        <div>
+            <label>Suggestion Status:</label>
+            <span>
+                <input type="text" data-bind="value: suggestionStatus" readonly="readonly" />
+            </span>
+        </div>
+        
+            <div>
+            <label> Response:</label>
+            <span>
+                <textarea style="height:200px;"   data-bind="value: suggestionResponse" ></textarea>
+            </span>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: acceptSuggestion">Accept</button>
+        <button class="btn" data-bind="click: rejectSuggestion">Reject</button>
+    </div>
+</div>

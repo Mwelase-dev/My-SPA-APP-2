@@ -1,0 +1,42 @@
+﻿<div class="messageBox thought">
+    <div class="modal-header">
+        <h3>Add Special Leave</h3>
+    </div>
+
+    <div class="modal-body">
+ 
+        <div class="control-wrapper">
+            <label>Start: </label>
+            <span class="add-on">
+                <input type="text" id="start" class="form-control" name="start" placeholder="h:mm PM" data-default-time="false" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <label>End: </label>
+            <span>
+                <input type="text" id="end" class="form-control" name="end" placeholder="h:mm PM" data-default-time="false" />
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+              <label>Motivation: </label>
+            <span>
+                <textarea   id="motivation" class="form-control" name="end" placeholder="Reason for special Leave" data-default-time="false" ></textarea>
+            </span>
+        </div>
+
+        <div class="control-wrapper">
+            <label>Staff to grant leave:</label>
+            <span>
+                <a style="margin-left: 174px;" href="#" data-bind="click: $root.selectDeselect">Select All</a>
+                <select id="staffnames" multiple="true" data-bind="options: $root.staffList, optionsText: 'fullName', selectedOptions: $root.selectedStaff"></select>
+            </span>
+        </div>
+
+        <div class="modal-footer">
+            <button class="btn" data-bind="click: clickCancel">Close</button>
+            <button class="btn" data-bind="click: approveMultiple">Approve</button>
+        </div>
+    </div>
+</div>

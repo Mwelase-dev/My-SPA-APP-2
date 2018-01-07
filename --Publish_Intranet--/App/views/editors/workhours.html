@@ -1,0 +1,35 @@
+﻿<div class="messageBox division">
+    <div class="modal-header">
+        <h3>Working hours</h3>
+    </div>
+    <div class="modal-body" data-bind="with: workHours">
+        <div class="control-wrapper">
+            <label>Day:</label>
+            <span>
+                <select id="cbxDays" data-bind="options: $root.days, optionsText: 'Day', optionsValue: 'Id',
+    value: $root.selectedDay, enable: $root.canSelDay ">
+                </select>
+            </span>
+        </div>
+        <div class="control-wrapper">
+            <label>Start:</label>
+            <span>
+                <input type="text" id="startTime" /></span>
+        </div>
+        <div class="control-wrapper">
+            <label>End:</label>
+            <span>
+                <input type="text" id="endTime" /></span>
+        </div>
+        <div class="control-wrapper">
+            <label>Lunch(min):</label>
+            <span>
+                <input data-bind="value: dayLunchLength" type="number" step="any" /></span>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: save">Save</button>
+        <button class="btn" data-bind="click: cancelEdit">Cancel</button>
+    </div>
+</div>

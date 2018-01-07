@@ -1,0 +1,1805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E83C1039-6BFE-4393-A28F-56E22156F0AC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Intranet.UI</RootNamespace>
+    <AssemblyName>Intranet.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>2a1a3a4f</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.3.1.7705, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Breeze.WebApi, Version=1.4.0.0, Culture=neutral, PublicKeyToken=f6085f1a45e2ac59, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Breeze.Server.WebApi.Core.1.4.6\lib\Breeze.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Breeze.WebApi.EF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Breeze.Server.WebApi.EF.1.4.6\lib\Breeze.WebApi.EF.dll</HintPath>
+    </Reference>
+    <Reference Include="Breeze.WebApi.NH, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_External Assemblies_\Breeze.WebApi.NH.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\CsvHelper.2.13.2.0\lib\net40-client\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="dotless.Core">
+      <HintPath>..\packages\dotless.1.4.0.0\lib\dotless.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.1.1.4\lib\net40\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Owin.1.1.4\lib\net40\Microsoft.AspNet.SignalR.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.1.1.4\lib\net40\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.1.0.1\lib\net40\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="mysql.data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Http.SelfHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization.Less">
+      <HintPath>..\packages\System.Web.Optimization.Less.1.3.4\lib\net40\System.Web.Optimization.Less.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebActivator, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WebActivator.1.5.3\lib\net40\WebActivator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\config.js" />
+    <Content Include="App\durandal\amd\almond-custom.js" />
+    <Content Include="App\durandal\amd\optimizer.exe" />
+    <Content Include="App\durandal\amd\r.js" />
+    <Content Include="App\durandal\amd\require.js" />
+    <Content Include="App\durandal\amd\text.js" />
+    <Content Include="App\durandal\app.js" />
+    <Content Include="App\durandal\composition.js" />
+    <Content Include="App\durandal\events.js" />
+    <Content Include="App\durandal\http.js" />
+    <Content Include="App\durandal\messageBox.html" />
+    <Content Include="App\durandal\messageBox.js" />
+    <Content Include="App\durandal\modalDialog.js" />
+    <Content Include="App\durandal\plugins\router.js" />
+    <Content Include="App\durandal\system.js" />
+    <Content Include="App\durandal\transitions\entrance.js" />
+    <Content Include="App\durandal\viewLocator.js" />
+    <Content Include="App\durandal\viewModel.js" />
+    <Content Include="App\durandal\viewModelBinder.js" />
+    <Content Include="App\durandal\widget.js" />
+    <Content Include="App\services\entitymapper.js" />
+    <Content Include="App\services\datacontext.js" />
+    <Content Include="App\services\helpers.js" />
+    <Content Include="App\viewmodels\editors\baseeditor.js" />
+    <Content Include="App\viewmodels\editors\branch.js" />
+    <Content Include="App\viewmodels\editors\cdrhistory.js" />
+    <Content Include="App\viewmodels\editors\clockingrecord.js" />
+    <Content Include="App\viewmodels\editors\clockdeviceadd.js" />
+    <Content Include="App\viewmodels\editors\clockdeviceUsersEditor.js" />
+    <Content Include="App\viewmodels\editors\actionReason.js" />
+    <Content Include="App\viewmodels\editors\thesuggestion.js" />
+    <Content Include="App\viewmodels\editors\printerUsersEditor.js" />
+    <Content Include="App\viewmodels\editors\profile.js" />
+    <Content Include="App\viewmodels\editors\manageprofiles.js" />
+    <Content Include="App\viewmodels\editors\printerpropertyadd.js" />
+    <Content Include="App\viewmodels\editors\printeradd.js" />
+    <Content Include="App\viewmodels\editors\contactadd.js" />
+    <Content Include="App\viewmodels\editors\createallnewclockrecord.js" />
+    <Content Include="App\viewmodels\editors\createclockrecord.js" />
+    <Content Include="App\viewmodels\editors\leaveapplication.js" />
+    <Content Include="App\viewmodels\editors\leavecounter.js" />
+    <Content Include="App\viewmodels\editors\leavedata.js" />
+    <Content Include="App\viewmodels\editors\companyLeaveSummary.js" />
+    <Content Include="App\viewmodels\editors\leaveSummaryTest.js" />
+    <Content Include="App\viewmodels\editors\staff.js" />
+    <Content Include="App\viewmodels\editors\link.js" />
+    <Content Include="App\viewmodels\editors\staffDetails.js" />
+    <Content Include="App\viewmodels\editors\suggestion.js" />
+    <Content Include="App\viewmodels\editors\updateclockdevice.js" />
+    <Content Include="App\viewmodels\editors\updateprovider.js" />
+    <Content Include="App\viewmodels\editors\updateprinter.js" />
+    <Content Include="App\viewmodels\editors\updatecontact.js" />
+    <Content Include="App\viewmodels\editors\workhours.js" />
+    <Content Include="App\viewmodels\view_approveclockrecord.js" />
+    <Content Include="App\viewmodels\view_companyleave.js" />
+    <Content Include="App\viewmodels\view_companyphoneusage.js" />
+    <Content Include="App\viewmodels\view_contactadd.js" />
+    <Content Include="App\viewmodels\view_clockDevices.js" />
+    <Content Include="App\viewmodels\view_theleave.js" />
+    <Content Include="App\viewmodels\view_managesuggestions.js" />
+    <Content Include="App\viewmodels\view_printers.js" />
+    <Content Include="App\viewmodels\view_unclockingstaff.js" />
+    <Content Include="App\viewmodels\view_payrollleave.js" />
+    <Content Include="App\viewmodels\view_galleryimages.js" />
+    <Content Include="App\viewmodels\view_leaveapplication.js" />
+    <Content Include="App\viewmodels\view_directorsleave.js" />
+    <Content Include="App\viewmodels\view_leaveapplications.js" />
+    <Content Include="App\viewmodels\view_ordertoner.js" />
+    <Content Include="App\viewmodels\view_phonecontacts.js" />
+    <Content Include="App\viewmodels\view_requestwebaccess.js" />
+    <Content Include="App\viewmodels\editors\specialLeave.js" />
+    <Content Include="App\viewmodels\view_staffclockgraph.js" />
+    <Content Include="App\viewmodels\view_gallery.js" />
+    <Content Include="App\viewmodels\view_directory.js" />
+    <Content Include="App\viewmodels\view_staffinfo.js" />
+    <Content Include="App\viewmodels\view_staffmenu.js" />
+    <Content Include="App\viewmodels\view_companytimekeeping_sheet.js" />
+    <Content Include="App\viewmodels\view_tonerorders.js" />
+    <Content Include="App\views\editors\cdrhistory.html" />
+    <Content Include="App\views\editors\clockdeviceadd.html" />
+    <Content Include="App\views\editors\clockdeviceUsersEditor.html" />
+    <Content Include="App\views\editors\actionReason.html" />
+    <Content Include="App\views\editors\thesuggestion.html" />
+    <Content Include="App\views\editors\printerUsersEditor.html" />
+    <Content Include="App\views\editors\profile.html" />
+    <Content Include="App\views\editors\manageprofiles.html" />
+    <Content Include="App\views\editors\printerpropertyadd.html" />
+    <Content Include="App\views\editors\printeradd.html" />
+    <Content Include="App\views\editors\createallnewclockrecord.html" />
+    <Content Include="App\views\editors\leaveapplication.html" />
+    <Content Include="App\views\editors\leavecounter.html" />
+    <Content Include="App\views\editors\leavedata.html" />
+    <Content Include="App\views\editors\companyLeaveSummary.html" />
+    <Content Include="App\views\editors\leaveSummaryTest.html" />
+    <Content Include="App\views\editors\updateclockdevice.html" />
+    <Content Include="App\views\editors\updateprovider.html" />
+    <Content Include="App\views\editors\updateprinter.html" />
+    <Content Include="App\views\editors\workhours.html" />
+    <Content Include="App\views\not_authorised.html" />
+    <Content Include="App\views\editors\staffDetails.html" />
+    <Content Include="App\views\Test.html" />
+    <Content Include="App\views\view_companyleave.html" />
+    <Content Include="App\views\view_clockDevices.html" />
+    <Content Include="App\views\view_theleave.html" />
+    <Content Include="App\views\view_managesuggestions.html" />
+    <Content Include="App\views\view_printers.html" />
+    <Content Include="App\views\view_unclockingstaff.html" />
+    <Content Include="App\views\view_payrollleave.html" />
+    <Content Include="App\views\view_leaveapplication.html" />
+    <Content Include="App\views\view_directorsleave.html" />
+    <Content Include="App\views\view_leaveapplications.html" />
+    <Content Include="App\views\view_ordertoner.html" />
+    <Content Include="App\views\editors\specialLeave.html" />
+    <Content Include="App\views\view_staffcdrsummary.html" />
+    <Content Include="App\viewmodels\view_staffcdrsummary.js" />
+    <Content Include="App\viewmodels\view_suggestion.js" />
+    <Content Include="App\viewmodels\view_thoughts.js" />
+    <Content Include="App\viewmodels\view_timekeeping_sheet.js" />
+    <Content Include="App\views\editors\category.html" />
+    <Content Include="App\views\editors\branch.html" />
+    <Content Include="App\views\editors\clockingrecord.html" />
+    <Content Include="App\views\editors\contactadd.html" />
+    <Content Include="App\views\editors\createclockrecord.html" />
+    <Content Include="App\views\editors\staff.html" />
+    <Content Include="App\views\editors\division.html" />
+    <Content Include="App\views\editors\link.html" />
+    <Content Include="App\views\editors\updatecontact.html" />
+    <Content Include="App\views\view_approveclockrecord.html" />
+    <Content Include="App\views\view_companyphoneusage.html" />
+    <Content Include="App\views\view_phonecontacts.html" />
+    <Content Include="App\views\view_requestwebaccess.html" />
+    <Content Include="App\views\view_staffinfo.html" />
+    <Content Include="App\views\view_graphs.html" />
+    <Content Include="App\views\view_thoughts.html" />
+    <Content Include="App\views\editors\suggestion.html" />
+    <Content Include="App\views\editors\thought.html" />
+    <Content Include="App\views\view_galleryimages.html" />
+    <Content Include="App\views\view_staffclockgraph.html" />
+    <Content Include="App\views\editors\announcement.html" />
+    <Content Include="App\views\view_staffmenu.html" />
+    <Content Include="App\views\view_gallery.html" />
+    <Content Include="App\views\view_directory.html" />
+    <Content Include="App\views\view_links.html" />
+    <Content Include="App\services\model.js" />
+    <Content Include="App\viewmodels\shell_sidebar_birthdays.js" />
+    <Content Include="App\viewmodels\shell_sidebar_suggestions.js" />
+    <Content Include="App\viewmodels\shell_sidebar_thoughts.js" />
+    <Content Include="App\viewmodels\shell_sidebar.js" />
+    <Content Include="App\durandal\viewEngine.js" />
+    <Content Include="App\viewmodels\view_announcements.js" />
+    <Content Include="App\views\shell_header.html" />
+    <Content Include="App\views\shell_menu.html" />
+    <Content Include="App\views\shell_sidebar.html" />
+    <Content Include="App\services\logger.js" />
+    <Content Include="App\views\view_announcements.html" />
+    <Content Include="App\main.js" />
+    <Content Include="App\views\shell_footer.html" />
+    <Content Include="App\views\shell_base.html" />
+    <Content Include="App\viewmodels\shell_base.js" />
+    <Content Include="App\views\shell_sidebar_birthdays.html" />
+    <Content Include="App\views\shell_sidebar_suggestions.html" />
+    <Content Include="App\views\shell_sidebar_thoughts.html" />
+    <Content Include="App\viewmodels\view_links.js" />
+    <Content Include="App\views\view_suggestion.html" />
+    <Content Include="App\views\view_companytimekeeping_sheet.html" />
+    <Content Include="App\views\view_timekeeping_sheet.html" />
+    <Content Include="App\views\view_tonerorders.html" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\durandal.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-10-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-100-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-101-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-102-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-103-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-104-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-105-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-106-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-107-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-108-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-109-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-11-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-110-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-111-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-112-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-113-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-114-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-115-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-116-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-117-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-118-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-119-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-12-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-120-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-121-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-122-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-123-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-124-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-125-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-126-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-127-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-128-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-129-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-13-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-130-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-131-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-132-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-133-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-134-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-135-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-136-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-137-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-138-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-139-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-14-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-140-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-141-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-142-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-143-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-144-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-145-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-146-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-147-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-148-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-149-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-15-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-150-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-151-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-152-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-153-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-154-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-155-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-156-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-157-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-158-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-159-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-16-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-160-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-161-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-162-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-163-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-164-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-165-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-166-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-167-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-168-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-169-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-17-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-170-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-171-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-172-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-173-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-174-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-175-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-176-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-177-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-178-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-179-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-18-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-180-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-181-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-182-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-183-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-184-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-185-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-186-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-187-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-188-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-189-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-19-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-190-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-191-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-192-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-193-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-194-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-195-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-196-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-197-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-198-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-199-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-2-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-20-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-200-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-201-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-202-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-203-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-204-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-205-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-206-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-207-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-208-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-209-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-21-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-210-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-211-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-212-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-213-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-214-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-215-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-216-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-217-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-218-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-219-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-22-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-220-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-221-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-222-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-223-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-224-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-225-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-226-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-227-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-228-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-229-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-23-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-230-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-231-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-232-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-233-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-234-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-235-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-236-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-237-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-238-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-239-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-24-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-240-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-241-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-242-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-243-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-244-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-245-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-246-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-247-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-248-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-249-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-25-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-250-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-251-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-252-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-253-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-254-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-255-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-256-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-257-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-258-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-259-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-26-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-260-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-261-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-262-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-263-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-264-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-265-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-266-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-267-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-268-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-269-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-27-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-270-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-271-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-272-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-273-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-274-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-275-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-276-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-277-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-278-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-279-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-28-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-280-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-281-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-282-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-283-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-284-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-285-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-286-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-287-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-288-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-289-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-29-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-290-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-291-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-292-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-293-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-294-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-295-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-296-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-297-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-298-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-299-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-3-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-30-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-300-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-301-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-302-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-303-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-304-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-305-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-306-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-307-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-308-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-309-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-31-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-310-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-311-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-312-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-313-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-314-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-315-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-316-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-317-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-318-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-319-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-32-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-320-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-321-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-322-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-323-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-324-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-325-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-326-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-327-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-328-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-329-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-33-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-330-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-331-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-332-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-333-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-334-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-335-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-336-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-337-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-338-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-339-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-34-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-340-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-35-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-36-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-37-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-38-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-39-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-4-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-40-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-41-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-42-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-43-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-44-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-45-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-46-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-47-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-48-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-49-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-5-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-50-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-51-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-52-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-53-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-54-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-55-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-56-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-57-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-58-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-59-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-6-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-60-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-61-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-62-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-63-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-64-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-65-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-66-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-67-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-68-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-69-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-7-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-70-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-71-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-72-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-73-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-74-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-75-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-76-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-77-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-78-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-79-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-8-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-80-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-81-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-82-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-83-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-84-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-85-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-86-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-87-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-88-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-89-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-9-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-90-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-91-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-92-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-93-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-94-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-95-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-96-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-97-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-98-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\2015NFB-99-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-10-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-100-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-101-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-102-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-103-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-104-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-105-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-106-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-107-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-108-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-109-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-11-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-110-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-111-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-112-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-113-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-114-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-115-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-116-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-117-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-118-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-119-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-12-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-120-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-121-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-122-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-123-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-124-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-125-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-126-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-127-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-128-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-129-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-13-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-130-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-131-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-132-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-133-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-134-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-135-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-136-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-137-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-138-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-139-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-14-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-140-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-141-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-142-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-143-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-144-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-145-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-146-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-147-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-148-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-149-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-15-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-150-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-151-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-152-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-153-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-154-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-155-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-156-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-157-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-158-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-159-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-16-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-160-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-161-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-162-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-163-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-164-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-165-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-166-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-167-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-168-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-169-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-17-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-170-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-171-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-172-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-173-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-174-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-175-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-176-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-177-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-178-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-179-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-18-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-180-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-181-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-182-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-183-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-184-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-185-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-186-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-187-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-188-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-189-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-19-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-190-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-191-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-192-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-193-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-194-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-195-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-196-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-197-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-198-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-199-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-2-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-20-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-200-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-201-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-202-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-203-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-204-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-205-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-206-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-207-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-208-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-209-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-21-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-210-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-211-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-212-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-213-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-214-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-215-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-216-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-217-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-218-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-219-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-22-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-220-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-221-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-222-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-223-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-224-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-225-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-226-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-227-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-228-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-229-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-23-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-230-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-231-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-232-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-233-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-234-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-235-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-236-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-237-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-238-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-239-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-24-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-240-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-241-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-242-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-243-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-244-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-245-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-246-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-247-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-248-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-249-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-25-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-250-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-251-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-252-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-253-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-254-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-255-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-256-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-257-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-258-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-259-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-26-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-260-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-261-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-262-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-263-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-264-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-265-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-266-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-267-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-268-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-269-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-27-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-270-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-271-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-272-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-273-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-274-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-275-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-276-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-277-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-278-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-279-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-28-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-280-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-281-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-282-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-283-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-284-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-285-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-286-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-287-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-288-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-289-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-29-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-290-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-291-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-292-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-293-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-294-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-295-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-296-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-297-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-298-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-299-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-3-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-30-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-300-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-301-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-302-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-303-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-304-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-305-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-306-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-307-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-308-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-309-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-31-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-310-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-311-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-312-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-313-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-314-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-315-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-316-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-317-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-318-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-319-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-32-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-320-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-321-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-322-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-323-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-324-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-325-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-326-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-327-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-328-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-329-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-33-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-330-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-331-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-332-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-333-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-334-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-335-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-336-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-337-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-338-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-339-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-34-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-340-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-35-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-36-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-37-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-38-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-39-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-4-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-40-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-41-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-42-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-43-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-44-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-45-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-46-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-47-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-48-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-49-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-5-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-50-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-51-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-52-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-53-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-54-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-55-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-56-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-57-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-58-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-59-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-6-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-60-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-61-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-62-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-63-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-64-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-65-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-66-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-67-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-68-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-69-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-7-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-70-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-71-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-72-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-73-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-74-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-75-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-76-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-77-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-78-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-79-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-8-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-80-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-81-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-82-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-83-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-84-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-85-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-86-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-87-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-88-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-89-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-9-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-90-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-91-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-92-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-93-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-94-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-95-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-96-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-97-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-98-630-630.jpg" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\2015NFB-99-630-630.jpg" />
+    <Content Include="Content\images\annualleave.png" />
+    <Content Include="Content\images\approved.png" />
+    <Content Include="Content\images\black.png" />
+    <Content Include="Content\images\brownonsickleave.png" />
+    <Content Include="Content\images\denied.png" />
+    <Content Include="Content\images\denied1.png" />
+    <Content Include="Content\images\familyresponsibiltyleave.png" />
+    <Content Include="Content\images\idea bulb.png" />
+    <Content Include="Content\images\img01.jpg" />
+    <Content Include="Content\images\img02.jpg" />
+    <Content Include="Content\images\img03.jpg" />
+    <Content Include="Content\images\img04.jpg" />
+    <Content Include="Content\images\lavenderunpaidleaveleave.png" />
+    <Content Include="Content\images\missingrecord.png" />
+    <Content Include="Content\images\New colors\annual.png" />
+    <Content Include="Content\images\New colors\fr.png" />
+    <Content Include="Content\images\New colors\in.png" />
+    <Content Include="Content\images\New colors\offsite.png" />
+    <Content Include="Content\images\New colors\out.png" />
+    <Content Include="Content\images\New colors\publicHoliday.png" />
+    <Content Include="Content\images\New colors\sickleave.png" />
+    <Content Include="Content\images\New colors\specialLeave.png" />
+    <Content Include="Content\images\New colors\studyleave.png" />
+    <Content Include="Content\images\New colors\unpaidleave.png" />
+    <Content Include="Content\images\New colors\working.png" />
+    <Content Include="Content\images\newNotification.png" />
+    <Content Include="Content\images\nvest-logo-intranet.png" />
+    <Content Include="Content\images\offhook.png" />
+    <Content Include="Content\images\offsite.jpeg" />
+    <Content Include="Content\images\offsiteleave.png" />
+    <Content Include="Content\images\onhook.png" />
+    <Content Include="Content\images\onleave.png" />
+    <Content Include="Content\images\orangeoffsiteleave.png" />
+    <Content Include="Content\images\pending.png" />
+    <Content Include="Content\images\pinkstudyleave.png" />
+    <Content Include="Content\images\publicholiday.png" />
+    <Content Include="Content\images\redText.png" />
+    <Content Include="Content\images\sickleave.png" />
+    <Content Include="Content\images\silveronfamilyresleave.png" />
+    <Content Include="Content\images\special.png" />
+    <Content Include="Content\images\studyleave.png" />
+    <Content Include="Content\images\unpaidleave.png" />
+    <Content Include="Content\images\useful_icon_holiday.gif" />
+    <Content Include="Content\styles.css" />
+    <Content Include="Content\styles-orig.css" />
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="index.cshtml" />
+    <Content Include="Scripts\bootstrap-datetimepicker.js" />
+    <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\wells.less" />
+    <Content Include="Content\bootstrap\variables.less" />
+    <Content Include="Content\bootstrap\utilities.less" />
+    <Content Include="Content\bootstrap\type.less" />
+    <Content Include="Content\bootstrap\tooltip.less" />
+    <Content Include="Content\bootstrap\thumbnails.less" />
+    <Content Include="Content\bootstrap\theme.less" />
+    <Content Include="Content\bootstrap\tables.less" />
+    <Content Include="Content\bootstrap\scaffolding.less" />
+    <Content Include="Content\bootstrap\responsive-utilities.less" />
+    <Content Include="Content\bootstrap\responsive-embed.less" />
+    <Content Include="Content\bootstrap\progress-bars.less" />
+    <Content Include="Content\bootstrap\print.less" />
+    <Content Include="Content\bootstrap\popovers.less" />
+    <Content Include="Content\bootstrap\panels.less" />
+    <Content Include="Content\bootstrap\pagination.less" />
+    <Content Include="Content\bootstrap\pager.less" />
+    <Content Include="Content\bootstrap\normalize.less" />
+    <Content Include="Content\bootstrap\navs.less" />
+    <Content Include="Content\bootstrap\navbar.less" />
+    <Content Include="Content\bootstrap\modals.less" />
+    <Content Include="Content\bootstrap\mixins\vendor-prefixes.less" />
+    <Content Include="Content\bootstrap\mixins\text-overflow.less" />
+    <Content Include="Content\bootstrap\mixins\text-emphasis.less" />
+    <Content Include="Content\bootstrap\mixins\table-row.less" />
+    <Content Include="Content\bootstrap\mixins\tab-focus.less" />
+    <Content Include="Content\bootstrap\mixins\size.less" />
+    <Content Include="Content\bootstrap\mixins\responsive-visibility.less" />
+    <Content Include="Content\bootstrap\mixins\resize.less" />
+    <Content Include="Content\bootstrap\mixins\reset-filter.less" />
+    <Content Include="Content\bootstrap\mixins\progress-bar.less" />
+    <Content Include="Content\bootstrap\mixins\panels.less" />
+    <Content Include="Content\bootstrap\mixins\pagination.less" />
+    <Content Include="Content\bootstrap\mixins\opacity.less" />
+    <Content Include="Content\bootstrap\mixins\nav-vertical-align.less" />
+    <Content Include="Content\bootstrap\mixins\nav-divider.less" />
+    <Content Include="Content\bootstrap\mixins\list-group.less" />
+    <Content Include="Content\bootstrap\mixins\labels.less" />
+    <Content Include="Content\bootstrap\mixins\image.less" />
+    <Content Include="Content\bootstrap\mixins\hide-text.less" />
+    <Content Include="Content\bootstrap\mixins\grid-framework.less" />
+    <Content Include="Content\bootstrap\mixins\grid.less" />
+    <Content Include="Content\bootstrap\mixins\gradients.less" />
+    <Content Include="Content\bootstrap\mixins\forms.less" />
+    <Content Include="Content\bootstrap\mixins\clearfix.less" />
+    <Content Include="Content\bootstrap\mixins\center-block.less" />
+    <Content Include="Content\bootstrap\mixins\buttons.less" />
+    <Content Include="Content\bootstrap\mixins\border-radius.less" />
+    <Content Include="Content\bootstrap\mixins\background-variant.less" />
+    <Content Include="Content\bootstrap\mixins\alerts.less" />
+    <Content Include="Content\bootstrap\mixins.less" />
+    <Content Include="Content\bootstrap\media.less" />
+    <Content Include="Content\bootstrap\list-group.less" />
+    <Content Include="Content\bootstrap\labels.less" />
+    <Content Include="Content\bootstrap\jumbotron.less" />
+    <Content Include="Content\bootstrap\input-groups.less" />
+    <Content Include="Content\bootstrap\grid.less" />
+    <Content Include="Content\bootstrap\glyphicons.less" />
+    <Content Include="Content\bootstrap\forms.less" />
+    <Content Include="Content\bootstrap\dropdowns.less" />
+    <Content Include="Content\bootstrap\component-animations.less" />
+    <Content Include="Content\bootstrap\code.less" />
+    <Content Include="Content\bootstrap\close.less" />
+    <Content Include="Content\bootstrap\carousel.less" />
+    <Content Include="Content\bootstrap\buttons.less" />
+    <Content Include="Content\bootstrap\button-groups.less" />
+    <Content Include="Content\bootstrap\breadcrumbs.less" />
+    <Content Include="Content\bootstrap\bootstrap.less" />
+    <Content Include="Content\bootstrap\badges.less" />
+    <Content Include="Content\bootstrap\alerts.less" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Content\toastr.less" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\less\bootstrap-datetimepicker-build.less" />
+    <Content Include="Content\less\_bootstrap-datetimepicker.less" />
+    <Content Include="Content\Gallery\2015 - Year End Function\Thumbnails\Thumbs.db" />
+    <None Include="Properties\PublishProfiles\--intranet_publish--.pubxml" />
+    <None Include="Properties\PublishProfiles\betaintra.pubxml" />
+    <None Include="Properties\PublishProfiles\betaintranetonpedconreplica.pubxml" />
+    <None Include="Properties\PublishProfiles\betaintrape.pubxml" />
+    <None Include="Properties\PublishProfiles\Intranet Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Intranet less signalr.pubxml" />
+    <None Include="Properties\PublishProfiles\intranetDirect less signalr.pubxml" />
+    <None Include="Properties\PublishProfiles\IntranetRollout.pubxml" />
+    <None Include="Properties\PublishProfiles\IT Dev %28Local%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Local Dev Server.pubxml" />
+    <None Include="Properties\PublishProfiles\mbiyana.pubxml" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\breeze.debug.js" />
+    <Content Include="Scripts\breeze.min.js" />
+    <Content Include="Scripts\es5-sham.js" />
+    <Content Include="Scripts\es5-shim.js" />
+    <Content Include="Scripts\flot\excanvas.min.js" />
+    <Content Include="Scripts\flot\jquery.colorhelpers.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.crosshair.js" />
+    <Content Include="Scripts\flot\jquery.flot.crosshair.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.fillbetween.js" />
+    <Content Include="Scripts\flot\jquery.flot.fillbetween.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.image.js" />
+    <Content Include="Scripts\flot\jquery.flot.image.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.js" />
+    <Content Include="Scripts\flot\jquery.flot.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.navigate.js" />
+    <Content Include="Scripts\flot\jquery.flot.navigate.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.pie.js" />
+    <Content Include="Scripts\flot\jquery.flot.pie.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.resize.js" />
+    <Content Include="Scripts\flot\jquery.flot.resize.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.selection.js" />
+    <Content Include="Scripts\flot\jquery.flot.selection.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.stack.js" />
+    <Content Include="Scripts\flot\jquery.flot.stack.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.stack.patched.js" />
+    <Content Include="Scripts\flot\jquery.flot.symbol.js" />
+    <Content Include="Scripts\flot\jquery.flot.symbol.min.js" />
+    <Content Include="Scripts\flot\jquery.flot.threshold.js" />
+    <Content Include="Scripts\flot\jquery.flot.threshold.min.js" />
+    <Content Include="Scripts\flot\jquery.js" />
+    <Content Include="Scripts\flot\jquery.min.js" />
+    <Content Include="Scripts\galleryview\css\img-loader.gif" />
+    <Content Include="Scripts\galleryview\css\jquery.galleryview-3.0-dev.css" />
+    <Content Include="Scripts\galleryview\css\themes\dark\next.png" />
+    <Content Include="Scripts\galleryview\css\themes\dark\panel-next-big.png" />
+    <Content Include="Scripts\galleryview\css\themes\dark\panel-next.png" />
+    <Content Include="Scripts\galleryview\css\themes\dark\panel-prev-big.png" />
+    <Content Include="Scripts\galleryview\css\themes\dark\panel-prev.png" />
+    <Content Include="Scripts\galleryview\css\themes\dark\pause-big.png" />
+    <Content Include="Scripts\galleryview\css\themes\dark\pause.png" />
+    <Content Include="Scripts\galleryview\css\themes\dark\play-big.png" />
+    <Content Include="Scripts\galleryview\css\themes\dark\play.png" />
+    <Content Include="Scripts\galleryview\css\themes\dark\prev.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\info.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\next.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\panel-next-big.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\panel-next.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\panel-prev-big.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\panel-prev.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\pause-big.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\pause.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\play-big.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\play.png" />
+    <Content Include="Scripts\galleryview\css\themes\light\prev.png" />
+    <Content Include="Scripts\galleryview\jquery.easing.1.3.js" />
+    <Content Include="Scripts\galleryview\jquery.galleryview-3.0-dev.js" />
+    <Content Include="Scripts\galleryview\jquery.timers-1.2.js" />
+    <Content Include="Scripts\jquery-1.11.0.js" />
+    <Content Include="Scripts\jquery-2.0.2.min.map" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.0.2.js" />
+    <Content Include="Scripts\jquery-2.0.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.js" />
+    <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
+    <Content Include="Scripts\jquery-ui-timepicker-addon.js" />
+    <Content Include="Scripts\jquery.signalR-1.1.4.js" />
+    <Content Include="Scripts\jquery.signalR-1.1.4.min.js" />
+    <Content Include="Scripts\knockout-3.3.0.debug.js" />
+    <Content Include="Scripts\knockout-3.3.0.js" />
+    <Content Include="Scripts\ko.extensions.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\moment-with-locales.js" />
+    <Content Include="Scripts\moment-with-locales.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\q.js" />
+    <Content Include="Scripts\q.min.js" />
+    <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\require.js" />
+    <Content Include="Scripts\sammy-0.7.5.js" />
+    <Content Include="Scripts\sammy-0.7.5.min.js" />
+    <Content Include="Scripts\text.js" />
+    <Content Include="Scripts\tinymce\jquery.tinymce.js" />
+    <Content Include="Scripts\tinymce\jquery.tinymce.min.js" />
+    <Content Include="Scripts\tinymce\langs\en.js" />
+    <Content Include="Scripts\tinymce\license.txt" />
+    <Content Include="Scripts\tinymce\plugins\advhr\css\advhr.css" />
+    <Content Include="Scripts\tinymce\plugins\advhr\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\advhr\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\advhr\js\rule.js" />
+    <Content Include="Scripts\tinymce\plugins\advhr\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\advhr\rule.htm" />
+    <Content Include="Scripts\tinymce\plugins\advimage\css\advimage.css" />
+    <Content Include="Scripts\tinymce\plugins\advimage\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\advimage\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\advimage\image.htm" />
+    <Content Include="Scripts\tinymce\plugins\advimage\img\sample.gif" />
+    <Content Include="Scripts\tinymce\plugins\advimage\js\image.js" />
+    <Content Include="Scripts\tinymce\plugins\advimage\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\advlink\css\advlink.css" />
+    <Content Include="Scripts\tinymce\plugins\advlink\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\advlink\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\advlink\js\advlink.js" />
+    <Content Include="Scripts\tinymce\plugins\advlink\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\advlink\link.htm" />
+    <Content Include="Scripts\tinymce\plugins\advlist\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\advlist\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\advlist\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\advlist\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\anchor\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\anchor\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\autolink\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\autolink\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\autolink\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\autolink\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\autoresize\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\autoresize\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\autoresize\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\autoresize\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\autosave\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\autosave\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\autosave\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\autosave\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\bbcode\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\bbcode\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\bbcode\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\bbcode\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\charmap\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\charmap\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\code\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\code\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\colorpicker\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\colorpicker\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\css\dialog.css" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\buttons.png" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\icons.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\items.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\menu_arrow.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\menu_check.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\progress.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\tabs.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\tiny_mce_popup.js" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\utils\editable_selects.js" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\utils\form_utils.js" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\utils\mctabs.js" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\utils\validate.js" />
+    <Content Include="Scripts\tinymce\plugins\contextmenu\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\contextmenu\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\contextmenu\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\directionality\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\directionality\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\directionality\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\directionality\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-cool.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-cry.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-embarassed.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-foot-in-mouth.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-frown.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-innocent.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-kiss.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-laughing.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-money-mouth.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-sealed.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-smile.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-surprised.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-tongue-out.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-undecided.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-wink.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-yell.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\emotions\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\emotions\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\emotions\emotions.htm" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-cool.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-cry.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-embarassed.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-foot-in-mouth.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-frown.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-innocent.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-kiss.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-laughing.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-money-mouth.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-sealed.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-smile.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-surprised.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-tongue-out.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-undecided.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-wink.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\img\smiley-yell.gif" />
+    <Content Include="Scripts\tinymce\plugins\emotions\js\emotions.js" />
+    <Content Include="Scripts\tinymce\plugins\emotions\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\example\dialog.htm" />
+    <Content Include="Scripts\tinymce\plugins\example\dialog.html" />
+    <Content Include="Scripts\tinymce\plugins\example\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\example\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\example\img\example.gif" />
+    <Content Include="Scripts\tinymce\plugins\example\js\dialog.js" />
+    <Content Include="Scripts\tinymce\plugins\example\langs\en.js" />
+    <Content Include="Scripts\tinymce\plugins\example\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\example\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\example\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\example_dependency\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\example_dependency\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\example_dependency\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\example_dependency\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\fullpage\css\fullpage.css" />
+    <Content Include="Scripts\tinymce\plugins\fullpage\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\fullpage\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\fullpage\fullpage.htm" />
+    <Content Include="Scripts\tinymce\plugins\fullpage\js\fullpage.js" />
+    <Content Include="Scripts\tinymce\plugins\fullpage\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\fullpage\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\fullpage\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\fullscreen\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\fullscreen\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\fullscreen\fullscreen.htm" />
+    <Content Include="Scripts\tinymce\plugins\fullscreen\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\hr\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\hr\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\iespell\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\iespell\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\imagetools\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\imagetools\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\image\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\image\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\importcss\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\importcss\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\skins\clearlooks2\img\alert.gif" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\skins\clearlooks2\img\button.gif" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\skins\clearlooks2\img\buttons.gif" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\skins\clearlooks2\img\confirm.gif" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\skins\clearlooks2\img\corners.gif" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\skins\clearlooks2\img\horizontal.gif" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\skins\clearlooks2\img\vertical.gif" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\skins\clearlooks2\window.css" />
+    <Content Include="Scripts\tinymce\plugins\inlinepopups\template.htm" />
+    <Content Include="Scripts\tinymce\plugins\insertdatetime\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\insertdatetime\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\insertdatetime\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\layer\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\layer\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\layer\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\layer\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\legacyoutput\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\legacyoutput\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\legacyoutput\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\link\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\link\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\lists\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\lists\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\lists\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\lists\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\media\css\media.css" />
+    <Content Include="Scripts\tinymce\plugins\media\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\media\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\media\js\embed.js" />
+    <Content Include="Scripts\tinymce\plugins\media\js\media.js" />
+    <Content Include="Scripts\tinymce\plugins\media\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\media\media.htm" />
+    <Content Include="Scripts\tinymce\plugins\media\moxieplayer.swf" />
+    <Content Include="Scripts\tinymce\plugins\media\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\media\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\nonbreaking\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\nonbreaking\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\nonbreaking\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\noneditable\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\noneditable\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\noneditable\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\noneditable\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\pagebreak\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\pagebreak\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\pagebreak\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\paste\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\paste\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\paste\js\pastetext.js" />
+    <Content Include="Scripts\tinymce\plugins\paste\js\pasteword.js" />
+    <Content Include="Scripts\tinymce\plugins\paste\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\paste\pastetext.htm" />
+    <Content Include="Scripts\tinymce\plugins\paste\pasteword.htm" />
+    <Content Include="Scripts\tinymce\plugins\paste\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\paste\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\preview\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\preview\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\preview\example.html" />
+    <Content Include="Scripts\tinymce\plugins\preview\jscripts\embed.js" />
+    <Content Include="Scripts\tinymce\plugins\preview\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\preview\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\preview\preview.html" />
+    <Content Include="Scripts\tinymce\plugins\print\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\print\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\print\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\print\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\save\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\save\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\save\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\save\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\searchreplace\css\searchreplace.css" />
+    <Content Include="Scripts\tinymce\plugins\searchreplace\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\searchreplace\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\searchreplace\js\searchreplace.js" />
+    <Content Include="Scripts\tinymce\plugins\searchreplace\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\searchreplace\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\searchreplace\searchreplace.htm" />
+    <Content Include="Scripts\tinymce\plugins\spellchecker\css\content.css" />
+    <Content Include="Scripts\tinymce\plugins\spellchecker\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\spellchecker\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\spellchecker\img\wline.gif" />
+    <Content Include="Scripts\tinymce\plugins\spellchecker\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\style\css\props.css" />
+    <Content Include="Scripts\tinymce\plugins\style\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\style\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\style\js\props.js" />
+    <Content Include="Scripts\tinymce\plugins\style\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\style\props.htm" />
+    <Content Include="Scripts\tinymce\plugins\style\readme.txt" />
+    <Content Include="Scripts\tinymce\plugins\tabfocus\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\tabfocus\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\tabfocus\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\table\cell.htm" />
+    <Content Include="Scripts\tinymce\plugins\table\css\cell.css" />
+    <Content Include="Scripts\tinymce\plugins\table\css\row.css" />
+    <Content Include="Scripts\tinymce\plugins\table\css\table.css" />
+    <Content Include="Scripts\tinymce\plugins\table\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\table\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\table\js\cell.js" />
+    <Content Include="Scripts\tinymce\plugins\table\js\merge_cells.js" />
+    <Content Include="Scripts\tinymce\plugins\table\js\row.js" />
+    <Content Include="Scripts\tinymce\plugins\table\js\table.js" />
+    <Content Include="Scripts\tinymce\plugins\table\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\table\merge_cells.htm" />
+    <Content Include="Scripts\tinymce\plugins\table\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\table\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\table\row.htm" />
+    <Content Include="Scripts\tinymce\plugins\table\table.htm" />
+    <Content Include="Scripts\tinymce\plugins\template\blank.htm" />
+    <Content Include="Scripts\tinymce\plugins\template\css\template.css" />
+    <Content Include="Scripts\tinymce\plugins\template\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\template\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\template\js\template.js" />
+    <Content Include="Scripts\tinymce\plugins\template\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\plugins\template\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\template\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\template\template.htm" />
+    <Content Include="Scripts\tinymce\plugins\textcolor\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\textcolor\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\textpattern\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\textpattern\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\css\visualblocks.css" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\address.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\article.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\aside.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\blockquote.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\div.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\dl.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\figure.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\h1.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\h2.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\h3.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\h4.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\h5.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\h6.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\hgroup.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\ol.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\p.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\pre.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\section.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\img\ul.gif" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\visualchars\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\visualchars\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\visualchars\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\visualchars\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\wordcount\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\wordcount\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\wordcount\plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\wordcount\plugin.min.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\abbr.htm" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\acronym.htm" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\attributes.htm" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\cite.htm" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\css\attributes.css" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\css\popup.css" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\del.htm" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\editor_plugin.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\editor_plugin_src.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\ins.htm" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\js\abbr.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\js\acronym.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\js\attributes.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\js\cite.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\js\del.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\js\element_common.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\js\ins.js" />
+    <Content Include="Scripts\tinymce\plugins\xhtmlxtras\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\skins\lightgray\content.inline.min.css" />
+    <Content Include="Scripts\tinymce\skins\lightgray\content.min.css" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="Scripts\tinymce\skins\lightgray\img\anchor.gif" />
+    <Content Include="Scripts\tinymce\skins\lightgray\img\loader.gif" />
+    <Content Include="Scripts\tinymce\skins\lightgray\img\object.gif" />
+    <Content Include="Scripts\tinymce\skins\lightgray\img\trans.gif" />
+    <Content Include="Scripts\tinymce\skins\lightgray\skin.ie7.min.css" />
+    <Content Include="Scripts\tinymce\skins\lightgray\skin.min.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\about.htm" />
+    <Content Include="Scripts\tinymce\themes\advanced\anchor.htm" />
+    <Content Include="Scripts\tinymce\themes\advanced\charmap.htm" />
+    <Content Include="Scripts\tinymce\themes\advanced\color_picker.htm" />
+    <Content Include="Scripts\tinymce\themes\advanced\editor_template.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\editor_template_src.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\image.htm" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\colorpicker.jpg" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\flash.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\icons.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\iframe.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\pagebreak.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\quicktime.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\realmedia.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\shockwave.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\trans.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\video.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\img\windowsmedia.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\js\about.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\js\anchor.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\js\charmap.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\js\color_picker.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\js\image.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\js\link.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\js\source_editor.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\langs\en.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\langs\en_dlg.js" />
+    <Content Include="Scripts\tinymce\themes\advanced\link.htm" />
+    <Content Include="Scripts\tinymce\themes\advanced\shortcuts.htm" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\default\content.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\default\dialog.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\default\img\buttons.png" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\default\img\items.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\default\img\menu_arrow.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\default\img\menu_check.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\default\img\progress.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\default\img\tabs.gif" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\default\ui.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\highcontrast\content.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\highcontrast\dialog.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\highcontrast\ui.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\o2k7\content.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\o2k7\dialog.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\o2k7\img\button_bg.png" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\o2k7\img\button_bg_black.png" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\o2k7\img\button_bg_silver.png" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\o2k7\ui.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\o2k7\ui_black.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\skins\o2k7\ui_silver.css" />
+    <Content Include="Scripts\tinymce\themes\advanced\source_editor.htm" />
+    <Content Include="Scripts\tinymce\themes\modern\theme.js" />
+    <Content Include="Scripts\tinymce\themes\modern\theme.min.js" />
+    <Content Include="Scripts\tinymce\themes\simple\editor_template.js" />
+    <Content Include="Scripts\tinymce\themes\simple\editor_template_src.js" />
+    <Content Include="Scripts\tinymce\themes\simple\img\icons.gif" />
+    <Content Include="Scripts\tinymce\themes\simple\langs\en.js" />
+    <Content Include="Scripts\tinymce\themes\simple\skins\default\content.css" />
+    <Content Include="Scripts\tinymce\themes\simple\skins\default\ui.css" />
+    <Content Include="Scripts\tinymce\themes\simple\skins\o2k7\content.css" />
+    <Content Include="Scripts\tinymce\themes\simple\skins\o2k7\img\button_bg.png" />
+    <Content Include="Scripts\tinymce\themes\simple\skins\o2k7\ui.css" />
+    <Content Include="Scripts\tinymce\tinymce.js" />
+    <Content Include="Scripts\tinymce\tinymce.min.js" />
+    <Content Include="Scripts\tinymce\tiny_mce.js" />
+    <Content Include="Scripts\tinymce\tiny_mce_jquery.js" />
+    <Content Include="Scripts\tinymce\tiny_mce_popup.js" />
+    <Content Include="Scripts\tinymce\tiny_mce_src.js" />
+    <Content Include="Scripts\tinymce\utils\editable_selects.js" />
+    <Content Include="Scripts\tinymce\utils\form_utils.js" />
+    <Content Include="Scripts\tinymce\utils\mctabs.js" />
+    <Content Include="Scripts\tinymce\utils\validate.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="splash.cshtml" />
+    <Content Include="Utilities\clockCardStringData.txt" />
+    <Content Include="Utilities\ProcessClockDataLogs.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BreezeWebApiConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AppointmentClocking.cs" />
+    <Compile Include="Controllers\BreezeDataController.cs" />
+    <Compile Include="Controllers\ContextProvider.cs" />
+    <Compile Include="Controllers\IntranetEFContext.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\CustomRoles.cs" />
+    <Compile Include="Hubs\PhoneStatusUpdateHub.cs" />
+    <Compile Include="Hubs\Startup.cs" />
+    <Compile Include="Models\CompanyClockSummariesReport.cs" />
+    <Compile Include="Models\CompanyLeaveReport.cs" />
+    <Compile Include="Models\CompanyPhoneUsageReport.cs" />
+    <Compile Include="Models\EnumHelper.cs" />
+    <Compile Include="Models\LeaveTypeModel.cs" />
+    <Compile Include="Models\PrinterDTOModels.cs" />
+    <Compile Include="Models\TimeKeeping.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\StaffClockDataUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-small.woff" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-small.ttf" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-small.json" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-small.eot" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce.woff" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce.ttf" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce.json" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce.eot" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\readme.md" />
+    <Content Include="Scripts\tinymce\langs\readme.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Gallery\2015 - Year End Function%28photobooth%29\Thumbnails\" />
+    <Folder Include="Content\sitedata\galleries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Intranet.Aspects\Intranet.Aspects.csproj">
+      <Project>{27e888aa-f207-4bdf-90d9-7f8fd17c9a4d}</Project>
+      <Name>Intranet.Aspects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intranet.Business\Intranet.Business.csproj">
+      <Project>{7fda440a-c582-431a-b111-3f34e2f79269}</Project>
+      <Name>Intranet.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intranet.Data.EF\Intranet.Data.EF.csproj">
+      <Project>{0FE0ACA0-CCB9-4977-A428-D1C6E5D60015}</Project>
+      <Name>Intranet.Data.EF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intranet.Messages\Intranet.Messages.csproj">
+      <Project>{34e5be9e-6822-4343-bed0-16576cc9c4a6}</Project>
+      <Name>Intranet.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intranet.Models\Intranet.Models.csproj">
+      <Project>{731b4ea5-0a8b-409f-a8d1-2550a882ba97}</Project>
+      <Name>Intranet.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intranet.PhoneUsage\Intranet.PhoneUsage.csproj">
+      <Project>{f0c5aeb7-47a6-45d7-b3a7-c3955d54c77a}</Project>
+      <Name>Intranet.PhoneUsage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{cbfd8ea3-f8df-41b8-af0e-dd409facf956}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>37992</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61702</IISUrl>
+          <NTLMAuthentication>True</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

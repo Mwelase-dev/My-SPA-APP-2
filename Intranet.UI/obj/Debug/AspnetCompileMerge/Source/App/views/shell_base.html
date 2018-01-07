@@ -1,0 +1,28 @@
+﻿<div id="wrapper">
+        <section>
+        <!-- ko compose: { view: 'shell_header' } --><!-- /ko -->
+        <!-- ko compose: { view: 'shell_menu'   } --><!-- /ko -->
+    </section>
+    <section>
+        <div id="page">
+            <div id="page-bgtop">
+                <div id="page-bgbtm">
+                    <div id="content">
+                        <div class="loader pull-right" data-bind="visible: router.isNavigating">
+                            <i class="icon-spinner icon-2x icon-spin"></i>
+                        </div>
+                        <!-- ko compose: { model: router.activeItem, afterCompose: router.afterCompose, transition: 'entrance' } --><!-- /ko -->
+                        <div style="clear: both;">&nbsp;</div>
+                    </div>
+                    <!-- ko compose: { model: 'viewmodels/shell_sidebar', activate: true } --><!-- /ko -->
+                    <div style="clear: both;">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;">&nbsp;</div>
+    </section>
+</div>
+<section>
+    <!-- ko compose: { view: 'shell_footer' } --><!-- /ko -->
+</section>
+

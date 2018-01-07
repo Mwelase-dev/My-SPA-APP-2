@@ -1,0 +1,44 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Manage Printers</a></h2>
+    </div>
+    <hr />
+    <div id="contactsDiv">
+        <table class="contactsTable">
+            <thead>
+                <tr>
+               <!--     <td>Make</td>
+                    <td>Model</td>
+                    <td>Serial Number</td>-->
+                    <td style="width:45%;">Printer Description</td>
+                    <td style="width:25%;">Location</td>
+                    <td style="width:16%;">Provider</td>
+                    <td style="width:30%;">Action</td>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: printers">
+                <tr>
+                    <!--<td data-bind="text: printerMake"></td>
+                    <td data-bind="text: model"></td>
+                    <td data-bind="text: serialNumber"></td>-->
+                    <td  data-bind="text: printerDescription"></td>
+                    <td data-bind="text: location"></td>
+                    <td>
+                        <a data-bind="click: $root.updateProvider, text: printerProvider().providerName"  href="#" title="Edit Provider"></a>
+                    </td>
+
+                    <td>
+                        <a data-bind="click: $root.updatePrinter" href="#" title="Edit Printer"><i class="icon-edit"></i></a>&nbsp;&nbsp;
+                        <a data-bind="click: $root.deletePrinter" href="#" title="Delete Printer"><i class="icon-remove"></i></a>&nbsp;&nbsp;
+                         <a data-bind="click: $root.setUsers" href="#" title="Set staff default printer"><i class="icon-upload"></i></a>&nbsp;&nbsp;
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <div class="pull-right">
+        <button class="btn" data-bind="click: addPrinter">Add Printer</></button>
+        <button class="btn" data-bind="click: cancel">Cancel</></button>
+    </div>
+</section>

@@ -1,0 +1,26 @@
+﻿<div class="messageBox link">
+    <div class="modal-header">
+        <h3>Printer Properties
+        </h3>
+    </div>
+    <div class="printerProperties">
+        <div data-bind="foreach: printerProperties">
+            <div class="checkboxAndLabel">
+                <input id="chkBox" type="checkbox" data-bind="value: propertyId, checked: $root.propertiesOfPrinter" />
+                <span data-bind="text: propertyDescription"></span>
+            </div>
+        </div>
+    </div>
+    <!--<div>
+        <div style="width: 100%;" data-bind="foreach: printerProperties">
+            <div class="checkboxAndLabel">
+                <input id="chkBox" type="checkbox" data-bind="value: propertyId,checked:$root.selectedPrinterProperties" />
+                <span data-bind="text: propertyDescription"></span>
+            </div>
+        </div>
+    </div>-->
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: addPrinterProperties">Save</button>
+        <button class="btn" data-bind="click: closeWindow">Cancel</button>
+    </div>
+</div>

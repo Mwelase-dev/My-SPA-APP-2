@@ -1,0 +1,36 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Manage Contacts</a></h2>
+    </div>
+    <hr />
+    <div id="contactsDiv">
+        <table class="contactsTable">
+            <thead>
+                <tr>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Number</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach:contacts">
+                <tr>
+                    <td data-bind="text:contactName"></td>
+                    <td data-bind="text:contactSurname"></td>
+                    <td data-bind="text:contactNumber"></td>
+                    <td>
+                        <a data-bind="click:$root.updateContact" href="#" title="Edit Contact"><i class="icon-edit"></i></a> &nbsp;&nbsp;
+                        <a data-bind="click:$root.deleteContact" href="#" title="Delete Contact"><i class="icon-remove"></i></a> &nbsp;&nbsp;
+                        <a data-bind="click:$root.dialContact" href="#" title="Call Contact"><i class="icon-phone"></i></a>&nbsp;&nbsp;
+                        <!--<a data-bind="click: $root.hangup" href="#" title="Hangup"><i class="icon-phone-sign"></i></a>-->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <div class="pull-right">
+        <button class="btn" data-bind="click:addContact">Add Contact</></button>
+        <button class="btn" data-bind="click:cancel">Return</></button>
+    </div>
+</section>

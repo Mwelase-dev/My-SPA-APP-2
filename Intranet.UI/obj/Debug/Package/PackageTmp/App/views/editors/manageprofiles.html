@@ -1,0 +1,38 @@
+﻿<div class="messageBox thought" style="width: 700px;height: 100%" >
+    <div class="modal-header">
+        <h3>Manage Profiles</h3>
+    </div>
+    <div class="modal-body">
+        <div id="contactsDiv">
+            <table class="contactsTable"  >
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Surname</td>
+                        <td>CardNumber</td>
+                        <td>Staff Clock Id</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+
+                <tbody data-bind="foreach: registeredUsers">
+                    <tr class="">
+                        <td data-bind="text: staffName"></td>
+                        <td data-bind="text: staffSurname"></td>
+                        <td data-bind="text: staffClockCardNumber"></td>
+                        <td data-bind="text: staffClockId"></td>
+                        <td>
+                        <a data-bind="click: $root.editProfile"  href="#" title="Edit User"><i class="icon-edit"></i></a>&nbsp;&nbsp;
+                        <!--<a data-bind="click: $root.deleteProfile"    href="#" title="Delete User"><i class="icon-remove"></i></a>&nbsp;&nbsp;-->
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: clickCancel">Close</button>
+    </div>
+</div>

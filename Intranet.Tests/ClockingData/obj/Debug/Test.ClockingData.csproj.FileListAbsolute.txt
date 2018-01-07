@@ -1,0 +1,26 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\obj\Debug\Test.ClockingData.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\ClockingDataTests.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\ClockingDataTests.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\obj\Debug\ClockingDataTests.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.Tests\ClockingData\obj\Debug\ClockingDataTests.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\ClockingDataTests.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\ClockingDataTests.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\Data.FaceID.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\Data.FaceID.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\obj\Debug\Test.ClockingData.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\obj\Debug\ClockingDataTests.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.Tests\ClockingData\obj\Debug\ClockingDataTests.pdb

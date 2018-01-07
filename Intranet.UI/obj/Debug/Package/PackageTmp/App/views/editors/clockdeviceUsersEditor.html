@@ -1,0 +1,51 @@
+﻿<div class="messageBox link">
+    <div class="modal-header">
+        <h3>Clock device users</h3>
+    </div>
+    <div id="sectionContainer" style="width: 96%; margin-left: 20px; margin-right: 20px; margin-top: 20px;">
+
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Clock device:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <input type="text" data-bind="value: $root.theDevice.clockDeviceLocation()" readonly="readonly" />
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Company:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <select id="cbxComapny" style="width: 103%" data-bind="sortData: companies, sortfield: 'branchName', direction: 'asc', options: companies, optionsText: 'branchName', optionsValue: 'branchId',
+    value: selectedCompany, optionsCaption: '-- select --', event: { change: cmbCompanyChange } ">
+                </select>
+            </div>
+        </div>
+        <div class="tonerRowContainer">
+            <div class="tonerResultLabelCell">
+                <label>Division:</label>
+            </div>
+            <div class="tonerResultDataCell">
+                <select id="cbxDivision" style="width: 103%" data-bind="sortData: divisions, sortfield: 'divisionName', direction: 'asc', options: divisions, optionsText: 'divisionName', optionsValue: 'divisionId', enable: canSelectDivision, value: selectedDivision, optionsCaption: '-- select --', event: { change: cmbDivisionChange }"></select>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <section id="result" style="margin-left: 20px;">
+         <div class="modal-header" style="margin-left: 2px;">
+        <h4>Division Staff</h4>
+    </div>
+        <div data-bind="foreach: staff" style="margin-left: 16px;">
+            <div class="checkboxAndLabel">
+                <input id="chkBox" type="checkbox" data-bind="value: $data, checked: $root.selectedUsers" />
+                <span data-bind="text: fullName"></span>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: saveDefaults, enable: $root.selectedUsers().length > '0'">Set defaults</button>
+        <button class="btn" data-bind="click: closeWindow">Cancel</button>
+    </div>
+</div>

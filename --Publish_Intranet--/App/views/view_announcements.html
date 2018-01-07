@@ -1,0 +1,35 @@
+﻿<div data-bind="foreach: announcements">
+    <div class="post" data-bind="visible: isVisible">
+        <h2 class="title"><a href="#" data-bind="text: announcementSubject"></a></h2>
+        <p class="meta">
+            <span class="posted" data-bind="text: announcementAuthor"></span>
+            <span class="date"   data-bind="text: displayDate"></span>
+        </p>
+        <div style="clear: both;">&nbsp;</div>
+        <div class="entry">
+            <p data-bind="html: announcement"></p>
+            <p class="links" data-bind="if: $root.isAdmin">
+                <a data-bind="click: $root.announcementView" href="#">Edit</a>
+                <!-- ko if: $data.isArchived() || $root.showingCurrent() -->
+                &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a data-bind="click: $root.announcementArchive" href="#">Archive</a>
+                <!-- /ko -->
+                &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a data-bind="click: $root.announcementDelete" href="#">Delete</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div data-bind="visible: showingCurrent">
+        <p class="links">
+            <a href="#" data-bind="click: itemsArchive">View past announcements</a>
+            <!-- ko if: $root.isAdmin -->
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a data-bind="click: announcementNew" href="#">Add New</a>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a data-bind="click: $data.announcementNew" href="#">Add New</a>
+            <!-- /ko -->
+        </p>
+    </div>
+    <p class="links">
+        <a href="#" data-bind="click: itemsCurrent, visible: !showingCurrent()">View current announcements</a>
+    </p>
+</div>

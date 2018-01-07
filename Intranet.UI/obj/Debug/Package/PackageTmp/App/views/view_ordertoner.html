@@ -1,0 +1,43 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Order Toner or Service</a></h2>
+    </div>
+    <hr />
+    <section style="width: 100%;">
+        <div id="sectionContainer" style="width: 100%;">
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    Select Printer:
+                </div>
+                <div class="tonerResultDataCell">
+                    <select id="cmbPrinters" data-bind="sortData: printers, sortfield: 'printerDescription', direction: 'asc', options: printers, optionsText: 'printerDescription', optionsValue: 'printerId',
+                    value:selectedPrinter, optionsCaption: '[Select Printer]', event:{change: cmbPrintersChange} "></select>
+                </div>
+            </div>
+
+            <div class="tonerRowContainer">
+                <div class="tonerResultLabelCell">
+                    Toner(s)/Services(s)
+                </div>
+
+                <div class="tonerResultDataCell">
+                    <div style="width: 100%;" data-bind="foreach:printerProperties">
+                        <div class="checkboxAndLabel">
+                            <input type="checkbox" data-bind="value:colourId, checked:order, enable:canBeOrdered" />
+                            <span data-bind="text:color"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: right;">
+                    <button class="btn" data-bind=" click:orderToner">
+                        Order
+                    </button>
+                    <button class="btn" data-bind=" click:cancel">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

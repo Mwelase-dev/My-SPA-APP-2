@@ -1,0 +1,46 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Company Directory</a></h2>
+        <p class="links" data-bind="if: $root.isAdmin()">
+            <a href="#" data-bind="click: $root.branchAdd">Add a company</a>
+        </p>
+        <div id="accordion" class="quicklinks" data-bind="sortData: branches, sortfield: 'branchName', direction: 'asc', foreach: branches, bind_Accordion: {}">
+            <h3>
+                <a href="#" data-bind="text: branchName" />
+                <div style="float: right" data-bind="if: $root.isAdmin()">
+                    <a href="#" data-bind="click: $root.branchEdit"><i class="icon-edit"></i></a>
+                    &nbsp;|&nbsp;
+                    <a href="#" data-bind="click: $root.branchDelete"><i class="icon-remove"></i></a>
+                </div>
+            </h3>
+            <div>
+                <div class="ui-accordion-heading" data-bind="sortData: branchDivisions, sortfield: 'divisionName', direction: 'asc', foreach: branchDivisions()">
+                    <div data-bind="visible: divisionName() != '--Unknown--'">
+                        <a data-bind="text: divisionName"></a>
+                        <div style="float: right" data-bind="if: $root.isAdmin()">
+                            <a href="#" data-bind="click: $root.divisionEdit"><i class="icon-edit"></i></a>
+                            &nbsp;|&nbsp;
+                            <a href="#" data-bind="click: $root.divisionDelete"><i class="icon-remove"></i></a>
+                        </div>
+                    </div>
+
+                    <ul class="ui-accordion-content" data-bind="sortable: divisionStaff, sortfield: 'fullName', direction: 'asc', foreach: divisionStaff().sort(function (l, r) { return l.fullName() > r.fullName() ? 1 : -1 })">
+                        <li>
+                            <a data-bind="text: fullName"></a>
+                            <div style="float: right" data-bind="if: $root.isAdmin()">
+                                &nbsp;|&nbsp;
+                                <!--  <a href="#" data-bind="text: staffTellExt"></a>-->
+                                  <a href="#" data-bind="text: staffTellExt, click: $root.staffTellExt"></a>
+                                &nbsp;|&nbsp;
+                                <a href="#" data-bind="click: $root.staffEdit"><i class="icon-edit"></i></a>
+                                &nbsp;|&nbsp;
+                                <a href="#" data-bind="click: $root.staffDelete"><i class="icon-remove"></i></a>
+                            </div>
+                            <a style="float: right" data-bind="text: staffDesignation"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

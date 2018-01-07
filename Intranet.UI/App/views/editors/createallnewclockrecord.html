@@ -1,0 +1,40 @@
+﻿<div class="messageBox link">
+
+    <div class="modal-header">
+        <h3>Create clocking record
+        </h3>
+    </div>
+
+    <div class="modal-body">
+
+        <div class="control-wrapper">
+            <label>Clock date:</label>
+            <span>
+                <input id="clockNewDate" data-bind="value:clockDate, enable:editClockDate" type="text" />
+            </span>
+
+        </div>
+
+        <div class="control-wrapper">
+            <label>Clock datetime:</label>
+            <span id="clockTimePickerDiv">
+                <input id="clockDate" type="text" />
+            </span>
+
+        </div>
+
+        <div class="control-wrapper">
+            <label>Comments:</label>
+            <span>
+                <textarea data-bind="value:clockRecord.comments" />
+            </span>
+        </div>
+
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click:createRecord ">Save</button>
+        <button class="btn" data-bind="click: clickCancel">Cancel</button>
+    </div>
+
+</div>

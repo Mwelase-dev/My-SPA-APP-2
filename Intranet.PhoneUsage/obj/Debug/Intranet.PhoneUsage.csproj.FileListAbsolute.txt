@@ -1,0 +1,127 @@
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\MySql.Data.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\MySql.Data.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\MySql.Data.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\MySql.Data.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll.config
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\MySql.Data.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.xml
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.csprojResolveAssemblyReference.cache
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Nvest Holdings\Intranet v2.0 Done\Intranet v2.0 PE works but cosmetics are messed up\Intranet v2.0 PE Builds but breaks on Metadata\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll.config
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.PhoneUsage.pdb
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\MySql.Data.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Data.EF.pdb
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Models.pdb
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\EntityFramework.xml
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Utilities.pdb
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\Intranet.Aspects.pdb
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\PostSharp.xml
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\bin\Debug\log4net.xml
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.csprojResolveAssemblyReference.cache
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.dll
+D:\Projects\Intranet v2.0\Intranet.PhoneUsage\obj\Debug\Intranet.PhoneUsage.pdb

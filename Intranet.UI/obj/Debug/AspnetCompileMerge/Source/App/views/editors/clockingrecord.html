@@ -1,0 +1,32 @@
+﻿<div class="messageBox link">
+
+    <div class="modal-header">
+        <h3>Clocking record maintenance
+        </h3>
+    </div>
+
+    <div class="modal-body">
+        <div class="control-wrapper">
+            <label>Clock datetime:</label>
+            <span id="clockTimePickerDiv">
+                <input id="clockDate" type="text" />
+            </span>
+
+        </div>
+
+        <div class="control-wrapper">
+            <label>Comments:</label>
+            <span>
+                <textarea data-bind="value:clockRecord.comments" />
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn" data-bind="click: updateclockrecord, enable: clockRecord.dataStatus != '2'">Save</button>
+        <button class="btn" data-bind="click: clickCancel">Cancel</button>
+    </div>
+
+</div>

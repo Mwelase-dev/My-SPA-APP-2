@@ -1,0 +1,37 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Manage Clock Devices</a></h2>
+    </div>
+    <hr />
+    <div id="contactsDiv">
+        <table class="contactsTable">
+            <thead>
+                <tr>
+                    <td>Device Location</td>
+                    <td>Device Ip</td>
+                    
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: clockDevices">
+                <tr>
+                    <td  data-bind="text: clockDeviceLocation"></td>
+                    <td>
+                    <a href="#"  data-bind="text: clockDeviceIp, click: $root.manageUsers" title="Manage Registered Users"></a>
+                        
+                    </td>
+                    <td>
+                        <a data-bind="click: $root.updateDevice" href="#" title="Edit Device"><i class="icon-edit"></i></a>&nbsp;&nbsp;
+                        <a data-bind="click: $root.deleteDevice" href="#" title="Delete Device"><i class="icon-remove"></i></a>&nbsp;&nbsp;
+                        <a data-bind="click: $root.setUsers" href="#" title="Set device users"><i class="icon-upload"></i></a>&nbsp;&nbsp;
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <div class="pull-right">
+        <button class="btn" data-bind="click: addClockDevice">Add Clock Device</></button>
+        <button class="btn" data-bind="click: cancel">Cancel</></button>
+    </div>
+</section>

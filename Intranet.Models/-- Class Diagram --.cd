@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Intranet.Models.AnnouncementModel" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAIAAAACAIBAAAAAAAA=</HashCode>
+      <FileName>AnnouncementModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.BaseModel" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.BranchModel" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQAAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BranchModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.DivisionModel" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgQAAAAAABAAAAAAAAAAAAAAAAAAABBAA=</HashCode>
+      <FileName>DivisionsModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.GalleryImageModel" Collapsed="true">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAA=</HashCode>
+      <FileName>GalleryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.GalleryModel" Collapsed="true">
+    <Position X="31" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>GalleryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.HolidayModel" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAACABAAAAA=</HashCode>
+      <FileName>HolidayModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.LinkCategoryModel" Collapsed="true">
+    <Position X="12.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LinkCategoryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.LinkModel" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAIAAAAAAAAAgCAAAAAAAAAAAAAE=</HashCode>
+      <FileName>LinkModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.MenuModel" Collapsed="true">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAACACAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.StaffBaseModel" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAIAAAAAAAAAAAIAAAAAAQAACAAAAgAABOAA=</HashCode>
+      <FileName>StaffModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.StaffBriefModel" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAAEAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>StaffModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.StaffClockModel" Collapsed="true">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAEgAAAAAAAAAAAAIACAAAAAAAAAAA=</HashCode>
+      <FileName>StaffModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.StaffContactModel" Collapsed="true">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAABAAAAAAAAAAAAAgAAAAAAAAAAECAAAAAAAAAAA=</HashCode>
+      <FileName>StaffModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.staff">
+    <Position X="7.75" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAABQIAAAAAIKBAAAAAAACQAAChACgAAEAAgEAAA=</HashCode>
+      <FileName>StaffModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StaffManager1" />
+      <Property Name="StaffManager2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Intranet.Models.StaffHoursModel" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAEkAAAAAAAAAAAAIgCAAAAAAABAAA=</HashCode>
+      <FileName>StaffModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.StaffLeaveModel">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Intranet.Models.StaffLeaveModel.TypeOfLeave" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>StaffModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Intranet.Models.StaffLeaveModel.StatusOfLeave" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>StaffModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQBBAAAAAABBAAEAQAAKAAAAAAAAACAAACAAAIAgA=</HashCode>
+      <FileName>StaffModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.SuggestionModel" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAAAAAAAAAAAAAAAAAAAAAAAACAAABAAAAEAA=</HashCode>
+      <FileName>SuggestionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Intranet.Models.ThoughtModel" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ThoughtModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

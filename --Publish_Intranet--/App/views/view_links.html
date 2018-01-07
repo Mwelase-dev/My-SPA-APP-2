@@ -1,0 +1,36 @@
+﻿<section>
+    <div class="post">
+        <h2 class="title"><a href="#">Quick Links</a></h2>
+        <p class="links" data-bind="if: $root.isAdmin()">
+            <a href="#" data-bind="click: $root.catAdd">Add new category</a>
+            &nbsp;|&nbsp;            
+            <a href="#" data-bind="click: $root.linkAdd">Add new link</a>
+        </p>
+       
+        <div id="accordion" class="quicklinks" data-bind="foreach: categories, bind_Accordion: {}">
+            <h3>
+                <a href="#" data-bind="text: categoryDesc" />
+                <div style="float: right" data-bind="if: $root.isAdmin()">
+                    <a href="#" data-bind="click: $root.catEdit">Edit</a>
+                    &nbsp;|&nbsp;
+                    <a href="#" data-bind="click: $root.catDelete">Delete</a>
+                </div>
+            </h3>
+            <div>
+                <ul class="ui-accordion-content" data-bind="foreach: categoryLinks().sort(function (l, r) { return l.linkDesc() > r.linkDesc() ? 1:-1 })">
+                    <li>
+                        <div>
+                            <a data-bind="attr: { href: linkUrl, target: 'blank' }, text: linkDesc" />
+                            <div style="float: right" data-bind="if: $root.isAdmin()">
+                                <a href="#" data-bind="click: $root.linkEdit">Edit</a>
+                                &nbsp;|&nbsp;
+                                <a href="#" data-bind="click: $root.linkDelete">Delete</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
